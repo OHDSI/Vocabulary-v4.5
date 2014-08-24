@@ -50,8 +50,6 @@ where exists (
 )
 ;
 
-select * from dev.concept where vocabulary_id=21 and invalid_reason is not null;
-
 -- Deprecate ones that are now missing
 update dev.concept c set
   valid_end_date = to_date(substr(user, regexp_instr(user, '_[[:digit:]]')+1, 256),'yyyymmdd')-1, 
@@ -62,7 +60,6 @@ where not exists (
   and c.valid_end_date = to_date('12312099','mmddyyyy')
   and c.valid_start_date < to_date(substr(user, regexp_instr(user, '_[[:digit:]]')+1, 256),'yyyymmdd')
   and c.vocabulary_id = 21
-  and c.invalid_reason is not null
 ;
 
 -- Insert new concepts

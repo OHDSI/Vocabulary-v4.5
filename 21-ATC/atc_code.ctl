@@ -1,0 +1,12 @@
+OPTIONS (SKIP=1)
+LOAD DATA
+INFILE atc_code.txt
+INTO TABLE atc_code
+REPLACE
+FIELDS TERMINATED BY '\t'
+OPTIONALLY ENCLOSED BY '"'
+TRAILING NULLCOLS
+(
+atc_code,
+atc_description
+)
