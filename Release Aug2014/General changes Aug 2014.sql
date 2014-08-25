@@ -302,5 +302,8 @@ update relationship set relationship_name='Active possibly_equivalent_to inactiv
 update relationship set relationship_name='Inactive was_a active (SNOMED)', reverse_relationship=356 where relationship_id=355;
 update relationship set relationship_name='Active was_a inactive (SNOMED)', reverse_relationship=null where relationship_id=356;
 
+-- Rename manual ATC to RxNorm relationships, now all (not just equivalent by name)
+update relationship set relationship_name='ATC to RxNorm (OMOP)' where relationship_id=289;
+update relationship set relationship_name='RxNorm to ATC (OMOP)' where relationship_id=290;
 
 
