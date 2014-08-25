@@ -307,3 +307,4 @@ update relationship set relationship_name='ATC to RxNorm (OMOP)' where relations
 update relationship set relationship_name='RxNorm to ATC (OMOP)' where relationship_id=290;
 
 
+exit;

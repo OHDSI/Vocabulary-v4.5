@@ -23,3 +23,5 @@ update vocabulary set vocabulary_name='OMOP Condition Occurrence Type' where voc
 update vocabulary set vocabulary_name='OMOP Procedure Occurrence Type' where vocabulary_id=38;
 update vocabulary set vocabulary_name='OMOP Observation Type' where vocabulary_id=39;
 update vocabulary set vocabulary_name='OMOP Death Type' where vocabulary_id=45;
+
+exit;
