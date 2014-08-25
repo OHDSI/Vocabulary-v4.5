@@ -302,12 +302,5 @@ update relationship set relationship_name='Active possibly_equivalent_to inactiv
 update relationship set relationship_name='Inactive was_a active (SNOMED)', reverse_relationship=356 where relationship_id=355;
 update relationship set relationship_name='Active was_a inactive (SNOMED)', reverse_relationship=null where relationship_id=356;
 
--- Rename vocabulary names
-update vocabulary set vocabulary_name='OMOP Vocabulary v4.4 20-Aug-2014' where vocabulary_id=0;
-update vocabulary set vocabulary_name='OMOP Visit' where vocabulary_id=24;
-update vocabulary set vocabulary_name='OMOP Drug Exposure Type' where vocabulary_id=36;
-update vocabulary set vocabulary_name='OMOP Condition Occurrence Type' where vocabulary_id=37;
-update vocabulary set vocabulary_name='OMOP Procedure Occurrence Type' where vocabulary_id=38;
-update vocabulary set vocabulary_name='OMOP Observation Type' where vocabulary_id=39;
-update vocabulary set vocabulary_name='OMOP Death Type' where vocabulary_id=45;
+
 

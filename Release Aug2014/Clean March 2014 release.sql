@@ -15,3 +15,11 @@ update concept set
   concept_code='Ang'
 where concept_id=9452;
 
+-- Rename vocabulary names
+update vocabulary set vocabulary_name='OMOP Vocabulary v4.4 20-Aug-2014' where vocabulary_id=0;
+update vocabulary set vocabulary_name='OMOP Visit' where vocabulary_id=24;
+update vocabulary set vocabulary_name='OMOP Drug Exposure Type' where vocabulary_id=36;
+update vocabulary set vocabulary_name='OMOP Condition Occurrence Type' where vocabulary_id=37;
+update vocabulary set vocabulary_name='OMOP Procedure Occurrence Type' where vocabulary_id=38;
+update vocabulary set vocabulary_name='OMOP Observation Type' where vocabulary_id=39;
+update vocabulary set vocabulary_name='OMOP Death Type' where vocabulary_id=45;
