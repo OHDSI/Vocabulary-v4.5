@@ -24,6 +24,7 @@ where exists ( -- the concept_name is identical to the str of a record
   and m.tty != 'PT' -- anything that is not the preferred term
 )
 and c.invalid_reason is null -- only active ones. The inactive ones often only have obsolete tty anyway
+and c.vocabulary_id=1
 ;
 
 -- add new vocabularies
