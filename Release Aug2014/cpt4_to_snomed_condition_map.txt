@@ -1,0 +1,27 @@
+source_code	source_vocabulary_id	concept_name	target_concept_id	target_vocabulary_id	mapping_type	primary_map
+P1	4	Physical Status Modifier P1: A normal healthy patient	4010840	1	CONDITION	Y
+1136F	4	Episode of back pain lasting 12 weeks or less (BkP)	134736	1	CONDITION	Y
+1134F	4	Episode of back pain lasting 6 weeks or less (BkP)	134736	1	CONDITION	Y
+1137F	4	Episode of back pain lasting longer than 12 weeks (BkP)	134736	1	CONDITION	Y
+1135F	4	Episode of back pain lasting longer than 6 weeks (BkP)	134736	1	CONDITION	Y
+3290F	4	Patient is D (Rh) negative and unsensitized (PRENATAL)	4013540	1	CONDITION	Y
+3291F	4	Patient is D (Rh) positive or sensitized (PRENATAL)	4013995	1	CONDITION	Y
+1011F	4	Angina present (CAD)	321318	1	CONDITION	Y
+1038F	4	"Persistent asthma (mild, moderate or severe) (Asthma)"	317009	1	CONDITION	Y
+1019F	4	"Dyspnea assessed, present (COPD)"	312437	1	CONDITION	Y
+3451F	4	"Dyspnea screened, moderate or severe dyspnea (Pall Cr)"	312437	1	CONDITION	Y
+92531	4	"Spontaneous nystagmus, including gaze"	4079991	1	CONDITION	Y
+P6	4	Physical Status Modifier P6: A declared brain-dead patient whose organs are being removed for donor purposes	4306655	1	CONDITION	Y
+1039F	4	Intermittent asthma (Asthma)	4141978	1	CONDITION	Y
+3092F	4	"Major depressive disorder, in remission (MDD)"	4176002	1	CONDITION	Y
+1490F	4	"Dementia severity classified, mild (DEM)"	4182210	1	CONDITION	Y
+1491F	4	"Dementia severity classified, moderate (DEM)"	4182210	1	CONDITION	Y
+1493F	4	"Dementia severity classified, severe (DEM)"	4182210	1	CONDITION	Y
+1182F	4	"Neuropsychiatric symptoms, one or more present (DEM)"	4182210	1	CONDITION	Y
+P2	4	Physical Status Modifier P2: A patient with mild systemic disease	4206788	1	CONDITION	Y
+P3	4	Physical Status Modifier P3: A patient with severe systemic disease	4206788	1	CONDITION	Y
+P4	4	Physical Status Modifier P4: A patient with severe systemic disease that is a constant threat to life	4206788	1	CONDITION	Y
+3091F	4	"Major depressive disorder, severe with psychotic features (MDD)"	4250023	1	CONDITION	Y
+3090F	4	"Major depressive disorder, severe without psychotic features (MDD)"	4327337	1	CONDITION	Y
+3089F	4	"Major depressive disorder, moderate (MDD)"	4307111	1	CONDITION	Y
+3088F	4	"Major depressive disorder, mild (MDD)"	4336957	1	CONDITION	Y

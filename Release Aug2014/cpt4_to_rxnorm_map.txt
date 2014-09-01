@@ -1,0 +1,139 @@
+source_code	source_vocabulary_id	source_code_description	target_concept_id	target_vocabulary_id	mapping_type	Primary_map
+90288	4	"Botulism immune globulin, human, for intravenous use"	19072699	8	PROCEDURE_DRUG	Y
+90296	4	"Diphtheria antitoxin, equine, any route"	19135942	8	PROCEDURE_DRUG	Y
+90371	4	"Hepatitis B immune globulin (HBIg), human, for intramuscular use"	40045657	8	PROCEDURE_DRUG	Y
+90375	4	"Rabies immune globulin (RIg), human, for intramuscular and/or subcutaneous use"	544509	8	PROCEDURE_DRUG	Y
+90376	4	"Rabies immune globulin, heat-treated (RIg-HT), human, for intramuscular and/or subcutaneous use"	544510	8	PROCEDURE_DRUG	Y
+90379	4	"Respiratory syncytial virus immune globulin (RSV-IgIV), human, for intravenous use"	19013765	8	PROCEDURE_DRUG	Y
+90384	4	"Rho(D) immune globulin (RhIg), human, full-dose, for intramuscular use"	535714	8	PROCEDURE_DRUG	Y
+90385	4	"Rho(D) immune globulin (RhIg), human, mini-dose, for intramuscular use"	535714	8	PROCEDURE_DRUG	Y
+90386	4	"Rho(D) immune globulin (RhIgIV), human, for intravenous use"	535714	8	PROCEDURE_DRUG	Y
+90389	4	"Tetanus immune globulin (TIg), human, for intramuscular use"	561401	8	PROCEDURE_DRUG	Y
+90393	4	"Vaccinia immune globulin, human, for intramuscular use"	19122168	8	PROCEDURE_DRUG	Y
+90396	4	"Varicella-zoster immune globulin, human, for intramuscular use"	543291	8	PROCEDURE_DRUG	Y
+90476	4	"Adenovirus vaccine, type 4, live, for oral use"	40237613	8	PROCEDURE_DRUG	Y
+90477	4	"Adenovirus vaccine, type 7, live, for oral use"	40237617	8	PROCEDURE_DRUG	Y
+90581	4	"Anthrax vaccine, for subcutaneous use"	19045672	8	PROCEDURE_DRUG	Y
+90585	4	"Bacillus Calmette-Guerin vaccine (BCG) for tuberculosis, live, for percutaneous use"	19015423	8	PROCEDURE_DRUG	Y
+90586	4	"Bacillus Calmette-Guerin vaccine (BCG) for bladder cancer, live, for intravesical use"	19015423	8	PROCEDURE_DRUG	Y
+90632	4	"Hepatitis A vaccine, adult dosage, for intramuscular use"	40047409	8	PROCEDURE_DRUG	Y
+90633	4	"Hepatitis A vaccine, pediatric/adolescent dosage-2 dose schedule, for intramuscular use"	40047409	8	PROCEDURE_DRUG	Y
+90634	4	"Hepatitis A vaccine, pediatric/adolescent dosage-3 dose schedule, for intramuscular use"	40047409	8	PROCEDURE_DRUG	Y
+90636	4	"Hepatitis A and hepatitis B vaccine (HepA-HepB), adult dosage, for intramuscular use"	40047409	8	PROCEDURE_DRUG	Y
+90636	4	"Hepatitis A and hepatitis B vaccine (HepA-HepB), adult dosage, for intramuscular use"	501488	8	PROCEDURE_DRUG	Y
+90644	4	"Meningococcal conjugate vaccine, serogroups C & Y and Hemophilus influenza B vaccine, tetanus toxoid conjugate (Hib-MenCY-TT), 4 dose schedule, when administered to children 2-15 months of age, for intramuscular use"	509081	8	PROCEDURE_DRUG	Y
+90644	4	"Meningococcal conjugate vaccine, serogroups C & Y and Hemophilus influenza B vaccine, tetanus toxoid conjugate (Hib-MenCY-TT), 4 dose schedule, when administered to children 2-15 months of age, for intramuscular use"	514015	8	PROCEDURE_DRUG	Y
+90644	4	"Meningococcal conjugate vaccine, serogroups C & Y and Hemophilus influenza B vaccine, tetanus toxoid conjugate (Hib-MenCY-TT), 4 dose schedule, when administered to children 2-15 months of age, for intramuscular use"	529411	8	PROCEDURE_DRUG	Y
+90644	4	"Meningococcal conjugate vaccine, serogroups C & Y and Hemophilus influenza B vaccine, tetanus toxoid conjugate (Hib-MenCY-TT), 4 dose schedule, when administered to children 2-15 months of age, for intramuscular use"	19080463	8	PROCEDURE_DRUG	Y
+90645	4	"Hemophilus influenza b vaccine (Hib), HbOC conjugate (4 dose schedule), for intramuscular use"	19080463	8	PROCEDURE_DRUG	Y
+90646	4	"Hemophilus influenza b vaccine (Hib), PRP-D conjugate, for booster use only, intramuscular use"	19080463	8	PROCEDURE_DRUG	Y
+90647	4	"Hemophilus influenza b vaccine (Hib), PRP-OMP conjugate (3 dose schedule), for intramuscular use"	19080463	8	PROCEDURE_DRUG	Y
+90648	4	"Hemophilus influenza b vaccine (Hib), PRP-T conjugate (4 dose schedule), for intramuscular use"	19080463	8	PROCEDURE_DRUG	Y
+90653	4	"Influenza vaccine, inactivated, subunit, adjuvanted, for intramuscular use"	19121608	8	PROCEDURE_DRUG	Y
+90654	4	"Influenza virus vaccine, split virus, preservative-free, for intradermal use"	19121608	8	PROCEDURE_DRUG	Y
+90655	4	"Influenza virus vaccine, split virus, preservative free, for children 6-35 months of age, for intramuscular use"	19121608	8	PROCEDURE_DRUG	Y
+90656	4	"Influenza virus vaccine, split virus, preservative free, for use in individuals 3 years and above, for intramuscular use"	19121608	8	PROCEDURE_DRUG	Y
+90657	4	"Influenza virus vaccine, split virus, 6-35 months dosage, for intramuscular or jet injection use"	19121608	8	PROCEDURE_DRUG	Y
+90658	4	"Influenza virus vaccine, split virus, 3 years and above dosage, for intramuscular or jet injection use"	19121608	8	PROCEDURE_DRUG	Y
+90659	4	"Influenza virus vaccine, whole virus, for intramuscular or jet injection use"	19121608	8	PROCEDURE_DRUG	Y
+90660	4	"Influenza virus vaccine, live, for intranasal use"	19121608	8	PROCEDURE_DRUG	Y
+90661	4	"Influenza virus vaccine, derived from cell cultures, subunit, preservative and antibiotic free, for intramuscular use"	19121608	8	PROCEDURE_DRUG	Y
+90662	4	"Influenza virus vaccine, split virus, preservative free, enhanced immunogenicity via increased antigen content, for intramuscular use"	19121608	8	PROCEDURE_DRUG	Y
+90663	4	"Influenza virus vaccine, pandemic formulation"	19121608	8	PROCEDURE_DRUG	Y
+90664	4	"Influenza virus vaccine, pandemic formulation, live, for intranasal use"	19121608	8	PROCEDURE_DRUG	Y
+90665	4	"Lyme disease vaccine, adult dosage, for intramuscular use"	551463	8	PROCEDURE_DRUG	Y
+90666	4	"Influenza virus vaccine, pandemic formulation, split virus, preservative free, for intramuscular use"	19121608	8	PROCEDURE_DRUG	Y
+90667	4	"Influenza virus vaccine, pandemic formulation, split virus, adjuvanted, for intramuscular use"	19121608	8	PROCEDURE_DRUG	Y
+90668	4	"Influenza virus vaccine, pandemic formulation, split virus, for intramuscular use"	19121608	8	PROCEDURE_DRUG	Y
+90669	4	"Pneumococcal conjugate vaccine, polyvalent, for children under five years, for intramuscular use"	561429	8	PROCEDURE_DRUG	Y
+90670	4	"Pneumococcal conjugate vaccine, 13 valent, for intramuscular use"	561429	8	PROCEDURE_DRUG	Y
+90672	4	"Influenza virus vaccine, quadrivalent, live, for intranasal use"	19121608	8	PROCEDURE_DRUG	Y
+90675	4	"Rabies vaccine, for intramuscular use"	19135865	8	PROCEDURE_DRUG	Y
+90676	4	"Rabies vaccine, for intradermal use"	19135865	8	PROCEDURE_DRUG	Y
+90680	4	"Rotavirus vaccine, tetravalent, live, for oral use"	597056	8	PROCEDURE_DRUG	Y
+90681	4	"Rotavirus vaccine, human, attenuated, 2 dose schedule, live, for oral use"	597056	8	PROCEDURE_DRUG	Y
+90690	4	"Typhoid vaccine, live, oral"	19010872	8	PROCEDURE_DRUG	Y
+90691	4	"Typhoid vaccine, Vi capsular polysaccharide (ViCPs), for intramuscular use"	19010872	8	PROCEDURE_DRUG	Y
+90692	4	"Typhoid vaccine, heat- and phenol-inactivated (H-P), for subcutaneous or intradermal use"	19010872	8	PROCEDURE_DRUG	Y
+90693	4	"Typhoid vaccine, acetone-killed, dried (AKD), for subcutaneous or jet injection use (U.S. military)"	19010872	8	PROCEDURE_DRUG	Y
+90696	4	"Diphtheria, tetanus toxoids, acellular pertussis vaccine and poliovirus vaccine, inactivated (DTaP-IPV), when administered to children 4 through 6 years of age, for intramuscular use"	529218	8	PROCEDURE_DRUG	Y
+90696	4	"Diphtheria, tetanus toxoids, acellular pertussis vaccine and poliovirus vaccine, inactivated (DTaP-IPV), when administered to children 4 through 6 years of age, for intramuscular use"	529303	8	PROCEDURE_DRUG	Y
+90696	4	"Diphtheria, tetanus toxoids, acellular pertussis vaccine and poliovirus vaccine, inactivated (DTaP-IPV), when administered to children 4 through 6 years of age, for intramuscular use"	529411	8	PROCEDURE_DRUG	Y
+90696	4	"Diphtheria, tetanus toxoids, acellular pertussis vaccine and poliovirus vaccine, inactivated (DTaP-IPV), when administered to children 4 through 6 years of age, for intramuscular use"	551977	8	PROCEDURE_DRUG	Y
+90698	4	"Diphtheria, tetanus toxoids, acellular pertussis vaccine, haemophilus influenza Type B, and poliovirus vaccine, inactivated (DTaP - Hib - IPV), for intramuscular use"	529218	8	PROCEDURE_DRUG	Y
+90698	4	"Diphtheria, tetanus toxoids, acellular pertussis vaccine, haemophilus influenza Type B, and poliovirus vaccine, inactivated (DTaP - Hib - IPV), for intramuscular use"	529303	8	PROCEDURE_DRUG	Y
+90698	4	"Diphtheria, tetanus toxoids, acellular pertussis vaccine, haemophilus influenza Type B, and poliovirus vaccine, inactivated (DTaP - Hib - IPV), for intramuscular use"	529411	8	PROCEDURE_DRUG	Y
+90698	4	"Diphtheria, tetanus toxoids, acellular pertussis vaccine, haemophilus influenza Type B, and poliovirus vaccine, inactivated (DTaP - Hib - IPV), for intramuscular use"	19048700	8	PROCEDURE_DRUG	Y
+90698	4	"Diphtheria, tetanus toxoids, acellular pertussis vaccine, haemophilus influenza Type B, and poliovirus vaccine, inactivated (DTaP - Hib - IPV), for intramuscular use"	551977	8	PROCEDURE_DRUG	Y
+90700	4	"Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), for intramuscular use"	529218	8	PROCEDURE_DRUG	Y
+90700	4	"Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), for intramuscular use"	529303	8	PROCEDURE_DRUG	Y
+90700	4	"Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), for intramuscular use"	529411	8	PROCEDURE_DRUG	Y
+90701	4	"Diphtheria, tetanus toxoids, and whole cell pertussis vaccine (DTP), for intramuscular use"	529303	8	PROCEDURE_DRUG	Y
+90701	4	"Diphtheria, tetanus toxoids, and whole cell pertussis vaccine (DTP), for intramuscular use"	529411	8	PROCEDURE_DRUG	Y
+90701	4	"Diphtheria, tetanus toxoids, and whole cell pertussis vaccine (DTP), for intramuscular use"	19051984	8	PROCEDURE_DRUG	Y
+90702	4	"Diphtheria and tetanus toxoids (DT) adsorbed for use in individuals younger than seven years, for intramuscular use"	529303	8	PROCEDURE_DRUG	Y
+90702	4	"Diphtheria and tetanus toxoids (DT) adsorbed for use in individuals younger than seven years, for intramuscular use"	19135943	8	PROCEDURE_DRUG	Y
+90703	4	"Tetanus toxoid adsorbed, for intramuscular or jet injection use"	19135943	8	PROCEDURE_DRUG	Y
+90704	4	"Mumps virus vaccine, live, for subcutaneous or jet injection use"	523620	8	PROCEDURE_DRUG	Y
+90705	4	"Measles virus vaccine, live, for subcutaneous or jet injection use"	590675	8	PROCEDURE_DRUG	Y
+90706	4	"Rubella virus vaccine, live, for subcutaneous or jet injection use"	19136026	8	PROCEDURE_DRUG	Y
+90707	4	"Measles, mumps and rubella virus vaccine (MMR), live, for subcutaneous or jet injection use"	523620	8	PROCEDURE_DRUG	Y
+90707	4	"Measles, mumps and rubella virus vaccine (MMR), live, for subcutaneous or jet injection use"	594249	8	PROCEDURE_DRUG	Y
+90707	4	"Measles, mumps and rubella virus vaccine (MMR), live, for subcutaneous or jet injection use"	19136026	8	PROCEDURE_DRUG	Y
+90708	4	"Measles and rubella virus vaccine, live, for subcutaneous or jet injection use"	594249	8	PROCEDURE_DRUG	Y
+90708	4	"Measles and rubella virus vaccine, live, for subcutaneous or jet injection use"	19136026	8	PROCEDURE_DRUG	Y
+90709	4	"Rubella and mumps virus vaccine, live, for subcutaneous use"	523620	8	PROCEDURE_DRUG	Y
+90709	4	"Rubella and mumps virus vaccine, live, for subcutaneous use"	19136026	8	PROCEDURE_DRUG	Y
+90710	4	"Measles, mumps, rubella, and varicella vaccine (MMRV), live, for subcutaneous use"	523620	8	PROCEDURE_DRUG	Y
+90710	4	"Measles, mumps, rubella, and varicella vaccine (MMRV), live, for subcutaneous use"	594249	8	PROCEDURE_DRUG	Y
+90710	4	"Measles, mumps, rubella, and varicella vaccine (MMRV), live, for subcutaneous use"	19136026	8	PROCEDURE_DRUG	Y
+90710	4	"Measles, mumps, rubella, and varicella vaccine (MMRV), live, for subcutaneous use"	532454	8	PROCEDURE_DRUG	Y
+90712	4	"Poliovirus vaccine, (any type(s)) (OPV), live, for oral use"	19135242	8	PROCEDURE_DRUG	Y
+90713	4	"Poliovirus vaccine, inactivated, (IPV), for subcutaneous use"	19135243	8	PROCEDURE_DRUG	Y
+90714	4	"Tetanus and diphtheria toxoids (Td) adsorbed, preservative free, for use in individuals 7 years or older, for intramuscular use"	529411	8	PROCEDURE_DRUG	Y
+90714	4	"Tetanus and diphtheria toxoids (Td) adsorbed, preservative free, for use in individuals 7 years or older, for intramuscular use"	529303	8	PROCEDURE_DRUG	Y
+90715	4	"Tetanus, diphtheria toxoids and acellular pertussis vaccine (TdaP), for use in individuals seven years or older, for intramuscular use"	529218	8	PROCEDURE_DRUG	Y
+90715	4	"Tetanus, diphtheria toxoids and acellular pertussis vaccine (TdaP), for use in individuals seven years or older, for intramuscular use"	529303	8	PROCEDURE_DRUG	Y
+90715	4	"Tetanus, diphtheria toxoids and acellular pertussis vaccine (TdaP), for use in individuals seven years or older, for intramuscular use"	529411	8	PROCEDURE_DRUG	Y
+90716	4	"Varicella virus vaccine, live, for subcutaneous use"	532454	8	PROCEDURE_DRUG	Y
+90717	4	"Yellow fever vaccine, live, for subcutaneous use"	559532	8	PROCEDURE_DRUG	Y
+90718	4	"Tetanus and diphtheria toxoids (Td) adsorbed for use in individuals seven years or older, for intramuscular or jet injection"	529411	8	PROCEDURE_DRUG	Y
+90718	4	"Tetanus and diphtheria toxoids (Td) adsorbed for use in individuals seven years or older, for intramuscular or jet injection"	529303	8	PROCEDURE_DRUG	Y
+90719	4	"Diphtheria toxoid, for intramuscular use"	529303	8	PROCEDURE_DRUG	Y
+90720	4	"Diphtheria, tetanus toxoids, and whole cell pertussis vaccine and Hemophilus influenza B vaccine (DTP-Hib), for intramuscular use"	19051984	8	PROCEDURE_DRUG	Y
+90720	4	"Diphtheria, tetanus toxoids, and whole cell pertussis vaccine and Hemophilus influenza B vaccine (DTP-Hib), for intramuscular use"	529303	8	PROCEDURE_DRUG	Y
+90720	4	"Diphtheria, tetanus toxoids, and whole cell pertussis vaccine and Hemophilus influenza B vaccine (DTP-Hib), for intramuscular use"	529411	8	PROCEDURE_DRUG	Y
+90720	4	"Diphtheria, tetanus toxoids, and whole cell pertussis vaccine and Hemophilus influenza B vaccine (DTP-Hib), for intramuscular use"	19080463	8	PROCEDURE_DRUG	Y
+90721	4	"Diphtheria, tetanus toxoids, and acellular pertussis vaccine and Hemophilus influenza B vaccine (DtaP-Hib), for intramuscular use"	529218	8	PROCEDURE_DRUG	Y
+90721	4	"Diphtheria, tetanus toxoids, and acellular pertussis vaccine and Hemophilus influenza B vaccine (DtaP-Hib), for intramuscular use"	529303	8	PROCEDURE_DRUG	Y
+90721	4	"Diphtheria, tetanus toxoids, and acellular pertussis vaccine and Hemophilus influenza B vaccine (DtaP-Hib), for intramuscular use"	529411	8	PROCEDURE_DRUG	Y
+90721	4	"Diphtheria, tetanus toxoids, and acellular pertussis vaccine and Hemophilus influenza B vaccine (DtaP-Hib), for intramuscular use"	19080463	8	PROCEDURE_DRUG	Y
+90723	4	"Diphtheria, tetanus toxoids, acellular pertussis vaccine, Hepatitis B, and poliovirus vaccine, inactivated (DtaP-HepB-IPV), for intramuscular use"	529218	8	PROCEDURE_DRUG	Y
+90723	4	"Diphtheria, tetanus toxoids, acellular pertussis vaccine, Hepatitis B, and poliovirus vaccine, inactivated (DtaP-HepB-IPV), for intramuscular use"	529303	8	PROCEDURE_DRUG	Y
+90723	4	"Diphtheria, tetanus toxoids, acellular pertussis vaccine, Hepatitis B, and poliovirus vaccine, inactivated (DtaP-HepB-IPV), for intramuscular use"	529411	8	PROCEDURE_DRUG	Y
+90723	4	"Diphtheria, tetanus toxoids, acellular pertussis vaccine, Hepatitis B, and poliovirus vaccine, inactivated (DtaP-HepB-IPV), for intramuscular use"	501488	8	PROCEDURE_DRUG	Y
+90723	4	"Diphtheria, tetanus toxoids, acellular pertussis vaccine, Hepatitis B, and poliovirus vaccine, inactivated (DtaP-HepB-IPV), for intramuscular use"	19135243	8	PROCEDURE_DRUG	Y
+90724	4	"Immunization, active; influenza virus vaccine."	19121608	8	PROCEDURE_DRUG	Y
+90725	4	Cholera vaccine for injectable use	595252	8	PROCEDURE_DRUG	Y
+90726	4	"Immunization, active; rabies vaccine."	19135865	8	PROCEDURE_DRUG	Y
+90728	4	"Immunization, active; BCG vaccine."	19015423	8	PROCEDURE_DRUG	Y
+90730	4	"Immunization, active; hepatitis A vaccine."	40047409	8	PROCEDURE_DRUG	Y
+90732	4	"Pneumococcal polysaccharide vaccine, 23-valent, adult or immunosuppressed patient dosage, for use in individuals 2 years or older, for subcutaneous or intramuscular use"	561429	8	PROCEDURE_DRUG	Y
+90734	4	"Meningococcal conjugate vaccine, serogroups A, C, Y and W-135 (tetravalent), for intramuscular use"	509079	8	PROCEDURE_DRUG	Y
+90734	4	"Meningococcal conjugate vaccine, serogroups A, C, Y and W-135 (tetravalent), for intramuscular use"	509081	8	PROCEDURE_DRUG	Y
+90734	4	"Meningococcal conjugate vaccine, serogroups A, C, Y and W-135 (tetravalent), for intramuscular use"	514012	8	PROCEDURE_DRUG	Y
+90734	4	"Meningococcal conjugate vaccine, serogroups A, C, Y and W-135 (tetravalent), for intramuscular use"	514015	8	PROCEDURE_DRUG	Y
+90735	4	"Japanese encephalitis virus vaccine, for subcutaneous use"	19047598	8	PROCEDURE_DRUG	Y
+90736	4	"Zoster (shingles) vaccine, live, for subcutaneous injection"	522562	8	PROCEDURE_DRUG	Y
+90737	4	"Immunization, active; Hemophilus influenza B."	19080463	8	PROCEDURE_DRUG	Y
+90738	4	"Japanese encephalitis virus vaccine, inactivated, for intramuscular use"	19047598	8	PROCEDURE_DRUG	Y
+90739	4	"Hepatitis B vaccine, adult dosage (2 dose schedule), for intramuscular use"	501488	8	PROCEDURE_DRUG	Y
+90740	4	"Hepatitis B vaccine, dialysis or immunosuppressed patient dosage (3 dose schedule), for intramuscular use"	501488	8	PROCEDURE_DRUG	Y
+90743	4	"Hepatitis B vaccine, adolescent (2 dose schedule), for intramuscular use"	501488	8	PROCEDURE_DRUG	Y
+90744	4	"Hepatitis B vaccine, pediatric/adolescent dosage (3 dose schedule), for intramuscular use"	501488	8	PROCEDURE_DRUG	Y
+90745	4	"Immunization, active, hepatitis B vaccine; 11-19 years."	501488	8	PROCEDURE_DRUG	Y
+90746	4	"Hepatitis B vaccine, adult dosage, for intramuscular use"	501488	8	PROCEDURE_DRUG	Y
+90747	4	"Hepatitis B vaccine, dialysis or immunosuppressed patient dosage (4 dose schedule), for intramuscular use"	501488	8	PROCEDURE_DRUG	Y
+90748	4	"Hepatitis B and Hemophilus influenza b vaccine (HepB-Hib), for intramuscular use"	501488	8	PROCEDURE_DRUG	Y
+4012F	4	Warfarin therapy prescribed	1310149	8	PROCEDURE_DRUG	Y
+4012F	4	Warfarin therapy prescribed	1310149	8	PROCEDURE_DRUG	Y
