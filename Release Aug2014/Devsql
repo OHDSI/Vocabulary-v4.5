@@ -1,0 +1,15 @@
+select * from concept c where not exists (
+  select 1 from concept d where c.concept_id+1=d.concept_id
+)
+and invalid_reason is null;
+select * from concept where concept_id between 44787729 and 500000000;
+select * from concept where concept_id > 600000000 order by concept_id;
+select max(concept_id) from concept;
+select distinct concept_level from concept where vocabulary_id=1;
+-- 600,000,023 becomes 44,787,730, subtract 555,212,293 from all concept_id
+-- 600,030,812 becomes 44,787,730+600,030,812-600,000,023=
+select * from user_sequences;
+create table concept_backup as
+select * from concept;
+create table concept_relationship_backup as
+select * from concept_relationship;

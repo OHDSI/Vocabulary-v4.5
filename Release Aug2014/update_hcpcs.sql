@@ -29,6 +29,18 @@ LEN
 )
 */
 
+-- Undeprecate those that were deprecated 20-Apr-2014 are are in list
+update concept c set
+  c.valid_end_date='31-Dec-2099',
+  c.invalid_reason=null
+where exists (
+  select 1 from hcpcs h where h.source_code=c.concept_code and c.vocabulary_id=5
+)
+and c.vocabulary_id=5
+and c.valid_end_date='20-Apr-2014'
+;
+  
+
 -- update the descriptions in concept
 update source_to_concept_map m set
   m.source_code_description=(
@@ -93,7 +105,6 @@ drop table hcpcs;
 
 -- Load manual hcpcs_to_rxnorm_map
 -- These are procedure drugs, and these maps are in additions to maps to self
--- drop table hcpcs_to_rxnorm_map;
 -- drop table hcpcs_to_rxnorm_map;
 create table hcpcs_to_rxnorm_map as
 select 
@@ -250,3 +261,159 @@ where not exists (
 ;
 
 drop table hcpcs_to_snomed_condition_map;
+
+-- Add relationship between HCPCS and SNOMED Procedures and Measurements
+-- drop table hcpcs_to_procedure_relationship;
+create table hcpcs_to_proc_relationship as
+select 
+  concept_id_1,
+  concept_id_2
+from concept_relationship where 1=0;
+
+-- drop table hcpcs_to_measurement_relationship;
+create table hcpcs_to_meas_relationship as
+select 
+  concept_id_1,
+  concept_id_2
+from concept_relationship where 1=0;
+
+/* Use SQLLDR to load both files
+* the control file are hcpcs_to_measurement_relationship.ctl and hcpcs_to_procedure_relationship.ctl
+OPTIONS (SKIP=1)
+LOAD DATA
+INFILE hcpcs_to_measurement_relationship.txt
+INTO TABLE hcpcs_to_meas_relationship
+APPEND
+FIELDS TERMINATED BY '\t'
+OPTIONALLY ENCLOSED BY '"'
+TRAILING NULLCOLS
+(
+concept_id_1,
+concept_id_2
+)
+*/
+
+-- Add and fix relationships for these
+update relationship set 
+  relationship_name='SNOMED procedure subsumes HCPCS (OMOP)',
+  is_hierarchical=1,
+  defines_ancestry=1
+where relationship_id=283;
+
+update relationship set 
+  relationship_name='HCPCS is a SNOMED procedure (OMOP)'
+where relationship_id=284;
+
+insert into relationship (relationship_id, relationship_name, is_hierarchical, defines_ancestry, reverse_relationship)
+values (357, 'SNOMED measurement subsumes HCPCS (OMOP)', 1, 1, 358);
+insert into relationship (relationship_id, relationship_name, is_hierarchical, defines_ancestry, reverse_relationship)
+values (358, 'HCPCS is a SNOMED measurement (OMOP)', 0, 0, null);
+
+-- Add new procedure records to concept_relationship
+insert into concept_relationship
+select distinct 
+  nw.concept_id_1,
+  nw.concept_id_2,
+  284 as relationship_id,
+  '1-Aug-2014' as valid_start_date,
+  '31-Dec-2099' as valid_end_date,
+  null as invalid_reason
+from hcpcs_to_proc_relationship nw
+;
+
+-- and reverse
+insert into concept_relationship
+select distinct 
+  nw.concept_id_2 as concept_id_1,
+  nw.concept_id_1 as concept_id_2,
+  283 as relationship_id,
+  '1-Aug-2014' as valid_start_date,
+  '31-Dec-2099' as valid_end_date,
+  null as invalid_reason
+from hcpcs_to_proc_relationship nw
+;
+
+-- Add new measurement records to concept_relationship
+insert into concept_relationship
+select distinct 
+  nw.concept_id_1,
+  nw.concept_id_2,
+  358 as relationship_id,
+  '1-Aug-2014' as valid_start_date,
+  '31-Dec-2099' as valid_end_date,
+  null as invalid_reason
+from hcpcs_to_meas_relationship nw
+;
+
+-- Add new records to concept_relationship
+insert into concept_relationship
+select distinct 
+  nw.concept_id_2 as concept_id_1,
+  nw.concept_id_1 as concept_id_2,
+  357 as relationship_id,
+  '1-Aug-2014' as valid_start_date,
+  '31-Dec-2099' as valid_end_date,
+  null as invalid_reason
+from hcpcs_to_meas_relationship nw
+;
+
+-- Add injections
+insert into concept_relationship
+select 
+  4241075 as concept_id_1,
+  concept_id as concept_id_2,
+  283 as relationship_id,
+  '1-Jan-1970' as valid_start_date,
+  '31-Dec-2099' as valid_end_date,
+  null as invalid_reason
+from concept hcpcs
+where hcpcs.vocabulary_id=5 and lower(hcpcs.concept_name) like 'injection%'
+and not exists (
+  select 1 from concept_relationship r where r.concept_id_1=4241075 and concept_id_2=hcpcs.concept_id and r.invalid_reason is null
+);
+
+insert into concept_relationship
+select 
+  concept_id as concept_id_1,
+  4241075 as concept_id_2,
+  284 as relationship_id,
+  '1-Jan-1970' as valid_start_date,
+  '31-Dec-2099' as valid_end_date,
+  null as invalid_reason
+from concept hcpcs
+where hcpcs.vocabulary_id=5 and lower(hcpcs.concept_name) like 'injection%'
+and not exists (
+  select 1 from concept_relationship r where r.concept_id_2=4241075 and concept_id_1=hcpcs.concept_id and r.invalid_reason is null
+);
+
+-- Add infusions
+insert into concept_relationship
+select 
+  4269838 as concept_id_1,
+  concept_id as concept_id_2,
+  283 as relationship_id,
+  '1-Jan-1970' as valid_start_date,
+  '31-Dec-2099' as valid_end_date,
+  null as invalid_reason
+from concept hcpcs
+where hcpcs.vocabulary_id=5 and lower(hcpcs.concept_name) like 'infusion%'
+and not exists (
+  select 1 from concept_relationship r where r.concept_id_1=4269838 and concept_id_2=hcpcs.concept_id and r.invalid_reason is null
+);
+
+insert into concept_relationship
+select 
+  concept_id as concept_id_1,
+  4269838 as concept_id_2,
+  284 as relationship_id,
+  '1-Jan-1970' as valid_start_date,
+  '31-Dec-2099' as valid_end_date,
+  null as invalid_reason
+from concept hcpcs
+where hcpcs.vocabulary_id=5 and lower(hcpcs.concept_name) like 'infusion%'
+and not exists (
+  select 1 from concept_relationship r where r.concept_id_2=4269838 and concept_id_1=hcpcs.concept_id and r.invalid_reason is null
+);
+
+drop table hcpcs_to_proc_relationship;
+drop table hcpcs_to_meas_relationship;

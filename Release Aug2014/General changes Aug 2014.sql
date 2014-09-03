@@ -27,11 +27,14 @@ and c.invalid_reason is null -- only active ones. The inactive ones often only h
 and c.vocabulary_id=1
 ;
 
+
 -- add new vocabularies
 insert into vocabulary (vocabulary_id, vocabulary_name) values (58, 'OMOP Note Type');
 insert into vocabulary (vocabulary_id, vocabulary_name) values (59, 'OMOP Domain');
 insert into vocabulary (vocabulary_id, vocabulary_name) values (60, 'PCORNet');
 insert into vocabulary (vocabulary_id, vocabulary_name) values (61, 'OMOP Observation Period Type');
+insert into vocabulary (vocabulary_id, vocabulary_name) values (62, 'OMOP Visit Type');
+
 
 -- add Note types
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
@@ -69,7 +72,11 @@ values (5, 'Observation period type', 6, 'Domain', 59, 'OMOP generated', '1-Jan-
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
 values (6, 'Death type', 6, 'Domain', 59, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (7, 'Metadata', 6, 'Domain', 59, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
 values (8, 'Visit', 6, 'Domain', 59, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (7, 'Metadata', 6, 'Domain', 59, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
 values (9, 'Visit type', 6, 'Domain', 59, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
@@ -292,6 +299,20 @@ insert into concept (concept_id,  concept_name, concept_level, concept_class, vo
 values (seq_concept.nextval, 'Period covering healthcare encounters', 1, 'Observation Period Type', 61, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
 values (seq_concept.nextval, 'Period inferred by algorithm', 1, 'Observation Period Type', 61, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+
+-- add death types
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'EHR discharge status "Expired"', 1, 'Death Type', 45, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+
+-- add visit types
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Visit derived from encounter on claim', 1, 'Visit Type', 62, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Visit derived from EHR record', 1, 'Visit Type', 62, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Clinical Study visit', 1, 'Visit Type', 62, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+
+
 
 -- Rename new relationships introduced for SNOMED updating obsolete concepts
 update relationship set relationship_name='Inactive same_as active (SNOMED)', reverse_relationship=350 where relationship_id=349;
