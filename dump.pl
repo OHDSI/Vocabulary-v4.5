@@ -4,7 +4,7 @@ use warnings;
 use strict;
 use DBI;
 use POSIX;
-use Archive::Tar::Wrapper;
+use Archive::Zip;
 
 sub table_cols_query { 'SELECT COLUMN_NAME FROM ALL_TAB_COLUMNS WHERE OWNER = ? AND TABLE_NAME = ? ORDER BY COLUMN_ID' }
 
@@ -31,7 +31,7 @@ sub csv_dump {
 
 do { print <<END
 Usage:
-./dump.pl \<user/pass\@host/sid\> \<output.tbz\> [vocabulary ids]
+./dump.pl \<user/pass\@host/sid\> \<output.zip\> [vocabulary ids]
 'vocabulary ids' is a comma-separated list of required vocabularies, omit the list in order to dump all available 
 END
 } and exit unless @ARGV;
@@ -42,11 +42,10 @@ my $output = shift or die;
 my @vocabularies = split /,/, (shift or join ',', all_vocabularies $dbh);
 my $placeholder = join ', ', split //, '?' x @vocabularies;
 
-my $tar = new Archive::Tar::Wrapper;
+my $zip = new Archive::Zip;
 do {
     my $dump = csv_dump $dbh, $_;
-    $tar->add(sprintf('%s.csv', $_->{name}), $dump);
-    unlink $dump;
+    $zip->addFile($dump, sprintf('%s.csv', $_->{name}));
 } for
     {
 	name => 'CONCEPT',
@@ -63,4 +62,5 @@ do {
 	query => sprintf('SELECT * FROM SOURCE_TO_CONCEPT_MAP WHERE SOURCE_VOCABULARY_ID IN (%s) AND TARGET_VOCABULARY_ID IN (%s)', $placeholder, $placeholder),
 	params => [ @vocabularies, @vocabularies ],
     };
-$tar->write($output, 1);
+die unless $zip->writeToFileNamed($output) == Archive::Zip::AZ_OK;
+unlink $_->{externalFileName} for $zip->members;
