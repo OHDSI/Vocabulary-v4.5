@@ -38,6 +38,7 @@ END
 
 die unless shift =~ /^(.+)\/(.+)\@(.+)\/(.+)$/;
 my $dbh = DBI->connect(sprintf('dbi:Oracle:host=%s;sid=%s', $3, $4), $1, $2) or die;
+$dbh->do('ALTER SESSION SET NLS_DATE_FORMAT="YYYYMMDD"');
 my $output = shift or die;
 my @vocabularies = split /,/, (shift or join ',', all_vocabularies $dbh);
 my $placeholder = join ', ', split //, '?' x @vocabularies;
