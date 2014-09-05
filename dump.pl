@@ -8,7 +8,7 @@ use Archive::Zip;
 
 sub table_cols_query { 'SELECT COLUMN_NAME FROM ALL_TAB_COLUMNS WHERE OWNER = ? AND TABLE_NAME = ? ORDER BY COLUMN_ID' }
 
-sub table_cols { [ map { $_->[0] } @{ shift->selectall_arrayref(table_cols_query, undef, shift, shift) } ] }
+sub table_cols { [ map { $_->[0] } @{ shift->selectall_arrayref(table_cols_query, undef, uc shift, uc shift) } ] }
 
 sub csv_line { map { "$_\n" } join ',', map { $_ ||= ''; s/[\",]/\\$&/g; $_ } map { @$_ } @_ }
 
