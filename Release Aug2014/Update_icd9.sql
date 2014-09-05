@@ -52,7 +52,7 @@ where not exists (
   where ol.source_code=nw.source_code and ol.target_concept_id=nw.target_concept_id and nw.source_vocabulary_id=2
   and nw.invalid_reason is null
 )
-and ol.source_vocabulary_id=2 and ol.invalid_reason is null ;
+and ol.source_vocabulary_id=2 and ol.target_vocabulary_id=1 and ol.invalid_reason is null ;
 
 -- Add new records with target_concept_ids that weren't mappped to
 insert into source_to_concept_map

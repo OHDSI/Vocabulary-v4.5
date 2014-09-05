@@ -6793,7 +6793,7 @@
 415.19	2	Other pulmonary embolism and infarction	254662	1	CONDITION	Y	2012-08-31	2014-06-30	D
 415.19	2	Other pulmonary embolism and infarction	440417	1	CONDITION	Y	2013-10-10	2099-12-31	NULL
 416	2	Chronic pulmonary heart disease	4167085	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
-416.0	2	Primary pulmonary hypertension	10715	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
+416.0	2	Primary pulmonary hypertension	4119611	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 416.1	2	Kyphoscoliotic heart disease	317000	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 416.2	2	Chronic pulmonary embolism	0	1	XXX	Y	2014-07-01	2099-12-31	NULL
 416.2	2	Chronic pulmonary embolism	440417	1	CONDITION	Y	2013-11-27	2014-06-30	D
@@ -7761,7 +7761,7 @@
 521.01	2	Dental caries limited to enamel	441049	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 521.02	2	Dental caries extending into dentine	133508	1	CONDITION	Y	2002-10-01	2014-06-30	D
 521.02	2	Dental caries extending into dentine	40484028	1	CONDITION	Y	2012-08-31	2099-12-31	NULL
-521.03	2	Dental caries extending into pulp	12011	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
+521.03	2	Dental caries extending into pulp	4133875	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 521.04	2	Arrested dental caries	140435	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 521.05	2	Odontoclasia	139046	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 521.06	2	Dental caries pit and fissure	437013	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
@@ -11537,11 +11537,11 @@
 707.00	2	Pressure ulcer, unspecified site	135333	1	CONDITION	Y	2013-12-02	2099-12-31	NULL
 707.01	2	Pressure ulcer, elbow	439410	1	CONDITION	Y	2013-10-10	2099-12-31	NULL
 707.01	2	Pressure ulcer, elbow	444221	1	CONDITION	Y	2012-08-31	2014-06-30	D
-707.02	2	Decubitus ulcer, upper back	10159	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
-707.03	2	Decubitus ulcer, lower back	10157	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
-707.04	2	Decubitus ulcer, hip	10156	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
+707.02	2	Decubitus ulcer, upper back	44783165	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
+707.03	2	Decubitus ulcer, lower back	44783163	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
+707.04	2	Decubitus ulcer, hip	44782447	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 707.05	2	Pressure ulcer, buttock	200485	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
-707.06	2	Decubitus ulcer, ankle	10154	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
+707.06	2	Decubitus ulcer, ankle	44782446	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 707.07	2	Pressure ulcer, heel	135893	1	CONDITION	Y	1970-01-01	2014-06-30	D
 707.07	2	Pressure ulcer, heel	4025937	1	CONDITION	Y	2013-10-10	2099-12-31	NULL
 707.09	2	Pressure ulcer, other site	135333	1	CONDITION	Y	2012-08-31	2099-12-31	NULL
@@ -12021,23 +12021,23 @@
 716.57	2	Unspecified polyarthropathy or polyarthritis involving ankle and foot	78831	1	CONDITION	Y	2012-08-31	2099-12-31	NULL
 716.58	2	Unspecified polyarthropathy or polyarthritis involving other specified sites	75897	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 716.59	2	Unspecified polyarthropathy or polyarthritis involving multiple sites	75897	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
-716.6	2	Unspecified monoarthritis	10365	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
-716.60	2	Unspecified monoarthritis, site unspecified	10365	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
+716.6	2	Unspecified monoarthritis	44783376	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
+716.60	2	Unspecified monoarthritis, site unspecified	44783376	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 716.61	2	Unspecified monoarthritis involving shoulder region	40483262	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
-716.61	2	Unspecified monoarthritis involving shoulder region	81936	1	CONDITION	Y	2012-08-31	2014-06-30	D
-716.62	2	Unspecified monoarthritis involving upper arm	10365	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
+716.61	2	Unspecified monoarthritis involving shoulder region	44782456	1	CONDITION	Y	2012-08-31	2014-06-30	D
+716.62	2	Unspecified monoarthritis involving upper arm	44783376	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
 716.62	2	Unspecified monoarthritis involving upper arm	76191	1	CONDITION	Y	2012-08-31	2014-06-30	D
 716.63	2	Unspecified monoarthritis involving forearm	136779	1	CONDITION	Y	2012-08-31	2014-06-30	D
 716.63	2	Unspecified monoarthritis involving forearm	4205509	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
-716.64	2	Unspecified monoarthritis involving hand	40490497	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
+716.64	2	Unspecified monoarthritis involving hand	44784338	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
 716.64	2	Unspecified monoarthritis involving hand	81936	1	CONDITION	Y	2012-08-31	2014-06-30	D
 716.65	2	Unspecified monoarthritis involving pelvic region and thigh	81936	1	CONDITION	Y	2012-08-31	2014-06-30	D
 716.65	2	Unspecified monoarthritis involving pelvic region and thigh	4175848	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
 716.66	2	Unspecified monoarthritis involving lower leg	81936	1	CONDITION	Y	2012-08-31	2014-06-30	D
 716.66	2	Unspecified monoarthritis, lower leg	4159739	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
-716.67	2	Unspecified monoarthritis involving ankle and foot	40489492	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
+716.67	2	Unspecified monoarthritis involving ankle and foot	44784341	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
 716.67	2	Unspecified monoarthritis involving ankle and foot	444090	1	CONDITION	Y	2012-08-31	2014-06-30	D
-716.68	2	Unspecified monoarthritis involving other specified sites	10365	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
+716.68	2	Unspecified monoarthritis involving other specified sites	44783376	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 716.8	2	Other specified arthropathy	73553	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
 716.80	2	Other specified arthropathy, site unspecified	73553	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 716.81	2	Other specified arthropathy involving shoulder region	73553	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
@@ -12389,7 +12389,7 @@
 721.5	2	Kissing spine	75908	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 721.6	2	Ankylosing vertebral hyperostosis	77961	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 721.7	2	Traumatic spondylopathy	81665	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
-721.8	2	Other allied disorders of spine	10564	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
+721.8	2	Other allied disorders of spine	4260918	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 721.9	2	Spondylosis of unspecified site	4227449	1	CONDITION	Y	2013-11-27	2099-12-31	NULL
 721.90	2	Spondylosis of unspecified site without mention of myelopathy	138519	1	CONDITION	Y	1970-01-01	2099-12-31	NULL
 721.91	2	Spondylosis of unspecified site with myelopathy	139912	1	CONDITION	Y	1970-01-01	2099-12-31	NULL

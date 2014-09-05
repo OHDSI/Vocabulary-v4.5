@@ -1,9 +1,9 @@
-source_code	source_vocabulary_id	source_code_description	target_concept_id	target_vocabulary_id	mapping_type	Primary_map
+source_code	source_vocabulary_id	source_code_description	target_concept_id	target_vocabulary_id	mapping_type	Primary
 90288	4	"Botulism immune globulin, human, for intravenous use"	19072699	8	PROCEDURE_DRUG	Y
 90296	4	"Diphtheria antitoxin, equine, any route"	19135942	8	PROCEDURE_DRUG	Y
 90371	4	"Hepatitis B immune globulin (HBIg), human, for intramuscular use"	40045657	8	PROCEDURE_DRUG	Y
 90375	4	"Rabies immune globulin (RIg), human, for intramuscular and/or subcutaneous use"	544509	8	PROCEDURE_DRUG	Y
-90376	4	"Rabies immune globulin, heat-treated (RIg-HT), human, for intramuscular and/or subcutaneous use"	544510	8	PROCEDURE_DRUG	Y
+90376	4	"Rabies immune globulin, heat-treated (RIg-HT), human, for intramuscular and/or subcutaneous use"	544509	8	PROCEDURE_DRUG	Y
 90379	4	"Respiratory syncytial virus immune globulin (RSV-IgIV), human, for intravenous use"	19013765	8	PROCEDURE_DRUG	Y
 90384	4	"Rho(D) immune globulin (RhIg), human, full-dose, for intramuscular use"	535714	8	PROCEDURE_DRUG	Y
 90385	4	"Rho(D) immune globulin (RhIg), human, mini-dose, for intramuscular use"	535714	8	PROCEDURE_DRUG	Y
@@ -137,3 +137,21 @@ source_code	source_vocabulary_id	source_code_description	target_concept_id	targe
 90748	4	"Hepatitis B and Hemophilus influenza b vaccine (HepB-Hib), for intramuscular use"	501488	8	PROCEDURE_DRUG	Y
 4012F	4	Warfarin therapy prescribed	1310149	8	PROCEDURE_DRUG	Y
 4012F	4	Warfarin therapy prescribed	1310149	8	PROCEDURE_DRUG	Y
+80203	4	Zonisamide	744798	8	PROCEDURE_DRUG	Y
+80180	4	Mycophenolate (mycophenolic acid)	19068900	8	PROCEDURE_DRUG	Y
+80169	4	Everolimus	19011440	8	PROCEDURE_DRUG	Y
+80183	4	Oxcarbazepine	718122	8	PROCEDURE_DRUG	Y
+80199	4	Tiagabine	715458	8	PROCEDURE_DRUG	Y
+80175	4	Lamotrigine	705103	8	PROCEDURE_DRUG	Y
+80159	4	Clozapine	800878	8	PROCEDURE_DRUG	Y
+80171	4	Gabapentin	797399	8	PROCEDURE_DRUG	Y
+80155	4	Caffeine	1134439	8	PROCEDURE_DRUG	Y
+4230F	4	Anticonvulsant medication therapy for 6 months or more (MM)	0	8	PROCEDURE_DRUG	Y
+90688	4	"Influenza virus vaccine, quadrivalent, split virus, when administered to individuals 3 years of age and older, for intramuscular use"	19121608	8	PROCEDURE_DRUG	Y
+90687	4	"Influenza virus vaccine, quadrivalent, split virus, when administered to children 6-35 months of age, for intramuscular use"	19121608	8	PROCEDURE_DRUG	Y
+90686	4	"Influenza virus vaccine, quadrivalent, split virus, preservative free, when administered to individuals 3 years of age and older, for intramuscular use"	19121608	8	PROCEDURE_DRUG	Y
+90685	4	"Influenza virus vaccine, quadrivalent, split virus, preservative free, when administered to children 6-35 months of age, for intramuscular use"	19121608	8	PROCEDURE_DRUG	Y
+80177	4	Levetiracetam	711584	8	PROCEDURE_DRUG	Y
+90673	4	"Influenza virus vaccine, trivalent, derived from recombinant DNA (RIV3), hemagglutinin (HA) protein only, preservative and antibiotic free, for intramuscular use"	19121608	8	PROCEDURE_DRUG	Y
+4558F	4	Patient received at least 2 prophylactic pharmacologic anti-emetic agents of different classes preoperatively and intraoperatively (Peri2)	0	8	PROCEDURE_DRUG	Y
+4554F	4	Patient received inhalational anesthetic agent (Peri2)	0	8	PROCEDURE_DRUG	Y

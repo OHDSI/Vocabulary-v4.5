@@ -25,3 +25,11 @@ P4	4	Physical Status Modifier P4: A patient with severe systemic disease that is
 3090F	4	"Major depressive disorder, severe without psychotic features (MDD)"	4327337	1	CONDITION	Y
 3089F	4	"Major depressive disorder, moderate (MDD)"	4307111	1	CONDITION	Y
 3088F	4	"Major depressive disorder, mild (MDD)"	4336957	1	CONDITION	Y
+3760F	4	"Patient exhibits dysphagia, weight loss, or impaired nutrition (ALS)"	4229881	1	CONDITION	Y
+9005F	4	Asymptomatic carotid stenosis: No history of any transient ischemic attack or stroke in any carotid or vertebrobasilar territory (NMA-No Measure Associated)	0	1	CONDITION	Y
+9006F	4	Symptomatic carotid stenosis: Ipsilateral carotid territory TIA or stroke less than 120 days prior to procedure (NMA-No Measure Associated)	44784634	1	CONDITION	Y
+9007F	4	Other carotid stenosis: Ipsilateral TIA or stroke 120 days or greater prior to procedure or any prior contralateral carotid territory or vertebrobasilar TIA or stroke (NMA-No Measure Associated)	442615	1	CONDITION	Y
+3762F	4	Patient is dysarthric (ALS)	4196636	1	CONDITION	Y
+3756F	4	"Patient has pseudobulbar affect, sialorrhea, or ALS-related symptoms (ALS)"	4197184	1	CONDITION	Y
+3753F	4	"Patient has clear clinical symptoms and signs that are highly suggestive of neuropathy AND cannot be attributed to another condition, AND has an obvious cause for the neuropathy (DSP)"	4301699	1	CONDITION	Y
+1504F	4	Patient has respiratory insufficiency (ALS)	318459	1	CONDITION	Y

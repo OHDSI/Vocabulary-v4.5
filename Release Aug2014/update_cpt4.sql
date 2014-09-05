@@ -243,3 +243,60 @@ where not exists (
 ;
 
 drop cpt4_to_snomed_condition_map;
+
+-- Add relationship between CPT4 and SNOMED Procedures 
+-- drop table cpt4_to_procedure_relationship;
+create table cpt4_to_proc_relationship as
+select 
+  source_code as cpt4_code,
+  source_code as snomed_code
+from source_to_concept_map where 1=0;
+
+/* Use SQLLDR to load both files
+* the control file is cpt4_to_procedure_relationship.ctl
+options (skip=1)
+load data
+infile cpt4_to_procedure_relationship.txt
+into table cpt4_to_proc_relationship
+append
+fields terminated by '\t'
+optionally enclosed by '"'
+trailing nullcols
+(
+cpt4_code,
+snomed_code)
+*/
+
+-- Add to concept_relationship table unless exists
+insert into concept_relationship
+select 
+  c1.concept_id as concept_id_1,
+  c2.concept_id as concept_id_2,
+  227 as relationship_id, /* SNOMED category to CPT-4 (OMOP) */
+  '1-Aug-2014' as valid_start_date,
+  '31-Dec-2099' as valid_end_date,
+  null as invalid_reason
+from cpt4_to_proc_relationship r
+join concept c1 on c1.concept_code=r.snomed_code and c1.vocabulary_id=1
+join concept c2 on c2.concept_code=r.cpt4_code and c2.vocabulary_id=4
+where not exists (
+  select 1 from concept_relationship o where o.concept_id_1=c1.concept_id and o.concept_id_2=c2.concept_id
+);
+
+-- and reverse
+insert into concept_relationship
+select 
+  c2.concept_id as concept_id_1,
+  c1.concept_id as concept_id_2,
+  93 as relationship_id, /* SNOMED category to CPT-4 (OMOP) */
+  '1-Aug-2014' as valid_start_date,
+  '31-Dec-2099' as valid_end_date,
+  null as invalid_reason
+from cpt4_to_proc_relationship r
+join concept c1 on c1.concept_code=r.snomed_code and c1.vocabulary_id=1
+join concept c2 on c2.concept_code=r.cpt4_code and c2.vocabulary_id=4
+where not exists (
+  select 1 from concept_relationship o where o.concept_id_1=c2.concept_id and o.concept_id_2=c1.concept_id
+);
+
+drop table cpt4_to_proc_relationship;
