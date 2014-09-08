@@ -15,7 +15,7 @@ moduleId        	CHAR(256)          ,
 sourceId        	CHAR(256)          ,        
 destinationId        	CHAR(256)          ,        
 relationshipGroup    	CHAR(11)           ,        
-typeId                  CHAR(11)           ,        
+typeId                  CHAR(38)           ,        
 characteristicTypeId    CHAR(18)           ,        
 modifierId              CHAR(256)
 )
