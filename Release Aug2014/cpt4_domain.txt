@@ -11203,14 +11203,14 @@ id	code	domain_name	secondary_domain
 600028743	94669	Procedure	
 600028744	3755F	Procedure	Observation
 600028745	3758F	Procedure	Observation
-600028746	3760F	Condition	Observation
+600028746	3760F	Observation	
 600028747	9001F	Observation	
 600028748	9002F	Observation	
 600028749	9003F	Observation	
 600028750	9004F	Observation	
-600028751	9005F	Condition	Observation
-600028752	9006F	Condition	Observation
-600028753	9007F	Condition	Observation
+600028751	9005F	Observation	
+600028752	9006F	Observation	
+600028753	9007F	Observation	
 600028754	0329T	Procedure	
 600028755	0330T	Procedure	
 600028756	0331T	Procedure	
@@ -11249,15 +11249,15 @@ id	code	domain_name	secondary_domain
 600028789	4541F	Observation	
 600028790	4540F	Observation	
 600028791	3763F	Observation	
-600028792	3762F	Condition	
+600028792	3762F	Observation	
 600028793	3761F	Observation	
 600028794	3759F	Observation	
 600028795	3757F	Observation	
-600028796	3756F	Condition	Observation
+600028796	3756F	Observation	
 600028797	3754F	Observation	
-600028798	3753F	Condition	Observation
+600028798	3753F	Observation	
 600028799	3752F	Observation	
-600028800	3751F	Procedure	Observation
+600028800	3751F	Observation	
 600028801	1505F	Observation	
-600028802	1504F	Condition	Observation
+600028802	1504F	Observation	
 600028803	1503F	Observation	

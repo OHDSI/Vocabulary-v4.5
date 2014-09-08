@@ -13,7 +13,7 @@ from concept where 1=0;
 -- drop table cpt4_domain;
 create table cpt4_domain as
 select 
-  concept_id,
+  concept_id, -- contains the wrong concept_id > 600000000
   concept_code,
   concept_name as domain_name,
   concept_name as secondary_domain
@@ -40,9 +40,16 @@ secondary_domain
 )
 */
 
+-- check for missing coverage 
 select * from concept c where not exists (
-  select 1 from cpt4_domain d where c.concept_id=d.concept_id
+  select 1 from cpt4_domain d where c.concept_code=d.concept_code
 )
 and c.vocabulary_id=4 and c.invalid_reason is null;
-select * from concept where concept_id=2110981;
-select * from cpt4_domain where concept_code='90686';
+
+-- write into concept_domain
+insert into concept_domain
+select c.concept_id, d.domain_name from cpt4_domain d, concept c 
+where c.concept_code=d.concept_code and c.vocabulary_id=4
+;
+
+

@@ -57,4 +57,4 @@ update concept_domain set domain_name='Condition' where domain_name='condition_o
 
 -- Now assign to all concept classes 
 
-
+select distinct domain_name from concept_domain;

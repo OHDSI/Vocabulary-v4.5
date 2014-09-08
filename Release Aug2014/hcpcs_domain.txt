@@ -1,0 +1,6362 @@
+CONCEPT_ID	CONCEPT_CODE	CONCEPT_CLASS
+40664728	G8771	Condition
+2617866	G8467	Condition
+40659147	G8565	Condition
+40664750	G8821	Condition
+2617496	G8006	Condition
+2617499	G8009	Condition
+2617497	G8007	Condition
+2617500	G8010	Condition
+2617782	G8375	Condition
+40664869	G8879	Condition
+2617704	G8296	Condition
+2617701	G8293	Condition
+2617529	G8039	Condition
+2617530	G8040	Condition
+2617526	G8036	Condition
+2617527	G8037	Condition
+40663931	G8575	Condition
+2617513	G8023	Condition
+2617514	G8024	Condition
+2617505	G8015	Condition
+2617506	G8016	Condition
+2617509	G8019	Condition
+2617510	G8020	Condition
+2617797	G8390	Condition
+2617792	G8385	Condition
+2617793	G8386	Condition
+2617551	G8082	Condition
+2617550	G8081	Condition
+2617544	G8075	Condition
+2617545	G8076	Condition
+2617547	G8078	Condition
+2617548	G8079	Condition
+2617552	G8085	Condition
+2617794	G8387	Condition
+2617795	G8388	Condition
+2617957	G9013	Condition
+2617493	G6	Condition
+40664645	G8823	Condition
+40664787	G8824	Condition
+2617787	G8380	Condition
+2617788	G8381	Condition
+2617520	G8030	Condition
+2617517	G8027	Condition
+2617521	G8031	Condition
+2617518	G8028	Condition
+40664135	V8	Condition
+2617649	G8240	Condition
+40664804	G8822	Condition
+40664820	G8848	Condition
+2617789	G8382	Condition
+2617796	G8389	Condition
+2617553	G8093	Condition
+2617554	G8094	Condition
+2617557	G8103	Condition
+2618009	G9075	Condition
+2618006	G9072	Condition
+2618005	G9071	Condition
+2618007	G9073	Condition
+2618008	G9074	Condition
+2618065	G9131	Condition
+2618021	G9087	Condition
+2618022	G9088	Condition
+2618018	G9084	Condition
+2618020	G9086	Condition
+2618019	G9085	Condition
+2618030	G9096	Condition
+2618031	G9097	Condition
+2618034	G9100	Condition
+2618035	G9101	Condition
+2618046	G9112	Condition
+2618045	G9111	Condition
+2618043	G9109	Condition
+2618044	G9110	Condition
+2617998	G9064	Condition
+2617999	G9065	Condition
+2617997	G9063	Condition
+2618002	G9068	Condition
+2618048	G9114	Condition
+2618011	G9077	Condition
+2618024	G9090	Condition
+2618026	G9092	Condition
+2618025	G9091	Condition
+2618027	G9093	Condition
+2617987	G9053	Condition
+2617993	G9059	Condition
+2618058	G9124	Condition
+2618059	G9125	Condition
+2618057	G9123	Condition
+2618073	G9139	Condition
+2618060	G9126	Condition
+2618023	G9089	Condition
+2618033	G9099	Condition
+2618032	G9098	Condition
+2618036	G9102	Condition
+2618037	G9103	Condition
+2618038	G9104	Condition
+2618064	G9130	Condition
+2618062	G9128	Condition
+2618063	G9129	Condition
+2618001	G9067	Condition
+2618000	G9066	Condition
+2618072	G9138	Condition
+2618071	G9137	Condition
+2618068	G9134	Condition
+2618069	G9135	Condition
+2618070	G9136	Condition
+2618050	G9116	Condition
+2618051	G9117	Condition
+2618047	G9113	Condition
+2618049	G9115	Condition
+2618039	G9105	Condition
+2618042	G9108	Condition
+2618040	G9106	Condition
+2618041	G9107	Condition
+2618012	G9078	Condition
+2618013	G9079	Condition
+2618014	G9080	Condition
+2618017	G9083	Condition
+2618066	G9132	Condition
+2618067	G9133	Condition
+2618029	G9095	Condition
+2618028	G9094	Condition
+2618003	G9069	Condition
+2618004	G9070	Condition
+43533178	G8947	Condition
+2617597	G8183	Condition
+2617599	G8185	Condition
+2617798	G8391	Condition
+2617502	G8012	Condition
+2617503	G8013	Condition
+2617494	G7	Condition
+2617714	G8306	Condition
+2617716	G8308	Condition
+40664750	G8821	Condition
+2617496	G8006	Condition
+2617499	G8009	Condition
+2617497	G8007	Condition
+2617500	G8010	Condition
+2617782	G8375	Condition
+40664869	G8879	Condition
+2617704	G8296	Condition
+2617701	G8293	Condition
+2617529	G8039	Condition
+2617530	G8040	Condition
+2617526	G8036	Condition
+2617527	G8037	Condition
+40663931	G8575	Condition
+2617513	G8023	Condition
+2617514	G8024	Condition
+2617505	G8015	Condition
+2617506	G8016	Condition
+2617509	G8019	Condition
+2617510	G8020	Condition
+2617797	G8390	Condition
+2617792	G8385	Condition
+2617793	G8386	Condition
+2617551	G8082	Condition
+2617550	G8081	Condition
+2617544	G8075	Condition
+2617545	G8076	Condition
+2617547	G8078	Condition
+2617548	G8079	Condition
+2617552	G8085	Condition
+2617794	G8387	Condition
+2617795	G8388	Condition
+2617957	G9013	Condition
+2617493	G6	Condition
+40664645	G8823	Condition
+40664787	G8824	Condition
+2617787	G8380	Condition
+2617788	G8381	Condition
+2617520	G8030	Condition
+2617517	G8027	Condition
+2617521	G8031	Condition
+2617518	G8028	Condition
+40664135	V8	Condition
+2617649	G8240	Condition
+40664804	G8822	Condition
+40664820	G8848	Condition
+2617789	G8382	Condition
+2617796	G8389	Condition
+2617553	G8093	Condition
+2617554	G8094	Condition
+2617557	G8103	Condition
+2618009	G9075	Condition
+2618006	G9072	Condition
+2618005	G9071	Condition
+2618007	G9073	Condition
+2618008	G9074	Condition
+2618065	G9131	Condition
+2618021	G9087	Condition
+2618022	G9088	Condition
+2618018	G9084	Condition
+2618020	G9086	Condition
+2618019	G9085	Condition
+2618030	G9096	Condition
+2618031	G9097	Condition
+2618034	G9100	Condition
+2618035	G9101	Condition
+2618046	G9112	Condition
+2618045	G9111	Condition
+2618043	G9109	Condition
+2618044	G9110	Condition
+2617998	G9064	Condition
+2617999	G9065	Condition
+2617997	G9063	Condition
+2618002	G9068	Condition
+2618048	G9114	Condition
+2618011	G9077	Condition
+2618024	G9090	Condition
+2618026	G9092	Condition
+2618025	G9091	Condition
+2618027	G9093	Condition
+2617987	G9053	Condition
+2617993	G9059	Condition
+2618058	G9124	Condition
+2618059	G9125	Condition
+2618057	G9123	Condition
+2618073	G9139	Condition
+2618060	G9126	Condition
+2618023	G9089	Condition
+2618033	G9099	Condition
+2618032	G9098	Condition
+2618036	G9102	Condition
+2618037	G9103	Condition
+2618038	G9104	Condition
+2618064	G9130	Condition
+2618062	G9128	Condition
+2618063	G9129	Condition
+2618001	G9067	Condition
+2618000	G9066	Condition
+2618072	G9138	Condition
+2618071	G9137	Condition
+2618068	G9134	Condition
+2618069	G9135	Condition
+2618070	G9136	Condition
+2618050	G9116	Condition
+2618051	G9117	Condition
+2618047	G9113	Condition
+2618049	G9115	Condition
+2618039	G9105	Condition
+2618042	G9108	Condition
+2618040	G9106	Condition
+2618041	G9107	Condition
+2618012	G9078	Condition
+2618013	G9079	Condition
+2618014	G9080	Condition
+2618017	G9083	Condition
+2618066	G9132	Condition
+2618067	G9133	Condition
+2618029	G9095	Condition
+2618028	G9094	Condition
+2618003	G9069	Condition
+2618004	G9070	Condition
+43533178	G8947	Condition
+2617597	G8183	Condition
+2617599	G8185	Condition
+2617798	G8391	Condition
+2617502	G8012	Condition
+2617503	G8013	Condition
+2617494	G7	Condition
+2617714	G8306	Condition
+2617716	G8308	Condition
+40664658	G8846	Condition
+2720881	QL	Condition
+2721151	S2270	Procedure
+2721119	S2120	Procedure
+2617355	G0270	Procedure
+2618183	H2033	Procedure
+2721592	S9986	Procedure
+2617231	G0129	Procedure
+2721448	S9129	Procedure
+2617360	G0275	Procedure
+2617416	G0340	Procedure
+2616272	C8930	Procedure
+2616270	C8928	Procedure
+2616271	C8929	Procedure
+2618182	H2032	Procedure
+2617264	G0176	Procedure
+2615425	AT	Procedure
+2721104	S2083	Procedure
+2617490	G3001	Procedure
+2617179	G0010	Procedure
+2617177	G0008	Procedure
+2617178	G0009	Procedure
+2721111	S2107	Procedure
+2721110	S2103	Procedure
+2618190	HB	Procedure
+2614674	A0433	Procedure
+2719616	L1932	Procedure
+2618100	H0001	Procedure
+2618121	H0022	Procedure
+2618128	H0029	Procedure
+2618126	H0027	Procedure
+2618127	H0028	Procedure
+2618125	H0026	Procedure
+2618114	H0015	Procedure
+2618149	H0050	Procedure
+2618108	H0009	Procedure
+2618110	H0011	Procedure
+2618112	H0013	Procedure
+2618113	H0014	Procedure
+2618105	H0006	Procedure
+2618106	H0007	Procedure
+2618104	H0005	Procedure
+2618115	H0016	Procedure
+2618119	H0020	Procedure
+2618107	H0008	Procedure
+2618109	H0010	Procedure
+2618111	H0012	Procedure
+2618146	H0047	Procedure
+2618186	H2036	Procedure
+2618185	H2035	Procedure
+2617464	G0396	Procedure
+2617465	G0397	Procedure
+2721628	T1006	Procedure
+2721629	T1007	Procedure
+40664833	G0442	Procedure
+40664726	G0444	Procedure
+2721064	S0612	Procedure
+2721063	S0610	Procedure
+2721065	S0613	Procedure
+40664425	G0439	Procedure
+40658748	G8585	Procedure
+40660911	G8579	Procedure
+2721414	S8948	Procedure
+40664502	G0440	Procedure
+2721113	S2112	Procedure
+2617368	G0289	Procedure
+2721152	S2300	Procedure
+40663933	G8598	Procedure
+2721914	V5010	Procedure
+2721650	T1028	Procedure
+2721246	S4022	Procedure
+2721066	S0618	Procedure
+40663669	L8692	Procedure
+2721420	S9015	Procedure
+2721232	S3902	Procedure
+2618103	H0004	Procedure
+2618162	H2012	Procedure
+2618129	H0030	Procedure
+2618122	H0023	Procedure
+2618124	H0025	Procedure
+2618123	H0024	Procedure
+2618101	H0002	Procedure
+2720322	L6935	Procedure
+40658347	G8582	Procedure
+2617439	G0364	Procedure
+2721095	S2068	Procedure
+2721093	S2066	Procedure
+40664725	G0443	Procedure
+40664607	C9731	Procedure
+40664632	C9730	Procedure
+2721409	S8460	Procedure
+43533323	G8963	Procedure
+43533322	G8962	Procedure
+43533346	G8966	Procedure
+43533272	G8964	Procedure
+43533345	G8965	Procedure
+43533344	G8961	Procedure
+2720572	Q0035	Procedure
+2721638	T1016	Procedure
+2615768	C1757	Procedure
+2615864	C1885	Procedure
+2615752	C1725	Procedure
+2615741	C1714	Procedure
+2615751	C1724	Procedure
+2720563	P9615	Procedure
+2720562	P9612	Procedure
+2720491	M0075	Procedure
+2617204	G0101	Procedure
+2719534	L1001	Procedure
+43533367	G8981	Procedure
+43533181	G8983	Procedure
+43533325	G8982	Procedure
+2721154	S2340	Procedure
+2721155	S2341	Procedure
+2720710	Q3031	Procedure
+2617209	G0106	Procedure
+2617222	G0120	Procedure
+2617224	G0122	Procedure
+2617208	G0105	Procedure
+2617223	G0121	Procedure
+2617406	G0328	Procedure
+2617207	G0104	Procedure
+2721429	S9056	Procedure
+2719577	L1690	Procedure
+2718481	J2	Procedure
+2617384	G0306	Procedure
+2721238	S4013	Procedure
+2721239	S4014	Procedure
+2721240	S4015	Procedure
+2721415	S8950	Procedure
+2721744	TG	Procedure
+2721059	S0592	Procedure
+2618158	H2000	Procedure
+2721917	V5020	Procedure
+43533251	G0453	Procedure
+2721123	S2140	Procedure
+2721124	S2142	Procedure
+2721023	S0257	Procedure
+40664618	G8780	Procedure
+2719418	L0113	Procedure
+2721084	S1040	Procedure
+2616453	C9716	Procedure
+2721550	S9485	Procedure
+2721549	S9484	Procedure
+2618161	H2011	Procedure
+2720892	QX	Procedure
+2720894	QZ	Procedure
+2720385	L8035	Procedure
+2721158	S2348	Procedure
+2616976	E1600	Procedure
+40664514	G0429	Procedure
+40664544	C9800	Procedure
+2617274	G0186	Procedure
+40660468	G8571	Procedure
+2721540	S9465	Procedure
+2721451	S9141	Procedure
+2721450	S9140	Procedure
+2721538	S9455	Procedure
+2721539	S9460	Procedure
+2618082	GH	Procedure
+2617291	G0204	Procedure
+2617293	G0206	Procedure
+2721062	S0605	Procedure
+2617801	G8397	Procedure
+2721159	S2350	Procedure
+2617834	G8434	Procedure
+2617742	G8334	Procedure
+2617840	G8440	Procedure
+2721091	S2061	Procedure
+2721981	V5364	Procedure
+2721748	TL	Procedure
+2721129	S2202	Procedure
+2720324	L6945	Procedure
+2720323	L6940	Procedure
+2720180	L6205	Procedure
+2720194	L6450	Procedure
+2720179	L6200	Procedure
+2617366	G0283	Procedure
+43533311	S8930	Procedure
+2617365	G0282	Procedure
+2617472	G0405	Procedure
+2617470	G0403	Procedure
+2617471	G0404	Procedure
+2721042	S0347	Procedure
+2617374	G0295	Procedure
+2617407	G0329	Procedure
+2721357	S8092	Procedure
+2721309	S5160	Procedure
+2617156	ET	Procedure
+2618198	HJ	Procedure
+2616461	C9724	Procedure
+2721544	S9474	Procedure
+2721412	S8940	Procedure
+2617958	G9014	Procedure
+2721453	S9150	Procedure
+40664718	G9156	Procedure
+40664659	G8872	Procedure
+2617254	G0166	Procedure
+2721426	S9034	Procedure
+2721877	V2628	Procedure
+40664664	G0447	Procedure
+40662352	G0421	Procedure
+40660436	G0420	Procedure
+2721649	T1027	Procedure
+2720585	Q0114	Procedure
+2721174	S2411	Procedure
+2614993	A4730	Procedure
+2721915	V5011	Procedure
+40664730	G8813	Procedure
+40664867	G8814	Procedure
+2617331	G0246	Procedure
+2617475	G0408	Procedure
+2617474	G0407	Procedure
+2617473	G0406	Procedure
+2721754	TS	Procedure
+2721025	S0265	Procedure
+2617221	G0118	Procedure
+2617220	G0117	Procedure
+2617477	G0410	Procedure
+2721670	T2013	Procedure
+2721669	T2012	Procedure
+2721671	T2014	Procedure
+2721672	T2015	Procedure
+2721674	T2017	Procedure
+2721673	T2016	Procedure
+2721676	T2019	Procedure
+2721675	T2018	Procedure
+2719510	L0810	Procedure
+2719512	L0830	Procedure
+2719511	L0820	Procedure
+2720316	L6905	Procedure
+2720317	L6910	Procedure
+2720315	L6900	Procedure
+2720318	L6915	Procedure
+2721089	S2055	Procedure
+2720661	Q2	Procedure
+2721913	V5008	Procedure
+2721977	V5299	Procedure
+2719996	L5341	Procedure
+2719986	L5280	Procedure
+40664693	G8714	Procedure
+40664745	G8715	Procedure
+40664881	G0445	Procedure
+2721153	S2325	Procedure
+2719994	L5331	Procedure
+2719984	L5250	Procedure
+2719985	L5270	Procedure
+2721462	S9214	Procedure
+2721460	S9212	Procedure
+2721461	S9213	Procedure
+2721040	S0345	Procedure
+2721041	S0346	Procedure
+2721643	T1021	Procedure
+2721441	S9122	Procedure
+2617269	G0181	Procedure
+2721315	S5180	Procedure
+2721316	S5181	Procedure
+2721326	S5518	Procedure
+2721325	S5517	Procedure
+2721284	S5036	Procedure
+2721283	S5035	Procedure
+2721459	S9211	Procedure
+2721457	S9209	Procedure
+2721456	S9208	Procedure
+2617466	G0398	Procedure
+2617467	G0399	Procedure
+2617468	G0400	Procedure
+2721479	S9335	Procedure
+2721504	S9370	Procedure
+2721486	S9343	Procedure
+2721484	S9341	Procedure
+2721485	S9342	Procedure
+2721483	S9340	Procedure
+2721482	S9339	Procedure
+2721584	S9810	Procedure
+2721567	S9538	Procedure
+2721418	S9001	Procedure
+2721437	S9097	Procedure
+2721438	S9098	Procedure
+2617413	G0337	Procedure
+2721706	T2101	Procedure
+2617415	G0339	Procedure
+2720189	L6382	Procedure
+2720190	L6384	Procedure
+2720000	L5430	Procedure
+2720188	L6380	Procedure
+2719999	L5420	Procedure
+2719998	L5410	Procedure
+2719997	L5400	Procedure
+2720002	L5460	Procedure
+2720001	L5450	Procedure
+2720192	L6388	Procedure
+2720191	L6386	Procedure
+2721143	S2235	Procedure
+40664635	G0913	Procedure
+40664653	G0915	Procedure
+2721245	S4021	Procedure
+2721244	S4020	Procedure
+2721237	S4011	Procedure
+2721242	S4017	Procedure
+2721146	S2260	Procedure
+2721148	S2265	Procedure
+2721149	S2266	Procedure
+2721150	S2267	Procedure
+2720547	P9048	Procedure
+2720542	P9043	Procedure
+2720078	L5683	Procedure
+40659402	G0427	Procedure
+40663506	G0425	Procedure
+40663507	G0426	Procedure
+2617469	G0402	Procedure
+40664723	C9732	Procedure
+40664741	G0448	Procedure
+2618197	HI	Procedure
+2618196	HH	Procedure
+40664776	G0446	Procedure
+40658719	G0422	Procedure
+40661615	G0423	Procedure
+2721547	S9480	Procedure
+2721648	T1026	Procedure
+2721647	T1025	Procedure
+2617478	G0411	Procedure
+2721236	S4005	Procedure
+2720467	L8659	Procedure
+2720493	M0100	Procedure
+2721351	S8049	Procedure
+2720495	M0300	Procedure
+40664738	L5312	Procedure
+2719979	L5160	Procedure
+2719978	L5150	Procedure
+2719990	L5311	Procedure
+2721980	V5363	Procedure
+2721101	S2079	Procedure
+2617418	G0342	Procedure
+2617419	G0343	Procedure
+2721072	S0800	Procedure
+2721102	S2080	Procedure
+2721037	S0340	Procedure
+2721039	S0342	Procedure
+2721038	S0341	Procedure
+2720685	Q3	Procedure
+2721090	S2060	Procedure
+43533205	G0458	Procedure
+2721625	T1003	Procedure
+40664571	C8931	Procedure
+40664521	C8934	Procedure
+2616245	C8900	Procedure
+2616254	C8909	Procedure
+2616257	C8912	Procedure
+2616260	C8918	Procedure
+40664435	C8935	Procedure
+40664460	C8932	Procedure
+40664541	C8933	Procedure
+40664564	C8936	Procedure
+2616247	C8902	Procedure
+2616256	C8911	Procedure
+2616259	C8914	Procedure
+2616262	C8920	Procedure
+2616246	C8901	Procedure
+2616255	C8910	Procedure
+2616258	C8913	Procedure
+2616261	C8919	Procedure
+2721347	S8037	Procedure
+2721349	S8042	Procedure
+2616251	C8906	Procedure
+2616248	C8903	Procedure
+2616253	C8908	Procedure
+2616250	C8905	Procedure
+2616252	C8907	Procedure
+2616249	C8904	Procedure
+2721346	S8035	Procedure
+2721258	S4042	Procedure
+43533276	G9152	Procedure
+43533265	G9153	Procedure
+43533254	G9151	Procedure
+2721012	S0199	Procedure
+2720893	QY	Procedure
+2720880	QK	Procedure
+40659816	S0280	Procedure
+40661402	S0281	Procedure
+2615411	AD	Procedure
+2721317	S5185	Procedure
+2618133	H0034	Procedure
+2618130	H0031	Procedure
+2618180	H2030	Procedure
+2618181	H2031	Procedure
+2618134	H0035	Procedure
+2618193	HE	Procedure
+2618131	H0032	Procedure
+2618145	H0046	Procedure
+2720463	L8631	Procedure
+2721118	S2118	Procedure
+2721251	S4028	Procedure
+43533321	G8946	Procedure
+2721131	S2205	Procedure
+2721132	S2206	Procedure
+2721134	S2208	Procedure
+2721135	S2209	Procedure
+2721133	S2207	Procedure
+2616844	E1011	Procedure
+43533293	G0452	Procedure
+2720628	Q0485	Procedure
+2617495	G8	Procedure
+2617944	G9	Procedure
+2720887	QS	Procedure
+43533360	G8955	Procedure
+2720508	P2038	Procedure
+2721141	S2225	Procedure
+2721156	S2342	Procedure
+2721157	S2344	Procedure
+2615434	B4081	Procedure
+2615435	B4082	Procedure
+43533333	G0456	Procedure
+43533334	G0457	Procedure
+2617373	G0294	Procedure
+2617372	G0293	Procedure
+43533188	C9733	Procedure
+2721623	T1001	Procedure
+2721653	T1031	Procedure
+2721652	T1030	Procedure
+2721443	S9124	Procedure
+2721442	S9123	Procedure
+2721541	S9470	Procedure
+2721745	TH	Procedure
+2721424	S9025	Procedure
+2617989	G9055	Procedure
+2617984	G9050	Procedure
+2617481	G0414	Procedure
+2617479	G0412	Procedure
+2617482	G0415	Procedure
+2618195	HG	Procedure
+2618083	GJ	Procedure
+2616648	E0486	Procedure
+2616647	E0485	Procedure
+2615488	BO	Procedure
+2721116	S2115	Procedure
+2719561	L1310	Procedure
+2719560	L1300	Procedure
+2617956	G9012	Procedure
+2614917	A4606	Procedure
+2721423	S9024	Procedure
+2721529	S9444	Procedure
+2721013	S0201	Procedure
+2721531	S9446	Procedure
+2721530	S9445	Procedure
+40663534	G8560	Procedure
+40664909	G8727	Procedure
+2617916	G8517	Procedure
+2617915	G8516	Procedure
+2721365	S8110	Procedure
+2615307	A9180	Procedure
+40664606	C9729	Procedure
+43533247	C9600	Procedure
+43533352	C9601	Procedure
+43533353	C9602	Procedure
+43533248	C9603	Procedure
+43533187	C9606	Procedure
+43533354	C9607	Procedure
+43533242	C9608	Procedure
+43533186	C9604	Procedure
+43533223	C9605	Procedure
+2721161	S2360	Procedure
+2618081	GG	Procedure
+2721177	S3005	Procedure
+40664802	G8806	Procedure
+2617304	G0219	Procedure
+2617320	G0235	Procedure
+2617337	G0252	Procedure
+2721073	S0810	Procedure
+2721074	S0812	Procedure
+2616542	E0202	Procedure
+2721416	S8990	Procedure
+2721449	S9131	Procedure
+2617335	G0250	Procedure
+2721029	S0273	Procedure
+2615419	AM	Procedure
+2720584	Q0113	Procedure
+2616463	C9726	Procedure
+2616462	C9725	Procedure
+2616465	C9728	Procedure
+2617354	G0269	Procedure
+2721184	S3628	Procedure
+2616498	E0153	Procedure
+2616499	E0154	Procedure
+2720567	PI	Procedure
+2720569	PS	Procedure
+2617251	G0163	Procedure
+2720586	Q0115	Procedure
+2617383	G0305	Procedure
+2721667	T2010	Procedure
+2721668	T2011	Procedure
+2618192	HD	Procedure
+2618152	H1002	Procedure
+2618150	H1000	Procedure
+2618155	H1005	Procedure
+2618151	H1001	Procedure
+2618153	H1003	Procedure
+2618154	H1004	Procedure
+2617382	G0304	Procedure
+2617381	G0303	Procedure
+2617380	G0302	Procedure
+43533190	G0455	Procedure
+2720016	L5600	Procedure
+2720015	L5595	Procedure
+2721909	V2788	Procedure
+2721622	T1000	Procedure
+2615955	C2618	Procedure
+2615951	C2614	Procedure
+2616470	CC	Procedure
+2721906	V2785	Procedure
+2721746	TJ	Procedure
+2720492	M0076	Procedure
+2720353	L7274	Procedure
+2617205	G0102	Procedure
+2617334	G0249	Procedure
+2618163	H2013	Procedure
+2618177	H2027	Procedure
+2618167	H2017	Procedure
+2618168	H2018	Procedure
+40661971	G0424	Procedure
+2721543	S9473	Procedure
+2617367	G0288	Procedure
+2721875	V2626	Procedure
+2618159	H2001	Procedure
+40664815	G8700	Procedure
+40664883	G8699	Procedure
+2617983	G9044	Procedure
+2617982	G9043	Procedure
+2617981	G9042	Procedure
+2617980	G9041	Procedure
+2617353	G0268	Procedure
+2721071	S0630	Procedure
+2615781	C1771	Procedure
+2719957	L4205	Procedure
+2721172	S2405	Procedure
+2720396	L8049	Procedure
+2721169	S2402	Procedure
+2721167	S2400	Procedure
+2721173	S2409	Procedure
+2721170	S2403	Procedure
+2721171	S2404	Procedure
+2721168	S2401	Procedure
+2721916	V5014	Procedure
+2720898	RA	Procedure
+2720899	RB	Procedure
+2719401	KM	Procedure
+2720092	L5701	Procedure
+2720091	L5700	Procedure
+2720093	L5702	Procedure
+2719967	L4392	Procedure
+2614947	A4637	Procedure
+2721070	S0625	Procedure
+2720905	RT	Procedure
+2721741	TD	Procedure
+2721624	T1002	Procedure
+2721043	S0390	Procedure
+2617332	G0247	Procedure
+2721068	S0621	Procedure
+2721067	S0620	Procedure
+2721563	S9529	Procedure
+2721753	TR	Procedure
+2721640	T1018	Procedure
+2721355	S8080	Procedure
+2721345	S8030	Procedure
+2617240	G0147	Procedure
+2617241	G0148	Procedure
+2617236	G0141	Procedure
+2617226	G0124	Procedure
+2617225	G0123	Procedure
+2617239	G0145	Procedure
+2617238	G0144	Procedure
+2617237	G0143	Procedure
+2617289	G0202	Procedure
+2721061	S0601	Procedure
+2721645	T1023	Procedure
+2617184	G0027	Procedure
+40664679	G8878	Procedure
+2720711	Q4	Procedure
+2618088	GO	Procedure
+2618089	GP	Procedure
+2618087	GN	Procedure
+2721626	T1004	Procedure
+2617246	G0155	Procedure
+2617247	G0156	Procedure
+2720328	L6965	Procedure
+2720327	L6960	Procedure
+2720196	L6550	Procedure
+2720182	L6300	Procedure
+2720183	L6310	Procedure
+2720184	L6320	Procedure
+2721092	S2065	Procedure
+2720873	QC	Procedure
+2719403	KO	Procedure
+2617232	G0130	Procedure
+40664474	C9802	Procedure
+40664492	G0437	Procedure
+40664586	G0436	Procedure
+40664513	C9801	Procedure
+2721431	S9075	Procedure
+2617476	G0409	Procedure
+2721446	S9127	Procedure
+2721126	S2152	Procedure
+2615487	BL	Procedure
+2618199	HK	Procedure
+2721979	V5362	Procedure
+2721447	S9128	Procedure
+2721454	S9152	Procedure
+2721605	SE	Procedure
+2721254	S4035	Procedure
+2721537	S9454	Procedure
+40662383	G8573	Procedure
+2618194	HF	Procedure
+2721231	S3900	Procedure
+2720564	PA	Procedure
+2617483	G0416	Procedure
+2617484	G0417	Procedure
+2617485	G0418	Procedure
+2617486	G0419	Procedure
+40659151	G8627	Procedure
+2721639	T1017	Procedure
+2616269	C8927	Procedure
+43533372	S9110	Procedure
+2719535	L1005	Procedure
+40664503	G8642	Procedure
+40664527	G8643	Procedure
+2618169	H2019	Procedure
+2618170	H2020	Procedure
+2721694	T2037	Procedure
+2721693	T2036	Procedure
+2617324	G0239	Procedure
+2617323	G0238	Procedure
+2617322	G0237	Procedure
+2617852	G8453	Procedure
+2721348	S8040	Procedure
+2721108	S2095	Procedure
+2617370	G0291	Procedure
+2617369	G0290	Procedure
+2616268	C8926	Procedure
+2616267	C8925	Procedure
+2719823	L3600	Procedure
+2719824	L3610	Procedure
+2719827	L3640	Procedure
+2719825	L3620	Procedure
+2719826	L3630	Procedure
+2616565	E0246	Procedure
+2617461	G0392	Procedure
+2617462	G0393	Procedure
+2721088	S2054	Procedure
+2721087	S2053	Procedure
+2616263	C8921	Procedure
+2616264	C8922	Procedure
+2616265	C8923	Procedure
+2616266	C8924	Procedure
+43533226	S0354	Procedure
+43533238	S0353	Procedure
+2617459	G0389	Procedure
+2614681	A0999	Procedure
+2720431	L8499	Procedure
+2617342	G0257	Procedure
+2721352	S8055	Procedure
+2721435	S9090	Procedure
+2617440	G0365	Procedure
+2721546	S9476	Procedure
+2721533	S9449	Procedure
+2721318	S5190	Procedure
+2617256	G0168	Procedure
+2720320	L6925	Procedure
+2720319	L6920	Procedure
+2720174	L6055	Procedure
+2720173	L6050	Procedure
+2720902	RE	Procedure
+2721045	S0400	Procedure
+2617356	G0271	Procedure
+2721019	S0220	Procedure
+2721020	S0221	Procedure
+2617988	G9054	Procedure
+2617986	G9052	Procedure
+2617985	G9051	Procedure
+2617911	G8512	Procedure
+2617263	G0175	Procedure
+2721657	T1503	Procedure drug
+2721656	T1502	Procedure drug
+2617872	G8473	Procedure drug
+2617849	G8450	Procedure drug
+2720578	Q0085	Procedure drug
+2720577	Q0084	Procedure drug
+2720576	Q0083	Procedure drug
+2616774	E0935	Procedure drug
+2617926	G8527	Procedure drug
+2617903	G8504	Procedure drug
+40664594	G8629	Procedure drug
+40664587	G8630	Procedure drug
+2617902	G8503	Procedure drug
+2617904	G8505	Procedure drug
+40664691	G8702	Procedure drug
+40664637	G8703	Procedure drug
+2618092	GS	Procedure drug
+40664740	S3722	Procedure drug
+40664758	G8870	Procedure drug
+2721555	S9501	Procedure drug
+2721554	S9500	Procedure drug
+2721553	S9497	Procedure drug
+2721556	S9502	Procedure drug
+2721552	S9494	Procedure drug
+2721496	S9359	Procedure drug
+2721320	S5497	Procedure drug
+2721476	S9329	Procedure drug
+2721322	S5501	Procedure drug
+2721508	S9375	Procedure drug
+2721509	S9376	Procedure drug
+2721506	S9373	Procedure drug
+2721323	S5502	Procedure drug
+2721489	S9347	Procedure drug
+2721472	S9325	Procedure drug
+2721490	S9348	Procedure drug
+2721500	S9365	Procedure drug
+2721501	S9366	Procedure drug
+2721502	S9367	Procedure drug
+2721503	S9368	Procedure drug
+2721499	S9364	Procedure drug
+2721615	SS	Procedure drug
+2721328	S5521	Procedure drug
+2721327	S5520	Procedure drug
+2721488	S9346	Procedure drug
+2721558	S9504	Procedure drug
+2721557	S9503	Procedure drug
+2721487	S9345	Procedure drug
+2721498	S9363	Procedure drug
+2721321	S5498	Procedure drug
+2721494	S9355	Procedure drug
+2721477	S9330	Procedure drug
+2721480	S9336	Procedure drug
+2721493	S9353	Procedure drug
+2721492	S9351	Procedure drug
+2721473	S9326	Procedure drug
+2721551	S9490	Procedure drug
+2721497	S9361	Procedure drug
+2721495	S9357	Procedure drug
+2721510	S9377	Procedure drug
+2721507	S9374	Procedure drug
+2721481	S9338	Procedure drug
+2721475	S9328	Procedure drug
+2721511	S9379	Procedure drug
+2721330	S5523	Procedure drug
+2721329	S5522	Procedure drug
+2721478	S9331	Procedure drug
+2721474	S9327	Procedure drug
+2721491	S9349	Procedure drug
+2721576	S9559	Procedure drug
+2721569	S9542	Procedure drug
+2721578	S9562	Procedure drug
+2721575	S9558	Procedure drug
+2721577	S9560	Procedure drug
+2721566	S9537	Procedure drug
+2721505	S9372	Procedure drug
+2721579	S9590	Procedure drug
+40663578	J7325	Procedure drug
+2718699	J7323	Procedure drug
+2718697	J7321	Procedure drug
+2718700	J7324	Procedure drug
+2718698	J7322	Procedure drug
+40662774	G9141	Procedure drug
+2720574	Q0081	Procedure drug
+2720545	P9046	Procedure drug
+2720546	P9047	Procedure drug
+2720544	P9045	Procedure drug
+2720540	P9041	Procedure drug
+2718663	J7070	Procedure drug
+2718664	J7100	Procedure drug
+2718665	J7110	Procedure drug
+2718657	J7030	Procedure drug
+2718660	J7050	Procedure drug
+2718658	J7040	Procedure drug
+40663953	J0833	Procedure drug
+40664358	J9171	Procedure drug
+40664827	J0897	Procedure drug
+40664831	C9280	Procedure drug
+40664832	C9287	Procedure drug
+40664062	Q2024	Procedure drug
+40659019	C9254	Procedure drug
+40661533	C9256	Procedure drug
+40658767	J0598	Procedure drug
+40662243	A9581	Procedure drug
+40664795	C9281	Procedure drug
+40664807	J0131	Procedure drug
+40664808	J0490	Procedure drug
+40664810	J9043	Procedure drug
+40664813	C9283	Procedure drug
+40660485	J0461	Procedure drug
+40664775	C9286	Procedure drug
+40663960	J1680	Procedure drug
+40664593	J1559	Procedure drug
+40659692	C9255	Procedure drug
+40659693	C9257	Procedure drug
+40664858	J7180	Procedure drug
+40664859	J7183	Procedure drug
+40664542	C9271	Procedure drug
+40664543	C9272	Procedure drug
+40664550	J1290	Procedure drug
+40664554	J9307	Procedure drug
+40664558	S0148	Procedure drug
+40664565	C9278	Procedure drug
+40663971	J7185	Procedure drug
+40663979	J9155	Procedure drug
+40658370	J0718	Procedure drug
+40661681	J0834	Procedure drug
+40664572	C9267	Procedure drug
+40664573	C9279	Procedure drug
+40664582	J0171	Procedure drug
+40664583	J2358	Procedure drug
+40664585	C9269	Procedure drug
+40664518	J9351	Procedure drug
+40664522	C9266	Procedure drug
+40664523	J0558	Procedure drug
+40664524	J3385	Procedure drug
+40664772	J0840	Procedure drug
+40660103	J2562	Procedure drug
+40659169	J0559	Procedure drug
+40659447	J0586	Procedure drug
+40664600	J1826	Procedure drug
+40664602	Q2026	Procedure drug
+40664603	Q2027	Procedure drug
+40659467	J2793	Procedure drug
+40659468	J2796	Procedure drug
+40664419	J7184	Procedure drug
+40664420	J9302	Procedure drug
+40664422	C9265	Procedure drug
+40664423	C9277	Procedure drug
+40664430	J3357	Procedure drug
+40664431	J7312	Procedure drug
+40664436	C9260	Procedure drug
+40664447	J3095	Procedure drug
+40664464	J0597	Procedure drug
+40664465	C9261	Procedure drug
+40664471	J1786	Procedure drug
+40664472	J2426	Procedure drug
+40658630	A9583	Procedure drug
+40659490	J9328	Procedure drug
+40664452	C9258	Procedure drug
+40664454	C9275	Procedure drug
+40664463	J0561	Procedure drug
+40664483	J0775	Procedure drug
+40664486	J9315	Procedure drug
+40664488	C9263	Procedure drug
+40664500	C9264	Procedure drug
+40664501	C9276	Procedure drug
+40664507	J0638	Procedure drug
+40664508	J3262	Procedure drug
+40664511	C9259	Procedure drug
+40664739	Q2040	Procedure drug
+40664626	J0712	Procedure drug
+40664628	Q2044	Procedure drug
+40664873	J0221	Procedure drug
+40664874	J2507	Procedure drug
+40664875	J9228	Procedure drug
+40664877	C9284	Procedure drug
+40664904	A9585	Procedure drug
+40664918	J0257	Procedure drug
+40664919	J1725	Procedure drug
+40664681	J2265	Procedure drug
+40664682	J9179	Procedure drug
+40664685	Q2041	Procedure drug
+40664686	Q2042	Procedure drug
+40664687	C9282	Procedure drug
+40664719	J0588	Procedure drug
+2718218	J0130	Procedure drug
+2718385	J1450	Procedure drug
+2718445	J1745	Procedure drug
+2718462	J1830	Procedure drug
+40664649	J1557	Procedure drug
+40664466	C9270	Procedure drug
+40658517	Q9968	Procedure drug
+40658868	Q0139	Procedure drug
+40664551	J1599	Procedure drug
+2617344	G0259	Procedure drug
+2617345	G0260	Procedure drug
+40662991	Q0138	Procedure drug
+2718216	J0128	Procedure drug
+2718217	J0129	Procedure drug
+2718349	J1120	Procedure drug
+2718219	J0132	Procedure drug
+2718220	J0133	Procedure drug
+2718221	J0135	Procedure drug
+2718224	J0152	Procedure drug
+2718222	J0150	Procedure drug
+2718225	J0170	Procedure drug
+43533173	Q2046	Procedure drug
+43533212	J0178	Procedure drug
+43533245	C9291	Procedure drug
+2718226	J0180	Procedure drug
+2718228	J0200	Procedure drug
+2718827	J9015	Procedure drug
+2718232	J0215	Procedure drug
+2718826	J9010	Procedure drug
+2718229	J0205	Procedure drug
+2718233	J0220	Procedure drug
+2718234	J0256	Procedure drug
+2718235	J0270	Procedure drug
+2718590	J2997	Procedure drug
+2718230	J0207	Procedure drug
+2718237	J0278	Procedure drug
+2720912	S0017	Procedure drug
+2718238	J0280	Procedure drug
+2718239	J0282	Procedure drug
+2718368	J1320	Procedure drug
+2718247	J0300	Procedure drug
+2718243	J0288	Procedure drug
+2718242	J0287	Procedure drug
+2718244	J0289	Procedure drug
+2718240	J0285	Procedure drug
+2718245	J0290	Procedure drug
+2718246	J0295	Procedure drug
+2718250	J0348	Procedure drug
+2718251	J0350	Procedure drug
+2718668	J7186	Procedure drug
+2718678	J7196	Procedure drug
+2718253	J0364	Procedure drug
+2718254	J0365	Procedure drug
+2718257	J0395	Procedure drug
+2616319	C9121	Procedure drug
+2718258	J0400	Procedure drug
+2718828	J9017	Procedure drug
+43533369	J9019	Procedure drug
+43533240	C9289	Procedure drug
+2718829	J9020	Procedure drug
+2718260	J0460	Procedure drug
+2718576	J2910	Procedure drug
+2718830	J9025	Procedure drug
+2718259	J0456	Procedure drug
+2720926	S0073	Procedure drug
+2718262	J0475	Procedure drug
+2718263	J0476	Procedure drug
+2718264	J0480	Procedure drug
+43533307	J0485	Procedure drug
+2718833	J9033	Procedure drug
+2718267	J0515	Procedure drug
+2718299	J0702	Procedure drug
+2718300	J0704	Procedure drug
+2718268	J0520	Procedure drug
+2718834	J9035	Procedure drug
+2718227	J0190	Procedure drug
+2718275	J0583	Procedure drug
+2718835	J9040	Procedure drug
+2718836	J9041	Procedure drug
+43533381	J9042	Procedure drug
+2718330	J0945	Procedure drug
+2720989	S0171	Procedure drug
+43533241	C9290	Procedure drug
+2720913	S0020	Procedure drug
+2718279	J0592	Procedure drug
+2718280	J0594	Procedure drug
+2718281	J0595	Procedure drug
+2616378	C9251	Procedure drug
+2718301	J0706	Procedure drug
+2718285	J0630	Procedure drug
+2718287	J0636	Procedure drug
+2718283	J0610	Procedure drug
+2718284	J0620	Procedure drug
+2718837	J9045	Procedure drug
+43533298	C9295	Procedure drug
+2718838	J9050	Procedure drug
+2718288	J0637	Procedure drug
+2718292	J0690	Procedure drug
+2718293	J0692	Procedure drug
+2720914	S0021	Procedure drug
+2718298	J0698	Procedure drug
+2720927	S0074	Procedure drug
+2718294	J0694	Procedure drug
+2718303	J0713	Procedure drug
+2718304	J0715	Procedure drug
+2718296	J0696	Procedure drug
+43533337	C9288	Procedure drug
+43533380	J0716	Procedure drug
+2718467	J1890	Procedure drug
+2718302	J0710	Procedure drug
+2616376	C9249	Procedure drug
+2718839	J9055	Procedure drug
+2718305	J0720	Procedure drug
+2718480	J1990	Procedure drug
+2718520	J2400	Procedure drug
+2718256	J0390	Procedure drug
+2718357	J1205	Procedure drug
+2718605	J3230	Procedure drug
+2718306	J0725	Procedure drug
+2718309	J0740	Procedure drug
+2718310	J0743	Procedure drug
+2720915	S0023	Procedure drug
+2718311	J0744	Procedure drug
+2718840	J9060	Procedure drug
+2718842	J9065	Procedure drug
+2616375	C9248	Procedure drug
+2720928	S0077	Procedure drug
+2718831	J9027	Procedure drug
+2718308	J0735	Procedure drug
+2718312	J0745	Procedure drug
+2718313	J0760	Procedure drug
+2718314	J0770	Procedure drug
+2718316	J0795	Procedure drug
+2718317	J0800	Procedure drug
+2718319	J0835	Procedure drug
+2718853	J9098	Procedure drug
+2718854	J9100	Procedure drug
+2718855	J9110	Procedure drug
+2718320	J0850	Procedure drug
+2718856	J9120	Procedure drug
+2718429	J1645	Procedure drug
+2718321	J0878	Procedure drug
+2718324	J0882	Procedure drug
+2718323	J0881	Procedure drug
+2718860	J9151	Procedure drug
+2718859	J9150	Procedure drug
+2718327	J0894	Procedure drug
+2718328	J0895	Procedure drug
+2718861	J9160	Procedure drug
+2718333	J1000	Procedure drug
+2718544	J2597	Procedure drug
+2718345	J1094	Procedure drug
+2718347	J1100	Procedure drug
+2718355	J1190	Procedure drug
+2718626	J3360	Procedure drug
+2718439	J1730	Procedure drug
+2718265	J0500	Procedure drug
+2718862	J9165	Procedure drug
+2718351	J1162	Procedure drug
+2718350	J1160	Procedure drug
+2718348	J1110	Procedure drug
+2718360	J1240	Procedure drug
+2718261	J0470	Procedure drug
+2718356	J1200	Procedure drug
+2718361	J1245	Procedure drug
+2718358	J1212	Procedure drug
+2718362	J1250	Procedure drug
+2718863	J9170	Procedure drug
+2718363	J1260	Procedure drug
+2718364	J1265	Procedure drug
+2718365	J1267	Procedure drug
+2718366	J1270	Procedure drug
+2718824	J9000	Procedure drug
+2718825	J9001	Procedure drug
+43533185	J9002	Procedure drug
+43533291	Q2048	Procedure drug
+43533290	Q2049	Procedure drug
+2718457	J1810	Procedure drug
+2718455	J1790	Procedure drug
+2718354	J1180	Procedure drug
+2718367	J1300	Procedure drug
+2718282	J0600	Procedure drug
+2720981	S0162	Procedure drug
+2718864	J9175	Procedure drug
+2718369	J1324	Procedure drug
+2718430	J1650	Procedure drug
+2718865	J9178	Procedure drug
+2718325	J0885	Procedure drug
+2720773	Q4081	Procedure drug
+2718326	J0886	Procedure drug
+2718370	J1325	Procedure drug
+2718371	J1327	Procedure drug
+2718372	J1330	Procedure drug
+2718373	J1335	Procedure drug
+2718375	J1364	Procedure drug
+2718376	J1380	Procedure drug
+2718377	J1390	Procedure drug
+2718331	J0970	Procedure drug
+2718378	J1410	Procedure drug
+2718380	J1435	Procedure drug
+2718382	J1438	Procedure drug
+2718379	J1430	Procedure drug
+2718381	J1436	Procedure drug
+2718867	J9181	Procedure drug
+2720684	Q2023	Procedure drug
+2720917	S0028	Procedure drug
+2718593	J3010	Procedure drug
+2718383	J1440	Procedure drug
+2718384	J1441	Procedure drug
+2718871	J9200	Procedure drug
+2718869	J9185	Procedure drug
+2718870	J9190	Procedure drug
+2718549	J2680	Procedure drug
+2720957	S0126	Procedure drug
+2720958	S0128	Procedure drug
+2718386	J1451	Procedure drug
+2718387	J1452	Procedure drug
+2718431	J1652	Procedure drug
+2718388	J1453	Procedure drug
+2718389	J1455	Procedure drug
+2720929	S0078	Procedure drug
+2720670	Q2009	Procedure drug
+2718919	J9395	Procedure drug
+2718471	J1940	Procedure drug
+2615396	A9578	Procedure drug
+2615395	A9577	Procedure drug
+2615397	A9579	Procedure drug
+2615394	A9576	Procedure drug
+2616373	C9246	Procedure drug
+2718390	J1457	Procedure drug
+2718391	J1458	Procedure drug
+2718393	J1460	Procedure drug
+2718402	J1550	Procedure drug
+2718394	J1470	Procedure drug
+2718395	J1480	Procedure drug
+2718396	J1490	Procedure drug
+2718397	J1500	Procedure drug
+2718398	J1510	Procedure drug
+2718399	J1520	Procedure drug
+2718400	J1530	Procedure drug
+2718401	J1540	Procedure drug
+2718403	J1560	Procedure drug
+2718413	J1570	Procedure drug
+2720960	S0132	Procedure drug
+2718417	J1580	Procedure drug
+2718418	J1590	Procedure drug
+2718872	J9201	Procedure drug
+2718904	J9300	Procedure drug
+2718419	J1595	Procedure drug
+2718421	J1610	Procedure drug
+43533297	C9293	Procedure drug
+2718420	J1600	Procedure drug
+2718422	J1620	Procedure drug
+2718423	J1626	Procedure drug
+2718425	J1631	Procedure drug
+2718424	J1630	Procedure drug
+2718426	J1640	Procedure drug
+2718427	J1642	Procedure drug
+2718428	J1644	Procedure drug
+2718414	J1571	Procedure drug
+2718416	J1573	Procedure drug
+2718434	J1675	Procedure drug
+43533371	Q2045	Procedure drug
+43533309	J7178	Procedure drug
+2718642	J3471	Procedure drug
+2718643	J3472	Procedure drug
+2718644	J3473	Procedure drug
+2718641	J3470	Procedure drug
+2718252	J0360	Procedure drug
+2718436	J1700	Procedure drug
+2718437	J1710	Procedure drug
+2718438	J1720	Procedure drug
+2720939	S0092	Procedure drug
+2718353	J1170	Procedure drug
+2718634	J3410	Procedure drug
+2718479	J1980	Procedure drug
+2718441	J1740	Procedure drug
+43533308	J1741	Procedure drug
+2718443	J1742	Procedure drug
+43533328	J1744	Procedure drug
+2718878	J9211	Procedure drug
+2718444	J1743	Procedure drug
+2718876	J9208	Procedure drug
+2718454	J1785	Procedure drug
+2718392	J1459	Procedure drug
+2718405	J1562	Procedure drug
+2718415	J1572	Procedure drug
+2718412	J1569	Procedure drug
+2718404	J1561	Procedure drug
+2718411	J1568	Procedure drug
+2718409	J1566	Procedure drug
+2718458	J1815	Procedure drug
+2718879	J9212	Procedure drug
+2720707	Q3025	Procedure drug
+2720708	Q3026	Procedure drug
+2718461	J1825	Procedure drug
+2718880	J9213	Procedure drug
+2718881	J9214	Procedure drug
+2718882	J9215	Procedure drug
+2718883	J9216	Procedure drug
+2718874	J9206	Procedure drug
+2718446	J1750	Procedure drug
+2718450	J1756	Procedure drug
+2720856	Q9953	Procedure drug
+2718463	J1835	Procedure drug
+2718628	J3365	Procedure drug
+2718875	J9207	Procedure drug
+2718464	J1840	Procedure drug
+2718465	J1850	Procedure drug
+2718466	J1885	Procedure drug
+2718469	J1930	Procedure drug
+2718470	J1931	Procedure drug
+2718472	J1945	Procedure drug
+2718289	J0640	Procedure drug
+2718473	J1950	Procedure drug
+2718474	J1953	Procedure drug
+2718475	J1955	Procedure drug
+2718476	J1956	Procedure drug
+2718290	J0641	Procedure drug
+2718477	J1960	Procedure drug
+2718483	J2001	Procedure drug
+2718484	J2010	Procedure drug
+2718485	J2020	Procedure drug
+2718486	J2060	Procedure drug
+2718645	J3475	Procedure drug
+2718487	J2150	Procedure drug
+2718488	J2170	Procedure drug
+2718889	J9230	Procedure drug
+2718340	J1056	Procedure drug
+2718339	J1055	Procedure drug
+43533213	J1050	Procedure drug
+2718338	J1051	Procedure drug
+2718890	J9245	Procedure drug
+2720955	S0122	Procedure drug
+2718490	J2180	Procedure drug
+2718489	J2175	Procedure drug
+2718291	J0670	Procedure drug
+2718491	J2185	Procedure drug
+2718877	J9209	Procedure drug
+2718255	J0380	Procedure drug
+2718359	J1230	Procedure drug
+2718570	J2800	Procedure drug
+2718231	J0210	Procedure drug
+2615356	A9535	Procedure drug
+2718492	J2210	Procedure drug
+43533266	J2212	Procedure drug
+2718334	J1020	Procedure drug
+2718335	J1030	Procedure drug
+2718336	J1040	Procedure drug
+2718581	J2930	Procedure drug
+2718580	J2920	Procedure drug
+2718558	J2765	Procedure drug
+2720919	S0030	Procedure drug
+2718494	J2248	Procedure drug
+2718495	J2250	Procedure drug
+2718496	J2260	Procedure drug
+2718903	J9293	Procedure drug
+2718499	J2275	Procedure drug
+2718498	J2271	Procedure drug
+2720940	S0093	Procedure drug
+2718497	J2270	Procedure drug
+2718501	J2280	Procedure drug
+2720920	S0032	Procedure drug
+2718502	J2300	Procedure drug
+2718503	J2310	Procedure drug
+2718504	J2315	Procedure drug
+2718506	J2321	Procedure drug
+2718507	J2322	Procedure drug
+2718505	J2320	Procedure drug
+2718508	J2323	Procedure drug
+2718893	J9261	Procedure drug
+2718552	J2710	Procedure drug
+2718510	J2325	Procedure drug
+2720859	Q9956	Procedure drug
+2718514	J2353	Procedure drug
+2718515	J2354	Procedure drug
+2720921	S0034	Procedure drug
+2720985	S0166	Procedure drug
+2718517	J2357	Procedure drug
+2718276	J0585	Procedure drug
+2718521	J2405	Procedure drug
+2718516	J2355	Procedure drug
+2718518	J2360	Procedure drug
+2718551	J2700	Procedure drug
+2718894	J9263	Procedure drug
+2718522	J2410	Procedure drug
+2718526	J2460	Procedure drug
+2718543	J2590	Procedure drug
+2718895	J9264	Procedure drug
+2718896	J9265	Procedure drug
+2718523	J2425	Procedure drug
+2718527	J2469	Procedure drug
+2718524	J2430	Procedure drug
+2718905	J9303	Procedure drug
+2720983	S0164	Procedure drug
+2616311	C9113	Procedure drug
+2718525	J2440	Procedure drug
+2718530	J2501	Procedure drug
+2718532	J2504	Procedure drug
+2718531	J2503	Procedure drug
+2718897	J9266	Procedure drug
+2718533	J2505	Procedure drug
+43533289	Q2047	Procedure drug
+43533349	J0890	Procedure drug
+2720971	S0145	Procedure drug
+2720972	S0146	Procedure drug
+2718906	J9305	Procedure drug
+2718270	J0540	Procedure drug
+2718271	J0550	Procedure drug
+2718269	J0530	Procedure drug
+2718273	J0570	Procedure drug
+2718274	J0580	Procedure drug
+2718272	J0560	Procedure drug
+2718538	J2540	Procedure drug
+2718534	J2510	Procedure drug
+2720931	S0080	Procedure drug
+2718536	J2513	Procedure drug
+2718595	J3070	Procedure drug
+2718537	J2515	Procedure drug
+2718898	J9268	Procedure drug
+2720858	Q9955	Procedure drug
+2720860	Q9957	Procedure drug
+2718621	J3310	Procedure drug
+43533246	C9292	Procedure drug
+2718542	J2560	Procedure drug
+2718557	J2760	Procedure drug
+2718519	J2370	Procedure drug
+2718352	J1165	Procedure drug
+2718638	J3430	Procedure drug
+2720932	S0081	Procedure drug
+2718539	J2543	Procedure drug
+2616379	C9252	Procedure drug
+2718899	J9270	Procedure drug
+2718920	J9600	Procedure drug
+2718646	J3480	Procedure drug
+2718556	J2730	Procedure drug
+2718546	J2650	Procedure drug
+2718550	J2690	Procedure drug
+2718315	J0780	Procedure drug
+2718548	J2675	Procedure drug
+2718584	J2950	Procedure drug
+2718541	J2550	Procedure drug
+2718456	J1800	Procedure drug
+2718553	J2720	Procedure drug
+2718554	J2724	Procedure drug
+2718555	J2725	Procedure drug
+2718636	J3415	Procedure drug
+2718559	J2770	Procedure drug
+2718560	J2778	Procedure drug
+2718561	J2780	Procedure drug
+2718562	J2783	Procedure drug
+2718563	J2785	Procedure drug
+2718408	J1565	Procedure drug
+2718586	J2993	Procedure drug
+2718565	J2790	Procedure drug
+2718564	J2788	Procedure drug
+2718567	J2792	Procedure drug
+2718566	J2791	Procedure drug
+2718277	J0587	Procedure drug
+2718568	J2794	Procedure drug
+2718907	J9310	Procedure drug
+2616372	C9245	Procedure drug
+2718569	J2795	Procedure drug
+2718573	J2820	Procedure drug
+2718574	J2850	Procedure drug
+2720654	Q0515	Procedure drug
+2718571	J2805	Procedure drug
+2718579	J2916	Procedure drug
+2718582	J2940	Procedure drug
+2718583	J2941	Procedure drug
+2718623	J3320	Procedure drug
+2718297	J0697	Procedure drug
+2718588	J2995	Procedure drug
+2718592	J3000	Procedure drug
+2718908	J9320	Procedure drug
+2718248	J0330	Procedure drug
+2720922	S0039	Procedure drug
+2718594	J3030	Procedure drug
+43533174	C9294	Procedure drug
+2616380	C9253	Procedure drug
+2718909	J9330	Procedure drug
+2718598	J3101	Procedure drug
+2720678	Q2017	Procedure drug
+2718599	J3105	Procedure drug
+2718600	J3110	Procedure drug
+2718341	J1060	Procedure drug
+2718343	J1080	Procedure drug
+2718342	J1070	Procedure drug
+2718329	J0900	Procedure drug
+2718601	J3120	Procedure drug
+2718602	J3130	Procedure drug
+2718604	J3150	Procedure drug
+2718603	J3140	Procedure drug
+2718433	J1670	Procedure drug
+2718215	J0120	Procedure drug
+2718572	J2810	Procedure drug
+2718635	J3411	Procedure drug
+2718614	J3280	Procedure drug
+2718910	J9340	Procedure drug
+2718606	J3240	Procedure drug
+2720923	S0040	Procedure drug
+2718607	J3243	Procedure drug
+2718432	J1655	Procedure drug
+2718609	J3246	Procedure drug
+2718611	J3260	Procedure drug
+2718547	J2670	Procedure drug
+2718911	J9350	Procedure drug
+2718612	J3265	Procedure drug
+2718912	J9355	Procedure drug
+2718615	J3285	Procedure drug
+2718617	J3301	Procedure drug
+2718616	J3300	Procedure drug
+2718618	J3302	Procedure drug
+2718619	J3303	Procedure drug
+2718633	J3400	Procedure drug
+2718610	J3250	Procedure drug
+2718620	J3305	Procedure drug
+2718622	J3315	Procedure drug
+2718624	J3350	Procedure drug
+2718625	J3355	Procedure drug
+2718627	J3364	Procedure drug
+2718913	J9357	Procedure drug
+2718629	J3370	Procedure drug
+2718632	J3396	Procedure drug
+2718914	J9360	Procedure drug
+2718918	J9390	Procedure drug
+2718637	J3420	Procedure drug
+2718669	J7187	Procedure drug
+2718640	J3465	Procedure drug
+2718500	J2278	Procedure drug
+2718647	J3485	Procedure drug
+2718648	J3486	Procedure drug
+43533338	C9296	Procedure drug
+2718650	J3488	Procedure drug
+2718649	J3487	Procedure drug
+2721260	S4981	Procedure drug
+40659150	G8600	Procedure drug
+2720947	S0108	Procedure drug
+2718653	J3530	Procedure drug
+40664661	G8895	Procedure drug
+40664900	G8897	Procedure drug
+40664549	G9147	Procedure drug
+2617577	G8152	Procedure drug
+2617629	G8219	Procedure drug
+2617561	G8108	Procedure drug
+2617568	G8115	Procedure drug
+40664779	G8710	Procedure drug
+40664692	G8709	Procedure drug
+2617905	G8506	Procedure drug
+2617860	G8461	Procedure drug
+2617862	G8463	Procedure drug
+40664622	G8859	Procedure drug
+40664824	G8868	Procedure drug
+40664578	G8633	Procedure drug
+2721010	S0197	Procedure drug
+40664744	G8711	Procedure drug
+2718666	J7120	Procedure drug
+2721608	SH	Procedure drug
+40664794	Q2043	Procedure drug
+40664512	C9273	Procedure drug
+40664786	G8816	Procedure drug
+40664892	G8817	Procedure drug
+2721609	SJ	Procedure drug
+40664530	J7686	Procedure drug
+2721270	S5010	Procedure drug
+2721271	S5011	Procedure drug
+2721272	S5012	Procedure drug
+2721273	S5013	Procedure drug
+2721274	S5014	Procedure drug
+2718659	J7042	Procedure drug
+2718662	J7060	Procedure drug
+2718735	J7604	Procedure drug
+2718739	J7608	Procedure drug
+2718741	J7610	Procedure drug
+2718740	J7609	Procedure drug
+2718742	J7611	Procedure drug
+2718744	J7613	Procedure drug
+2718751	J7620	Procedure drug
+2718236	J0275	Procedure drug
+2617976	G9033	Procedure drug
+2617960	G9017	Procedure drug
+2718688	J7308	Procedure drug
+2720988	S0170	Procedure drug
+2718817	J8597	Procedure drug
+2718806	J8498	Procedure drug
+2718680	J7198	Procedure drug
+2718679	J7197	Procedure drug
+2718808	J8501	Procedure drug
+2718736	J7605	Procedure drug
+2615304	A9155	Procedure drug
+2718765	J7635	Procedure drug
+2718766	J7636	Procedure drug
+2718713	J7500	Procedure drug
+2718714	J7501	Procedure drug
+2720590	Q0144	Procedure drug
+2718832	J9031	Procedure drug
+2720976	S0157	Procedure drug
+2718753	J7622	Procedure drug
+2718754	J7624	Procedure drug
+2718758	J7628	Procedure drug
+2718759	J7629	Procedure drug
+2718764	J7634	Procedure drug
+2718757	J7627	Procedure drug
+2718763	J7633	Procedure drug
+2718756	J7626	Procedure drug
+2720945	S0106	Procedure drug
+2718809	J8510	Procedure drug
+2720909	S0012	Procedure drug
+2718810	J8515	Procedure drug
+40664433	S0169	Procedure drug
+2720980	S0161	Procedure drug
+2718811	J8520	Procedure drug
+2718812	J8521	Procedure drug
+40664489	C9268	Procedure drug
+40664484	J7335	Procedure drug
+2720990	S0172	Procedure drug
+2614714	A4248	Procedure drug
+2720605	Q0171	Procedure drug
+2720606	Q0172	Procedure drug
+2615385	A9564	Procedure drug
+2718841	J9062	Procedure drug
+2720963	S0136	Procedure drug
+2720969	S0142	Procedure drug
+2721264	S4993	Procedure drug
+2718685	J7304	Procedure drug
+2718684	J7303	Procedure drug
+2718762	J7632	Procedure drug
+2718761	J7631	Procedure drug
+2718846	J9091	Procedure drug
+2718843	J9070	Procedure drug
+2718847	J9092	Procedure drug
+2718844	J9080	Procedure drug
+2718845	J9090	Procedure drug
+2718851	J9096	Procedure drug
+2718848	J9093	Procedure drug
+2718852	J9097	Procedure drug
+2718849	J9094	Procedure drug
+2718850	J9095	Procedure drug
+2718813	J8530	Procedure drug
+2718727	J7516	Procedure drug
+2718715	J7502	Procedure drug
+2718726	J7515	Procedure drug
+2718857	J9130	Procedure drug
+2718858	J9140	Procedure drug
+2718725	J7513	Procedure drug
+2718767	J7637	Procedure drug
+2718768	J7638	Procedure drug
+2718814	J8540	Procedure drug
+2720979	S0160	Procedure drug
+2720964	S0137	Procedure drug
+2720597	Q0163	Procedure drug
+2720614	Q0180	Procedure drug
+2720992	S0174	Procedure drug
+2718769	J7639	Procedure drug
+2720601	Q0167	Procedure drug
+2720602	Q0168	Procedure drug
+2718654	J3535	Procedure drug
+2718926	JW	Procedure drug
+2719392	KD	Procedure drug
+2720774	Q4082	Procedure drug
+2720901	RD	Procedure drug
+2718652	J3520	Procedure drug
+2616728	E0746	Procedure drug
+2718687	J7307	Procedure drug
+2718815	J8560	Procedure drug
+40664809	J8561	Procedure drug
+43533235	J7527	Procedure drug
+2720975	S0156	Procedure drug
+2718675	J7193	Procedure drug
+2718677	J7195	Procedure drug
+2718676	J7194	Procedure drug
+2718671	J7189	Procedure drug
+2718673	J7191	Procedure drug
+2718672	J7190	Procedure drug
+2718674	J7192	Procedure drug
+2720965	S0138	Procedure drug
+40664437	C9262	Procedure drug
+40664448	Q2025	Procedure drug
+40664485	J8562	Procedure drug
+2718771	J7641	Procedure drug
+2718690	J7311	Procedure drug
+2720993	S0175	Procedure drug
+2718737	J7606	Procedure drug
+2718770	J7640	Procedure drug
+2718689	J7310	Procedure drug
+2718816	J8565	Procedure drug
+2718772	J7642	Procedure drug
+2718773	J7643	Procedure drug
+2718873	J9202	Procedure drug
+2720600	Q0166	Procedure drug
+2720938	S0091	Procedure drug
+2718681	J7199	Procedure drug
+2720862	Q9959	Procedure drug
+2720863	Q9960	Procedure drug
+2720864	Q9961	Procedure drug
+2720865	Q9962	Procedure drug
+2720866	Q9963	Procedure drug
+2720867	Q9964	Procedure drug
+2720861	Q9958	Procedure drug
+2718888	J9226	Procedure drug
+2718887	J9225	Procedure drug
+2721430	S9061	Procedure drug
+40664773	J7326	Procedure drug
+2720994	S0176	Procedure drug
+2720611	Q0177	Procedure drug
+2720612	Q0178	Procedure drug
+40664792	J7131	Procedure drug
+2718667	J7130	Procedure drug
+2720936	S0088	Procedure drug
+2718732	J7599	Procedure drug
+2614996	A4737	Procedure drug
+2720444	L8603	Procedure drug
+43533236	L8605	Procedure drug
+2720445	L8604	Procedure drug
+2720446	L8606	Procedure drug
+2721009	S0196	Procedure drug
+2721333	S5552	Procedure drug
+2721334	S5553	Procedure drug
+2721332	S5551	Procedure drug
+2721331	S5550	Procedure drug
+2718682	J7300	Procedure drug
+2616280	C8957	Procedure drug
+40664605	A9584	Procedure drug
+40662616	A9582	Procedure drug
+40664879	C9406	Procedure drug
+2615337	A9516	Procedure drug
+2615330	A9509	Procedure drug
+2615353	A9532	Procedure drug
+2615375	A9554	Procedure drug
+2615348	A9527	Procedure drug
+2615329	A9508	Procedure drug
+2615345	A9524	Procedure drug
+2615349	A9528	Procedure drug
+2615338	A9517	Procedure drug
+2615350	A9529	Procedure drug
+2615351	A9530	Procedure drug
+2615352	A9531	Procedure drug
+2615365	A9544	Procedure drug
+2615366	A9545	Procedure drug
+2718775	J7645	Procedure drug
+2718774	J7644	Procedure drug
+2720665	Q2004	Procedure drug
+2718776	J7647	Procedure drug
+2718779	J7650	Procedure drug
+2718777	J7648	Procedure drug
+2718778	J7649	Procedure drug
+2718785	J7657	Procedure drug
+2718788	J7660	Procedure drug
+2718786	J7658	Procedure drug
+2718787	J7659	Procedure drug
+2718655	J3570	Procedure drug
+2718884	J9217	Procedure drug
+2718886	J9219	Procedure drug
+2718885	J9218	Procedure drug
+2718738	J7607	Procedure drug
+2718746	J7615	Procedure drug
+2718743	J7612	Procedure drug
+2718745	J7614	Procedure drug
+2720995	S0177	Procedure drug
+2718686	J7306	Procedure drug
+2718683	J7302	Procedure drug
+40664796	C9285	Procedure drug
+2720996	S0178	Procedure drug
+2720868	Q9965	Procedure drug
+2720869	Q9966	Procedure drug
+2720870	Q9967	Procedure drug
+2720854	Q9951	Procedure drug
+2718717	J7504	Procedure drug
+2718724	J7511	Procedure drug
+2718789	J7665	Procedure drug
+2720997	S0179	Procedure drug
+2718818	J8600	Procedure drug
+2718793	J7670	Procedure drug
+2718790	J7667	Procedure drug
+2718791	J7668	Procedure drug
+2718792	J7669	Procedure drug
+2718795	J7674	Procedure drug
+2720948	S0109	Procedure drug
+2718891	J9250	Procedure drug
+2718892	J9260	Procedure drug
+2718819	J8610	Procedure drug
+40664553	J7309	Procedure drug
+2718722	J7509	Procedure drug
+2721004	S0190	Procedure drug
+2720966	S0139	Procedure drug
+2721005	S0191	Procedure drug
+2718901	J9290	Procedure drug
+2718902	J9291	Procedure drug
+2718900	J9280	Procedure drug
+43533257	J7315	Procedure drug
+43533202	S1090	Procedure drug
+2615303	A9153	Procedure drug
+2718718	J7505	Procedure drug
+2718728	J7517	Procedure drug
+2718729	J7518	Procedure drug
+2718820	J8650	Procedure drug
+2718804	J7699	Procedure drug
+2718805	J7799	Procedure drug
+2615301	A9150	Procedure drug
+2615402	A9698	Procedure drug
+2718921	J9999	Procedure drug
+2720596	Q0162	Procedure drug
+2720613	Q0179	Procedure drug
+2720999	S0181	Procedure drug
+40664920	S0119	Procedure drug
+2720857	Q9954	Procedure drug
+2618132	H0033	Procedure drug
+2617978	G9035	Procedure drug
+2617962	G9019	Procedure drug
+2615467	B4185	Procedure drug
+2615460	B4164	Procedure drug
+2615477	B5000	Procedure drug
+2615479	B5200	Procedure drug
+2615464	B4178	Procedure drug
+2615478	B5100	Procedure drug
+2615461	B4168	Procedure drug
+2615462	B4172	Procedure drug
+2615463	B4176	Procedure drug
+2615465	B4180	Procedure drug
+2615471	B4197	Procedure drug
+2615472	B4199	Procedure drug
+2615469	B4189	Procedure drug
+2615470	B4193	Procedure drug
+2718797	J7676	Procedure drug
+2718540	J2545	Procedure drug
+2720609	Q0175	Procedure drug
+2720610	Q0176	Procedure drug
+2720526	P9020	Procedure drug
+2720525	P9019	Procedure drug
+2720550	P9052	Procedure drug
+2720531	P9032	Procedure drug
+2720553	P9055	Procedure drug
+2720530	P9031	Procedure drug
+2720532	P9033	Procedure drug
+2720533	P9034	Procedure drug
+2720535	P9036	Procedure drug
+2720551	P9053	Procedure drug
+2720534	P9035	Procedure drug
+2720536	P9037	Procedure drug
+2718723	J7510	Procedure drug
+2718719	J7506	Procedure drug
+2721267	S5001	Procedure drug
+2721266	S5000	Procedure drug
+2718823	J8999	Procedure drug
+2718807	J8499	Procedure drug
+2721000	S0182	Procedure drug
+2720599	Q0165	Procedure drug
+2720598	Q0164	Procedure drug
+2721001	S0183	Procedure drug
+2720603	Q0169	Procedure drug
+2720604	Q0170	Procedure drug
+2615012	A4802	Procedure drug
+2720538	P9039	Procedure drug
+2720527	P9021	Procedure drug
+2720555	P9057	Procedure drug
+2720537	P9038	Procedure drug
+2720556	P9058	Procedure drug
+2720522	P9016	Procedure drug
+2720539	P9040	Procedure drug
+2720528	P9022	Procedure drug
+2617979	G9036	Procedure drug
+2617963	G9020	Procedure drug
+40659683	A9604	Procedure drug
+2615401	A9605	Procedure drug
+2720967	S0140	Procedure drug
+2720937	S0090	Procedure drug
+2615302	A9152	Procedure drug
+2718730	J7520	Procedure drug
+2720974	S0155	Procedure drug
+2614698	A4218	Procedure drug
+2614696	A4216	Procedure drug
+2614697	A4217	Procedure drug
+2615399	A9600	Procedure drug
+2615404	A9700	Procedure drug
+2720910	S0014	Procedure drug
+2718720	J7507	Procedure drug
+2718731	J7525	Procedure drug
+2721002	S0187	Procedure drug
+43533350	Q9969	Procedure drug
+2615326	A9504	Procedure drug
+2615389	A9568	Procedure drug
+2615378	A9557	Procedure drug
+2615357	A9536	Procedure drug
+2615331	A9510	Procedure drug
+2615390	A9569	Procedure drug
+2615342	A9521	Procedure drug
+2615387	A9566	Procedure drug
+2615381	A9560	Procedure drug
+2615361	A9540	Procedure drug
+2615358	A9537	Procedure drug
+2615325	A9503	Procedure drug
+2615383	A9562	Procedure drug
+2615382	A9561	Procedure drug
+2615388	A9567	Procedure drug
+2615360	A9539	Procedure drug
+2615333	A9512	Procedure drug
+2615359	A9538	Procedure drug
+2615322	A9500	Procedure drug
+2615371	A9550	Procedure drug
+2615372	A9551	Procedure drug
+2615362	A9541	Procedure drug
+2615323	A9501	Procedure drug
+2615324	A9502	Procedure drug
+2718821	J8700	Procedure drug
+2718798	J7680	Procedure drug
+2718799	J7681	Procedure drug
+2721003	S0189	Procedure drug
+2615327	A9505	Procedure drug
+2720608	Q0174	Procedure drug
+2718803	J7685	Procedure drug
+2718800	J7682	Procedure drug
+2614995	A4736	Procedure drug
+2718822	J8705	Procedure drug
+2720953	S0117	Procedure drug
+2718801	J7683	Procedure drug
+2718802	J7684	Procedure drug
+2720607	Q0173	Procedure drug
+2718656	J3590	Procedure drug
+2718651	J3490	Procedure drug
+2616396	C9399	Procedure drug
+2720615	Q0181	Procedure drug
+2718915	J9370	Procedure drug
+2718916	J9375	Procedure drug
+2718917	J9380	Procedure drug
+43533302	G8967	Procedure drug
+2615252	A7018	Procedure drug
+2617977	G9034	Procedure drug
+2617961	G9018	Procedure drug
+2720944	S0104	Procedure drug
+2617867	G8468	Procedure drug
+2718922	JA	Procedure drug
+2718923	JB	Procedure drug
+2719404	KP	Procedure drug
+40664515	G8636	Procedure drug
+2617881	G8482	Procedure drug
+40664441	G8639	Procedure drug
+40664822	G8864	Procedure drug
+2721428	S9055	Procedure drug
+2614983	A4714	Procedure drug
+2617490	G3001	Procedure drug
+2617179	G0010	Procedure drug
+2617177	G0008	Procedure drug
+2617178	G0009	Procedure drug
+2618148	H0049	Measurement
+2618102	H0003	Measurement
+2618147	H0048	Measurement
+2721189	S3655	Measurement
+2617791	G8384	Measurement
+2721193	S3711	Measurement
+2720891	QW	Measurement
+40664570	PT	Measurement
+2721229	S3870	Measurement
+2721204	S3833	Measurement
+2721197	S3820	Measurement
+2721206	S3835	Measurement
+2721207	S3837	Measurement
+2721195	S3818	Measurement
+2721196	S3819	Measurement
+2721200	S3828	Measurement
+2721201	S3829	Measurement
+2721202	S3830	Measurement
+2721227	S3865	Measurement
+40664656	G8777	Measurement
+2721220	S3852	Measurement
+2721208	S3840	Measurement
+2721212	S3844	Measurement
+2721211	S3843	Measurement
+2721230	S3890	Measurement
+40661235	G0430	Measurement
+40664727	G8725	Measurement
+2721228	S3866	Measurement
+2721213	S3845	Measurement
+2721194	S3800	Measurement
+2721219	S3851	Measurement
+2721223	S3855	Measurement
+2721216	S3848	Measurement
+2721214	S3846	Measurement
+2721221	S3853	Measurement
+2721217	S3849	Measurement
+2721209	S3841	Measurement
+2721218	S3850	Measurement
+2721215	S3847	Measurement
+2721210	S3842	Measurement
+2721224	S3860	Measurement
+2721225	S3861	Measurement
+2720506	P2031	Measurement
+2721186	S3645	Measurement
+40664440	G0432	Measurement
+40664562	G0433	Measurement
+40664478	G0435	Measurement
+40659575	S3713	Measurement
+40664849	G8767	Measurement
+40662757	G8593	Measurement
+2721181	S3620	Measurement
+40664854	G8802	Measurement
+43533351	S3721	Measurement
+2617206	G0103	Measurement
+2721187	S3650	Measurement
+2721188	S3652	Measurement
+2720510	P3000	Measurement
+2720511	P3001	Measurement
+2720580	Q0091	Measurement
+40664913	G8774	Measurement
+2721198	S3822	Measurement
+2721205	S3834	Measurement
+2721203	S3831	Measurement
+2721199	S3823	Measurement
+40664888	G8770	Measurement
+40662009	G9143	Measurement
+40660437	G0431	Measurement
+2721226	S3862	Measurement
+2617385	G0307	Measurement
+2721185	S3630	Measurement
+2618201	HM	Observation
+43533189	CH	Observation
+43533250	CN	Observation
+40664799	G8707	Observation
+40664798	G8704	Observation
+2720514	P6	Observation
+2720513	P5	Observation
+2720502	P1	Observation
+2720503	P2	Observation
+2720509	P3	Observation
+2720512	P4	Observation
+2617812	G8408	Observation
+2617914	G8515	Observation
+40664838	G8749	Observation
+2617871	G8472	Observation
+2615445	B4104	Observation
+43533215	G8928	Observation
+43533301	G8929	Observation
+43533341	G8927	Observation
+2618191	HC	Observation
+43533271	G8944	Observation
+40664588	G8646	Observation
+2617901	G8502	Observation
+40664912	G8764	Observation
+40664617	G8765	Observation
+40664816	G8757	Observation
+2617894	G8495	Observation
+40660059	G8550	Observation
+2617896	G8497	Observation
+2617897	G8498	Observation
+40664762	G8761	Observation
+2617893	G8494	Observation
+40664848	G8760	Observation
+40659145	G8551	Observation
+40662382	G8549	Observation
+2617899	G8500	Observation
+40664748	G8763	Observation
+40664911	G8758	Observation
+40663929	G8552	Observation
+40664782	G8759	Observation
+43533263	G8953	Observation
+40664616	G8762	Observation
+2617900	G8501	Observation
+2617895	G8496	Observation
+2617898	G8499	Observation
+2614658	A0390	Observation
+2615408	AA	Observation
+40664731	G8819	Observation
+40664767	G8828	Observation
+40664732	G8827	Observation
+43533279	G8945	Observation
+40664733	G8830	Observation
+40664768	G8831	Observation
+40664698	G8820	Observation
+40664915	G8829	Observation
+40664674	G8832	Observation
+40664783	G8788	Observation
+40664852	G8787	Observation
+2617873	G8474	Observation
+2617874	G8475	Observation
+40664638	G8712	Observation
+40664713	G8800	Observation
+40664697	G8801	Observation
+40658749	G8586	Observation
+40660912	G8580	Observation
+2617922	G8523	Observation
+40664882	G8697	Observation
+40664667	G8698	Observation
+2721982	VP	Observation
+40664754	G8844	Observation
+40664819	G8842	Observation
+40663934	G8599	Observation
+43533277	G8930	Observation
+43533359	G8931	Observation
+2617777	G8370	Observation
+40664752	G8835	Observation
+43533355	CI	Observation
+43533224	CJ	Observation
+43533225	CK	Observation
+43533332	CL	Observation
+43533249	CM	Observation
+40661253	G8553	Observation
+2618095	GV	Observation
+43533255	G9165	Observation
+43533306	G9167	Observation
+43533348	G9166	Observation
+2618202	HN	Observation
+2719390	KB	Observation
+2719408	KT	Observation
+40661255	G8583	Observation
+2617851	G8452	Observation
+2719393	KE	Observation
+40664897	G8885	Observation
+40664764	G8796	Observation
+2617877	G8478	Observation
+40664710	G8784	Observation
+43533260	G8938	Observation
+2617821	G8421	Observation
+2721125	S2150	Observation
+2721094	S2067	Observation
+2617817	G8417	Observation
+2617818	G8418	Observation
+2617819	G8419	Observation
+2617820	G8420	Observation
+2617839	G8439	Observation
+43533316	G8984	Observation
+43533326	G8985	Observation
+43533253	G8986	Observation
+2617778	G8371	Observation
+2721631	T1009	Observation
+2618189	HA	Observation
+2618076	GB	Observation
+2721637	T1015	Observation
+2615415	AH	Observation
+2615416	AJ	Observation
+2617917	G8518	Observation
+40664624	G8875	Observation
+40664736	G8877	Observation
+2617606	G8196	Observation
+2617624	G8214	Observation
+2617614	G8204	Observation
+2617619	G8209	Observation
+2617603	G8193	Observation
+43533252	G8937	Observation
+2617880	G8481	Observation
+2617567	G8114	Observation
+2617783	G8376	Observation
+2617784	G8377	Observation
+2617785	G8378	Observation
+40664493	G8634	Observation
+2617850	G8451	Observation
+40664701	G8884	Observation
+2617534	G8053	Observation
+2617501	G8011	Observation
+2617498	G8008	Observation
+2617528	G8038	Observation
+2617531	G8041	Observation
+2617507	G8017	Observation
+2617511	G8021	Observation
+2617549	G8080	Observation
+2617546	G8077	Observation
+2617560	G8107	Observation
+2617566	G8113	Observation
+2617519	G8029	Observation
+2617522	G8032	Observation
+2617558	G8104	Observation
+2617556	G8100	Observation
+2617924	G8525	Observation
+2617861	G8462	Observation
+2617857	G8458	Observation
+40664529	G8683	Observation
+2617859	G8460	Observation
+2617865	G8466	Observation
+40664494	G8637	Observation
+2617858	G8459	Observation
+2617931	G8532	Observation
+2617927	G8528	Observation
+2617712	G8304	Observation
+2617913	G8514	Observation
+2617813	G8409	Observation
+2617879	G8480	Observation
+43533259	G8936	Observation
+2617579	G8154	Observation
+2617573	G8128	Observation
+2617576	G8131	Observation
+2617921	G8522	Observation
+2617930	G8531	Observation
+2617631	G8221	Observation
+2617816	G8416	Observation
+2617540	G8059	Observation
+2617563	G8110	Observation
+2617810	G8406	Observation
+40664479	G8631	Observation
+2617570	G8117	Observation
+2617805	G8401	Observation
+2617537	G8056	Observation
+2617582	G8157	Observation
+2617543	G8062	Observation
+2617918	G8519	Observation
+2617598	G8184	Observation
+2617595	G8172	Observation
+2617504	G8014	Observation
+2617525	G8035	Observation
+2617863	G8464	Observation
+2617600	G8186	Observation
+2617515	G8025	Observation
+40664694	G8726	Observation
+40664596	G8640	Observation
+2617682	G8274	Observation
+2617665	G8257	Observation
+2617746	G8338	Observation
+2617596	G8182	Observation
+2617516	G8026	Observation
+2617508	G8018	Observation
+2617512	G8022	Observation
+2617713	G8305	Observation
+2617887	G8488	Observation
+2617878	G8479	Observation
+2617919	G8520	Observation
+43533366	G8959	Observation
+43533229	G8960	Observation
+43533343	G8954	Observation
+2615018	A4890	Observation
+2617950	G9006	Observation
+2617945	G9001	Observation
+2617946	G9002	Observation
+2617952	G9008	Observation
+2617947	G9003	Observation
+2617948	G9004	Observation
+2617949	G9005	Observation
+2617953	G9009	Observation
+2617954	G9010	Observation
+2617955	G9011	Observation
+2617951	G9007	Observation
+2618188	H9	Observation
+2617855	G8456	Observation
+40664517	G8692	Observation
+2617856	G8457	Observation
+40664498	G8691	Observation
+2617854	G8455	Observation
+40664599	G8690	Observation
+40664446	G8688	Observation
+40664548	G8687	Observation
+40664418	G8686	Observation
+2720252	L6696	Observation
+2720253	L6697	Observation
+2617333	G0248	Observation
+2721176	S3000	Observation
+2617802	G8398	Observation
+2618204	HP	Observation
+2720884	QP	Observation
+2721247	S4023	Observation
+40664455	G0434	Observation
+2615457	B4160	Observation
+40664837	G8734	Observation
+40664709	G8735	Observation
+2617364	G0281	Observation
+40664496	G8644	Observation
+2615458	B4161	Observation
+2615456	B4159	Observation
+2615455	B4158	Observation
+2615459	B4162	Observation
+2615444	B4103	Observation
+2615446	B4149	Observation
+2615447	B4150	Observation
+2615450	B4153	Observation
+2615449	B4152	Observation
+2615451	B4154	Observation
+2615452	B4155	Observation
+40664623	G8874	Observation
+40664780	G8728	Observation
+2721243	S4018	Observation
+2721241	S4016	Observation
+2618205	HQ	Observation
+2617151	ED	Observation
+2617152	EE	Observation
+40664665	G0909	Observation
+43533179	G8974	Observation
+2617864	G8465	Observation
+40664457	G8645	Observation
+2617892	G8493	Observation
+40664737	G8905	Observation
+40664771	G8906	Observation
+2617886	G8487	Observation
+40664872	G8898	Observation
+40662755	G8546	Observation
+2617943	G8544	Observation
+2617888	G8489	Observation
+40664826	G8902	Observation
+2617884	G8485	Observation
+40664770	G8901	Observation
+40659144	G8548	Observation
+40660058	G8545	Observation
+2617890	G8491	Observation
+40664791	G8904	Observation
+40664717	G8899	Observation
+40660467	G8547	Observation
+40664901	G8900	Observation
+43533209	G8977	Observation
+40664680	G8903	Observation
+2617891	G8492	Observation
+2617885	G8486	Observation
+2617889	G8490	Observation
+2617829	G8429	Observation
+40664468	G8638	Observation
+40664742	G0919	Observation
+40664495	G8641	Observation
+2617882	G8483	Observation
+2617883	G8484	Observation
+2617825	G8425	Observation
+2617824	G8424	Observation
+40660062	G8602	Observation
+40658350	G8601	Observation
+40664899	G8894	Observation
+43533207	G8943	Observation
+40659431	G8596	Observation
+2720485	LD	Observation
+2720484	LC	Observation
+2721708	T4	Observation
+2721707	T3	Observation
+2721739	TA	Observation
+2721621	T1	Observation
+2721659	T2	Observation
+2617161	F4	Observation
+2617160	F3	Observation
+2617158	F1	Observation
+2617159	F2	Observation
+2617167	FA	Observation
+43533330	LM	Observation
+2720489	LT	Observation
+43533258	G8923	Observation
+40664695	G8738	Observation
+43533228	G8934	Observation
+40664690	G8695	Observation
+40664846	G8739	Observation
+2617799	G8395	Observation
+40664847	G8740	Observation
+2617800	G8396	Observation
+2617870	G8471	Observation
+40664462	G8685	Observation
+40664547	G8682	Observation
+40664797	G8694	Observation
+40664706	G0912	Observation
+40658349	G8594	Observation
+40664696	G8769	Observation
+2617827	G8427	Observation
+43533199	HCPC	Observation
+2617013	E2	Observation
+2617144	E4	Observation
+2618203	HO	Observation
+2721233	S3904	Observation
+2721519	S9433	Observation
+2721610	SK	Observation
+43533232	G9168	Observation
+43533362	G9170	Observation
+43533287	G9169	Observation
+43533361	G8978	Observation
+43533180	G8980	Observation
+43533324	G8979	Observation
+40664639	G8736	Observation
+40664613	G8737	Observation
+2617875	G8476	Observation
+2617876	G8477	Observation
+40664625	G8888	Observation
+40664871	G8886	Observation
+40664497	G8679	Observation
+40663932	G8590	Observation
+43533312	G8921	Observation
+40664839	G8754	Observation
+40664443	G8676	Observation
+40659430	G8591	Observation
+43533214	G8922	Observation
+40664800	G8755	Observation
+40664445	G8680	Observation
+43533195	G8973	Observation
+40664705	G0908	Observation
+43533230	G8976	Observation
+40664666	G0910	Observation
+40663536	G8595	Observation
+40659149	G8597	Observation
+40664759	G8893	Observation
+40664702	G8890	Observation
+40664853	G8793	Observation
+40664889	G8794	Observation
+40664712	G8795	Observation
+40664914	G8791	Observation
+40664671	G8790	Observation
+40664729	G8792	Observation
+40664444	G8677	Observation
+40662384	G8588	Observation
+43533295	G8919	Observation
+40664615	G8752	Observation
+40664581	G8675	Observation
+40660913	G8589	Observation
+43533340	G8920	Observation
+40664863	G8753	Observation
+40664482	G8678	Observation
+2617488	G2	Observation
+2617489	G3	Observation
+2617491	G4	Observation
+2617492	G5	Observation
+2617487	G1	Observation
+43533286	G8999	Observation
+43533182	G9158	Observation
+43533184	G9186	Observation
+2618208	HT	Observation
+2618086	GM	Observation
+2719414	KZ	Observation
+2720501	NU	Observation
+40658348	G8587	Observation
+40662756	G8581	Observation
+40662000	G8584	Observation
+40661999	G8572	Observation
+2617940	G8541	Observation
+2617934	G8535	Observation
+2617935	G8536	Observation
+40660914	G8592	Observation
+40664790	G8889	Observation
+40664761	G8756	Observation
+2617832	G8432	Observation
+2617835	G8435	Observation
+40664689	G0922	Observation
+40664612	G8732	Observation
+2617841	G8441	Observation
+2617790	G8383	Observation
+40661852	V9	Observation
+43533342	G8948	Observation
+2617157	EY	Observation
+40664307	G8576	Observation
+2617844	G8445	Observation
+43533216	G8970	Observation
+40663264	G8574	Observation
+2719784	L3255	Observation
+2719783	L3254	Observation
+2720820	Q7	Observation
+2720822	Q9	Observation
+43533303	G8972	Observation
+2617610	G8200	Observation
+2617928	G8529	Observation
+43533217	G8990	Observation
+43533196	G8992	Observation
+43533304	G8991	Observation
+43533273	G8993	Observation
+43533327	G8995	Observation
+43533231	G8994	Observation
+43533234	G9174	Observation
+43533379	G9176	Observation
+43533219	G9175	Observation
+40664646	G8837	Observation
+40664844	G8731	Observation
+40664654	G8730	Observation
+2617533	G8052	Observation
+2617565	G8112	Observation
+40664652	G0914	Observation
+2617571	G8126	Observation
+2617574	G8129	Observation
+2617536	G8055	Observation
+2617541	G8060	Observation
+43533356	G8911	Observation
+43533364	G8915	Observation
+43533294	G8913	Observation
+43533339	G8907	Observation
+43533191	G8909	Observation
+2617710	G8302	Observation
+43533206	G8910	Observation
+43533357	G8914	Observation
+43533363	G8912	Observation
+43533269	G8908	Observation
+40659146	G8562	Observation
+40661254	G8567	Observation
+2617847	G8448	Observation
+2617846	G8447	Observation
+2617848	G8449	Observation
+40664734	G8869	Observation
+40664470	G8681	Observation
+40664766	G8812	Observation
+40658344	G8561	Observation
+40663930	G8566	Observation
+40660909	G8557	Observation
+40664894	G8857	Observation
+40664751	G8833	Observation
+40664657	G8838	Observation
+40664893	G8825	Observation
+2617572	G8127	Observation
+2617575	G8130	Observation
+2617535	G8054	Observation
+2617542	G8061	Observation
+2617711	G8303	Observation
+2617775	G8367	Observation
+2617671	G8263	Observation
+2617718	G8310	Observation
+2617749	G8341	Observation
+2617753	G8345	Observation
+2617759	G8351	Observation
+2617765	G8357	Observation
+2617730	G8322	Observation
+2617773	G8365	Observation
+2617770	G8362	Observation
+2617687	G8279	Observation
+2617659	G8251	Observation
+2617578	G8153	Observation
+2617674	G8266	Observation
+2617690	G8282	Observation
+2617652	G8243	Observation
+2617738	G8330	Observation
+2617627	G8217	Observation
+2617630	G8220	Observation
+2617643	G8234	Observation
+2617734	G8326	Observation
+2617539	G8058	Observation
+2617562	G8109	Observation
+2617722	G8314	Observation
+2617684	G8276	Observation
+2617707	G8299	Observation
+2617762	G8354	Observation
+2617647	G8238	Observation
+2617693	G8285	Observation
+2617676	G8268	Observation
+2617569	G8116	Observation
+2617636	G8226	Observation
+2617633	G8223	Observation
+2617641	G8231	Observation
+2617668	G8260	Observation
+2617768	G8360	Observation
+2617822	G8422	Observation
+2617836	G8436	Observation
+40664592	G8684	Observation
+40664743	G8708	Observation
+40664895	G8871	Observation
+43533282	G8957	Observation
+40663262	G8563	Observation
+40664746	G8742	Observation
+40664641	G8743	Observation
+40664642	G8744	Observation
+40664910	G8745	Observation
+40664640	G8741	Observation
+40664747	G8746	Observation
+40664669	G8748	Observation
+40664643	G8747	Observation
+40660061	G8559	Observation
+2617654	G8246	Observation
+40659148	G8568	Observation
+40661656	G8608	Observation
+40662759	G8611	Observation
+40661257	G8614	Observation
+40663265	G8617	Observation
+40662758	G8605	Observation
+40664310	G8620	Observation
+40662385	G8626	Observation
+40660066	G8623	Observation
+40663263	G8564	Observation
+2617656	G8248	Observation
+2617803	G8399	Observation
+2617804	G8400	Observation
+2617580	G8155	Observation
+2617592	G8167	Observation
+2617593	G8170	Observation
+2617589	G8164	Observation
+2617591	G8166	Observation
+2617594	G8171	Observation
+2617590	G8165	Observation
+2617587	G8162	Observation
+2617869	G8470	Observation
+2617697	G8289	Observation
+2617679	G8271	Observation
+2617662	G8254	Observation
+43533192	G8916	Observation
+43533270	G8917	Observation
+2617581	G8156	Observation
+43533358	G8918	Observation
+40664916	G8863	Observation
+40664678	G8862	Observation
+40664677	G8860	Observation
+40664917	G8873	Observation
+2617480	G0413	Observation
+2721620	SY	Observation
+2721618	SV	Observation
+43533175	G0454	Observation
+40664857	G8867	Observation
+2616474	CG	Observation
+40664821	G8850	Observation
+40664620	G8847	Observation
+40664621	G8853	Observation
+43533262	G8950	Observation
+43533280	G8951	Observation
+43533194	G8952	Observation
+40664781	G8750	Observation
+2617715	G8307	Observation
+2617523	G8033	Observation
+2617524	G8034	Observation
+2721249	S4026	Observation
+40658345	G8570	Observation
+40660910	G8569	Observation
+40664535	G8632	Observation
+2617830	G8430	Observation
+2617906	G8507	Observation
+40664885	G8721	Observation
+40664843	G8724	Observation
+43533370	RI	Observation
+2618084	GK	Observation
+40664789	G8858	Observation
+40664756	G8856	Observation
+40661655	G8556	Observation
+2721616	ST	Observation
+40658346	G8578	Observation
+40663535	G8577	Observation
+40664866	G8809	Observation
+2720900	RC	Observation
+2721738	T9	Observation
+2721737	T8	Observation
+2721732	T5	Observation
+2721735	T6	Observation
+2721736	T7	Observation
+2617166	F9	Observation
+2617165	F8	Observation
+2617163	F6	Observation
+2617164	F7	Observation
+2617162	F5	Observation
+40664891	G8810	Observation
+40664461	G8667	Observation
+40664591	G8668	Observation
+40664538	G8651	Observation
+40664536	G8652	Observation
+40664589	G8647	Observation
+40664426	G8648	Observation
+40664539	G8655	Observation
+40664504	G8656	Observation
+40664505	G8659	Observation
+40664469	G8660	Observation
+40664506	G8671	Observation
+40664546	G8672	Observation
+40664458	G8663	Observation
+40664417	G8664	Observation
+40664481	G8670	Observation
+40664442	G8669	Observation
+40664579	G8654	Observation
+40664516	G8653	Observation
+40664428	G8650	Observation
+40664427	G8649	Observation
+40664537	G8657	Observation
+40664590	G8658	Observation
+40664545	G8662	Observation
+40664597	G8661	Observation
+40664528	G8674	Observation
+40664540	G8673	Observation
+40664580	G8666	Observation
+40664480	G8665	Observation
+40664636	G0916	Observation
+40664707	G0918	Observation
+40663537	G8606	Observation
+40660063	G8607	Observation
+40660915	G8609	Observation
+40664309	G8610	Observation
+40662760	G8612	Observation
+40661657	G8613	Observation
+40660064	G8615	Observation
+40661658	G8616	Observation
+40661256	G8603	Observation
+40664308	G8604	Observation
+40658351	G8618	Observation
+40663266	G8619	Observation
+40663935	G8624	Observation
+40660469	G8625	Observation
+40661258	G8621	Observation
+40660065	G8622	Observation
+2719405	KQ	Observation
+2721612	SM	Observation
+43533317	G8987	Observation
+43533210	G8989	Observation
+43533284	G8988	Observation
+40664644	G8776	Observation
+40664865	G8786	Observation
+40664711	G8789	Observation
+2721782	US	Observation
+40664676	G8841	Observation
+40664614	G8751	Observation
+40664886	G8723	Observation
+40664818	G8797	Observation
+40664672	G8798	Observation
+43533313	G8926	Observation
+43533319	G8924	Observation
+43533300	G8925	Observation
+40664884	G8713	Observation
+40664668	G8717	Observation
+43533377	G9159	Observation
+43533183	G9161	Observation
+43533256	G9160	Observation
+43533347	G9162	Observation
+43533378	G9164	Observation
+43533211	G9163	Observation
+40664870	G8881	Observation
+2721178	S3600	Observation
+40664785	G8815	Observation
+43533176	G8932	Observation
+43533278	G8933	Observation
+2720565	PB	Observation
+40663267	G8628	Observation
+43533285	G8996	Observation
+43533218	G8998	Observation
+43533318	G8997	Observation
+40664788	G8836	Observation
+2720700	Q3014	Observation
+2721613	SN	Observation
+2617807	G8403	Observation
+2617806	G8402	Observation
+2617853	G8454	Observation
+40664598	G8689	Observation
+40664429	G8693	Observation
+40664836	G8718	Observation
+40664908	G8720	Observation
+40664765	G8807	Observation
+2720821	Q8	Observation
+40664708	G0920	Observation
+2616832	E1	Observation
+2617143	E3	Observation
+43533233	G9171	Observation
+43533368	G9173	Observation
+43533198	G9172	Observation
+2617559	G8106	Observation
+2720566	PC	Observation
+2616475	CR	Observation
+2617811	G8407	Observation
+2617912	G8513	Observation
+40664784	G8799	Observation
+2617920	G8521	Observation
+40664842	G8696	Observation
+40664906	G0911	Observation
+40664825	G8883	Observation
+2617779	G8372	Observation
+2617780	G8373	Observation
+2617781	G8374	Observation
+43533320	G8935	Observation
+43533365	G8942	Observation
+2617823	G8423	Observation
+2617808	G8404	Observation
+40664700	G8851	Observation
+2617555	G8099	Observation
+43533177	G8939	Observation
+2617532	G8051	Observation
+2617564	G8111	Observation
+2617726	G8318	Observation
+2617584	G8159	Observation
+2617538	G8057	Observation
+2617706	G8298	Observation
+40664803	G8808	Observation
+40664769	G8852	Observation
+40664755	G8845	Observation
+2617831	G8431	Observation
+2617910	G8511	Observation
+2720876	QF	Observation
+2720877	QG	Observation
+2720875	QE	Observation
+43533193	G8940	Observation
+40664675	G8839	Observation
+43533314	G8958	Quality metric
+40664801	G8785	Quality metric
+40664763	G8783	Quality metric
+2617837	G8437	Quality metric
+40664817	G8782	Quality metric
+2615421	AP	Quality metric
+40664749	G8779	Quality metric
+2617938	G8539	Quality metric
+2617942	G8543	Quality metric
+2617941	G8542	Quality metric
+40664845	G8733	Quality metric
+2617933	G8534	Quality metric
+40664806	G8887	Quality metric
+40664898	G8891	Quality metric
+40664716	G8865	Quality metric
+40664778	G8705	Quality metric
+40664850	G8778	Quality metric
+40664660	G8892	Quality metric
+40664887	G8768	Quality metric
+40664864	G8775	Quality metric
+40664670	G8772	Quality metric
+40664648	G8896	Quality metric
+43533264	G8968	Quality metric
+43533376	G8975	Quality metric
+40664851	G8781	Quality metric
+40664823	G8866	Quality metric
+40664907	G0921	Quality metric
+40664834	G8706	Quality metric
+43533283	G8969	Quality metric
+43533208	G8949	Quality metric
+2617908	G8509	Quality metric
+2617786	G8379	Quality metric
+40664753	G8843	Quality metric
+40664715	G8854	Quality metric
+40664714	G8840	Quality metric
+40664735	G8876	Quality metric
+40664856	G8849	Quality metric
+40664835	G8716	Quality metric
+40664896	G8880	Quality metric
+40664673	G8811	Quality metric
+2617842	G8442	Quality metric
+2617939	G8540	Quality metric
+2617826	G8426	Quality metric
+2617936	G8537	Quality metric
+2617937	G8538	Quality metric
+43533261	G8941	Quality metric
+2617809	G8405	Quality metric
+40664611	G8722	Quality metric
+40664805	G8855	Quality metric
+2617990	G9056	Quality metric
+2617991	G9057	Quality metric
+2617992	G9058	Quality metric
+2617996	G9062	Quality metric
+2617994	G9060	Quality metric
+2617995	G9061	Quality metric
+40664862	G0917	Quality metric
+40664595	G8635	Quality metric
+40664890	G8803	Quality metric
+40664619	G8805	Quality metric
+40664777	G8701	Quality metric
+2617833	G8433	Quality metric
+40664647	G8882	Quality metric
+40664655	G8773	Quality metric
+2617828	G8428	Quality metric
+2617815	G8415	Quality metric
+43533315	G8971	Quality metric
+2618184	H2034	Medical service
+2618120	H0021	Medical service
+2721634	T1012	Medical service
+40664424	G0438	Medical service
+2618139	H0040	Medical service
+2618138	H0039	Medical service
+2721526	S9441	Medical service
+2721297	S5125	Medical service
+2721298	S5126	Medical service
+2721704	T2048	Medical service
+2618118	H0019	Medical service
+2618116	H0017	Medical service
+2618117	H0018	Medical service
+2720490	M0064	Medical service
+2721679	T2022	Medical service
+2721522	S9436	Medical service
+2721523	S9437	Medical service
+2721295	S5120	Medical service
+2721296	S5121	Medical service
+2618136	H0037	Medical service
+2618135	H0036	Medical service
+2721301	S5135	Medical service
+2721302	S5136	Medical service
+2618165	H2015	Medical service
+2618166	H2016	Medical service
+2721651	T1029	Medical service
+2721021	S0250	Medical service
+2618160	H2010	Medical service
+2721285	S5100	Medical service
+2721287	S5102	Medical service
+2721286	S5101	Medical service
+2721288	S5105	Medical service
+2721678	T2021	Medical service
+2721677	T2020	Medical service
+2618187	H2037	Medical service
+2617212	G0109	Medical service
+2617211	G0108	Medical service
+40664830	PD	Medical service
+2617453	G0379	Medical service
+2617245	G0154	Medical service
+2721034	S0316	Medical service
+2721033	S0315	Medical service
+2721035	S0317	Medical service
+2721248	S4025	Medical service
+2721646	T1024	Medical service
+2721534	S9451	Medical service
+2618157	H1011	Medical service
+2721548	S9482	Medical service
+2721303	S5140	Medical service
+2721304	S5141	Medical service
+2618140	H0041	Medical service
+2618141	H0042	Medical service
+2721305	S5145	Medical service
+2721306	S5146	Medical service
+2721289	S5108	Medical service
+2721290	S5109	Medical service
+2721291	S5110	Medical service
+2721292	S5111	Medical service
+2721293	S5115	Medical service
+2721294	S5116	Medical service
+2721299	S5130	Medical service
+2721300	S5131	Medical service
+2720811	Q5002	Medical service
+2720815	Q5006	Medical service
+2720814	Q5005	Medical service
+2720817	Q5008	Medical service
+2720816	Q5007	Medical service
+2720812	Q5003	Medical service
+2720810	Q5001	Medical service
+2720818	Q5009	Medical service
+2720813	Q5004	Medical service
+2617270	G0182	Medical service
+2721445	S9126	Medical service
+2721700	T2043	Medical service
+2721702	T2045	Medical service
+40664432	Q5010	Medical service
+2721701	T2044	Medical service
+2721703	T2046	Medical service
+2721022	S0255	Medical service
+2721699	T2042	Medical service
+2617452	G0378	Medical service
+2721749	TM	Medical service
+2721755	TT	Medical service
+2721532	S9447	Medical service
+2721528	S9443	Medical service
+2721314	S5175	Medical service
+2721742	TE	Medical service
+2618085	GL	Medical service
+2721257	S4040	Medical service
+2618156	H1010	Medical service
+2721535	S9452	Medical service
+2721641	T1019	Medical service
+2721642	T1020	Medical service
+2615016	A4870	Medical service
+2719319	K0739	Medical service
+2616934	E1340	Medical service
+2719320	K0740	Medical service
+2721690	T2033	Medical service
+2721689	T2032	Medical service
+2618144	H0045	Medical service
+2721627	T1005	Medical service
+2721444	S9125	Medical service
+2721606	SF	Medical service
+2618137	H0038	Medical service
+2618178	H2028	Medical service
+2618179	H2029	Medical service
+2721635	T1013	Medical service
+2721536	S9453	Medical service
+2721684	T2027	Medical service
+2721683	T2026	Medical service
+2618173	H2023	Medical service
+2618174	H2024	Medical service
+2618142	H0043	Medical service
+2618143	H0044	Medical service
+2721698	T2041	Medical service
+2721680	T2023	Medical service
+2721636	T1014	Medical service
+2617265	G0177	Medical service
+2721307	S5150	Medical service
+2721308	S5151	Medical service
+2618175	H2025	Medical service
+2618176	H2026	Medical service
+2721069	S0622	Medical service
+2617447	G0372	Medical service
+2719958	L4210	Medical service
+2720367	L7500	Medical service
+2720368	L7510	Medical service
+2720369	L7520	Medical service
+2721978	V5336	Medical service
+2721600	S9999	Medical service
+2618078	GD	Medical service
+2614680	A0998	Medical service
+2720883	QN	Medical service
+2720882	QM	Medical service
+2614668	A0427	Medical service
+2614667	A0426	Medical service
+2614670	A0429	Medical service
+2614669	A0428	Medical service
+2614671	A0430	Medical service
+2614672	A0431	Medical service
+2614630	A0225	Medical service
+2614613	A0021	Medical service
+2614663	A0420	Medical service
+2721545	S9475	Medical service
+2721607	SG	Medical service
+2616472	CE	Medical service
+2616473	CF	Medical service
+2616471	CD	Medical service
+2721514	S9401	Medical service
+2721687	T2030	Medical service
+2721688	T2031	Medical service
+2721440	S9117	Medical service
+2721752	TQ	Medical service
+2614655	A0380	Medical service
+2721524	S9438	Medical service
+2721695	T2038	Medical service
+2618171	H2021	Medical service
+2618172	H2022	Medical service
+2718591	J3	Medical service
+2718332	J1	Medical service
+2721644	T1022	Medical service
+2721691	T2034	Medical service
+2721512	S9381	Medical service
+2617230	G0128	Medical service
+2615406	A9901	Medical service
+2719400	KL	Medical service
+2719395	KG	Medical service
+2719399	KK	Medical service
+2719409	KU	Medical service
+2719411	KW	Medical service
+2719413	KY	Medical service
+2719410	KV	Medical service
+40662562	J4	Medical service
+2719396	KH	Medical service
+2719398	KJ	Medical service
+2719397	KI	Medical service
+2614665	A0424	Medical service
+2721747	TK	Medical service
+2618206	HR	Medical service
+2618207	HS	Medical service
+2721697	T2040	Medical service
+2721781	UR	Medical service
+2616724	E0731	Medical service
+2721780	UQ	Medical service
+2618209	HU	Medical service
+2618212	HX	Medical service
+2618214	HZ	Medical service
+2618213	HY	Medical service
+2618211	HW	Medical service
+2618210	HV	Medical service
+2721432	S9083	Medical service
+2614666	A0425	Medical service
+2721586	S9970	Medical service
+2721743	TF	Medical service
+2618200	HL	Medical service
+2720486	LL	Medical service
+2617454	G0380	Medical service
+2617455	G0381	Medical service
+2617456	G0382	Medical service
+2617457	G0383	Medical service
+2617458	G0384	Medical service
+2721598	S9994	Medical service
+2721588	S9976	Medical service
+2617268	G0180	Medical service
+2617267	G0179	Medical service
+2721759	U1	Medical service
+2721768	UA	Medical service
+2721769	UB	Medical service
+2721770	UC	Medical service
+2721771	UD	Medical service
+2721760	U2	Medical service
+2721761	U3	Medical service
+2721762	U4	Medical service
+2721763	U5	Medical service
+2721764	U6	Medical service
+2721765	U7	Medical service
+2721766	U8	Medical service
+2721767	U9	Medical service
+2721590	S9981	Medical service
+2721591	S9982	Medical service
+2720498	M2	Medical service
+43533275	G9149	Medical service
+43533305	G9150	Medical service
+43533274	G9148	Medical service
+2614623	A0140	Medical service
+2614620	A0110	Medical service
+2614618	A0090	Medical service
+2614617	A0080	Medical service
+2614628	A0200	Medical service
+2614626	A0180	Medical service
+2614629	A0210	Medical service
+2614627	A0190	Medical service
+2614621	A0120	Medical service
+2614624	A0160	Medical service
+2614622	A0130	Medical service
+2721662	T2003	Medical service
+2721018	S0215	Medical service
+2721660	T2001	Medical service
+2721661	T2002	Medical service
+2721664	T2005	Medical service
+2721705	T2049	Medical service
+2614619	A0100	Medical service
+2618080	GF	Medical service
+40660060	G8558	Medical service
+2618097	GX	Medical service
+2721602	SB	Medical service
+2721601	SA	Medical service
+2721030	S0274	Medical service
+2614673	A0432	Medical service
+2721016	S0208	Medical service
+2721015	S0207	Medical service
+2617169	FC	Medical service
+40664868	G8826	Medical service
+40664855	G8818	Medical service
+40664699	G8834	Medical service
+43533281	G8956	Medical service
+2721518	S9430	Medical service
+2617411	G0333	Medical service
+2720652	Q0513	Medical service
+2720653	Q0514	Medical service
+2720649	Q0510	Medical service
+2720651	Q0512	Medical service
+2720650	Q0511	Medical service
+2615424	AS	Medical service
+2721028	S0272	Medical service
+2721027	S0271	Medical service
+2721026	S0270	Medical service
+2615423	AR	Medical service
+40664563	AZ	Medical service
+2615422	AQ	Medical service
+2615414	AG	Medical service
+40659866	AI	Medical service
+2616468	CA	Medical service
+2721617	SU	Medical service
+2617838	G8438	Medical service
+2617907	G8508	Medical service
+2617868	G8469	Medical service
+2720874	QD	Medical service
+2720888	QT	Medical service
+2615412	AE	Medical service
+2720904	RR	Medical service
+2719406	KR	Medical service
+2614677	A0436	Medical service
+2720655	Q1	Medical service
+2721750	TN	Medical service
+2721681	T2024	Medical service
+2720819	Q6	Medical service
+2720809	Q5	Medical service
+2618096	GW	Medical service
+2616469	CB	Medical service
+2617170	FP	Medical service
+2617155	EP	Medical service
+2721585	S9900	Medical service
+40664560	G0158	Medical service
+2617243	G0152	Medical service
+2617249	G0160	Medical service
+40664467	G0157	Medical service
+2617242	G0151	Medical service
+2617248	G0159	Medical service
+2617244	G0153	Medical service
+2617250	G0161	Medical service
+2721593	S9988	Medical service
+2721595	S9990	Medical service
+2721596	S9991	Medical service
+2721776	UJ	Medical service
+2721619	SW	Medical service
+2721604	SD	Medical service
+2721434	S9088	Medical service
+2721774	UG	Medical service
+2721775	UH	Medical service
+2721773	UF	Medical service
+2721777	UK	Medical service
+2721594	S9989	Medical service
+2720879	QJ	Medical service
+2720499	MS	Medical service
+40664577	G0162	Medical service
+2617252	G0164	Medical service
+2618164	H2014	Medical service
+2721756	TU	Medical service
+2721757	TV	Medical service
+2615413	AF	Medical service
+2721252	S4030	Medical service
+2721253	S4031	Medical service
+2617153	EJ	Medical service
+2721036	S0320	Medical service
+2615491	BU	Medical service
+2615489	BP	Medical service
+2615490	BR	Medical service
+2618079	GE	Medical service
+2618077	GC	Medical service
+2618091	GR	Medical service
+2721779	UP	Medical service
+2721587	S9975	Medical service
+2614625	A0170	Medical service
+2721597	S9992	Medical service
+2720897	R0076	Medical service
+2720896	R0075	Medical service
+2720895	R0070	Medical service
+2721666	T2007	Medical service
+2617460	G0390	Medical service
+2720559	P9603	Medical service
+2720560	P9604	Medical service
+2721778	UN	Medical service
+2721692	T2035	Medical service
+2721696	T2039	Medical service
+2618075	GA	Medical service
+2618094	GU	Medical service
+2721682	T2025	Medical service
+2720382	L8015	Device
+2719903	L3935	Device
+2719893	L3925	Device
+2719895	L3927	Device
+2719901	L3933	Device
+2615079	A5508	Device
+2615081	A5510	Device
+2615071	A5500	Device
+2615072	A5501	Device
+2615076	A5505	Device
+2615077	A5506	Device
+2615074	A5503	Device
+2615075	A5504	Device
+2615078	A5507	Device
+2614780	A4354	Device
+2614752	A4316	Device
+2614750	A4314	Device
+2614751	A4315	Device
+2614746	A4310	Device
+2614749	A4313	Device
+2614747	A4311	Device
+2614748	A4312	Device
+2614779	A4353	Device
+2719656	L2136	Device
+2719655	L2134	Device
+2719654	L2132	Device
+2719632	L2035	Device
+2718968	K0041	Device
+2614740	A4286	Device
+2719238	K0601	Device
+2614943	A4633	Device
+2614946	A4636	Device
+2718938	K0011	Device
+2719969	L4396	Device
+2719142	K0462	Device
+2719453	L0452	Device
+2719452	L0450	Device
+2719934	L3980	Device
+2719935	L3982	Device
+2719936	L3984	Device
+2614715	A4250	Device
+2720325	L6950	Device
+2720326	L6955	Device
+2720181	L6250	Device
+2720195	L6500	Device
+2719983	L5230	Device
+2719992	L5321	Device
+2719980	L5200	Device
+2719982	L5220	Device
+2719981	L5210	Device
+40664627	K0744	Device
+40664876	K0746	Device
+40664793	K0745	Device
+2617120	E2512	Device
+2617121	E2599	Device
+2617026	E2209	Device
+2616385	C9354	Device
+2614980	A4708	Device
+2614981	A4709	Device
+2614974	A4680	Device
+2614736	A4282	Device
+2615862	C1883	Device
+2719389	KA	Device
+2719544	L1080	Device
+2719676	L2300	Device
+2719677	L2310	Device
+2720088	L5697	Device
+2720087	L5696	Device
+2720089	L5698	Device
+2720045	L5648	Device
+2720048	L5651	Device
+2720039	L5642	Device
+2720084	L5692	Device
+2720085	L5694	Device
+2720041	L5644	Device
+2719680	L2335	Device
+2720044	L5647	Device
+2720043	L5646	Device
+2720081	L5686	Device
+2720061	L5666	Device
+2720042	L5645	Device
+2720079	L5684	Device
+2720036	L5638	Device
+2720063	L5668	Device
+2720065	L5670	Device
+2720067	L5672	Device
+2720077	L5682	Device
+2720075	L5680	Device
+2720083	L5690	Device
+2720082	L5688	Device
+2719683	L2360	Device
+2719670	L2250	Device
+2720040	L5643	Device
+2720046	L5649	Device
+2720050	L5653	Device
+2720038	L5640	Device
+2719675	L2280	Device
+2719689	L2390	Device
+2719690	L2395	Device
+2719681	L2340	Device
+2719682	L2350	Device
+2719671	L2260	Device
+2720054	L5658	Device
+2720052	L5655	Device
+2720053	L5656	Device
+2720056	L5661	Device
+2720060	L5665	Device
+2720051	L5654	Device
+2719687	L2385	Device
+2720049	L5652	Device
+2720034	L5636	Device
+2719705	L2550	Device
+2719704	L2540	Device
+2719700	L2520	Device
+2719703	L2530	Device
+2719685	L2375	Device
+2719686	L2380	Device
+2719673	L2270	Device
+40664487	L5961	Device
+2719914	L3956	Device
+2719536	L1010	Device
+2719537	L1020	Device
+2719538	L1025	Device
+2719539	L1030	Device
+2719540	L1040	Device
+2719546	L1090	Device
+2719545	L1085	Device
+2719547	L1100	Device
+2719548	L1110	Device
+2719541	L1050	Device
+2719542	L1060	Device
+2719543	L1070	Device
+2719549	L1120	Device
+2720130	L5848	Device
+2719513	L0859	Device
+2719515	L0861	Device
+2719694	L2425	Device
+2719692	L2405	Device
+2719697	L2492	Device
+2719695	L2430	Device
+2719693	L2415	Device
+2721893	V2745	Device
+2719660	L2186	Device
+2719658	L2182	Device
+2719663	L2192	Device
+2719659	L2184	Device
+2719657	L2180	Device
+2719661	L2188	Device
+2719662	L2190	Device
+40662459	L2861	Device
+2719725	L2770	Device
+2719727	L2785	Device
+2719723	L2760	Device
+2719734	L2850	Device
+2719722	L2755	Device
+2719730	L2810	Device
+2719728	L2795	Device
+2719729	L2800	Device
+2719726	L2780	Device
+2719721	L2750	Device
+2719309	K0672	Device
+2719668	L2232	Device
+2719732	L2830	Device
+2719731	L2820	Device
+2719691	L2397	Device
+2719733	L2840	Device
+2720080	L5685	Device
+2720135	L5858	Device
+2720133	L5856	Device
+2720134	L5857	Device
+43533329	L5859	Device
+2720164	L5990	Device
+2720031	L5631	Device
+2720086	L5695	Device
+2720066	L5671	Device
+2720029	L5629	Device
+2720035	L5637	Device
+2720037	L5639	Device
+2720068	L5673	Device
+2720074	L5679	Device
+2719666	L2220	Device
+2719665	L2210	Device
+2720018	L5611	Device
+2720017	L5610	Device
+2720021	L5616	Device
+2720019	L5613	Device
+2720020	L5614	Device
+2719679	L2330	Device
+2719664	L2200	Device
+2719672	L2265	Device
+2719678	L2320	Device
+2719684	L2370	Device
+2719717	L2650	Device
+2719716	L2640	Device
+2719715	L2630	Device
+2719711	L2622	Device
+2719712	L2624	Device
+2719709	L2610	Device
+2719706	L2570	Device
+2719708	L2600	Device
+2719710	L2620	Device
+2719714	L2628	Device
+2719707	L2580	Device
+2719713	L2627	Device
+2719688	L2387	Device
+2720022	L5617	Device
+2719669	L2240	Device
+2719667	L2230	Device
+2720032	L5632	Device
+2720030	L5630	Device
+2720033	L5634	Device
+2720026	L5624	Device
+2720024	L5620	Device
+2720028	L5628	Device
+2720027	L5626	Device
+2720025	L5622	Device
+2720023	L5618	Device
+2719698	L2500	Device
+2719701	L2525	Device
+2719702	L2526	Device
+2719699	L2510	Device
+2719720	L2680	Device
+2719719	L2670	Device
+2719718	L2660	Device
+2719674	L2275	Device
+2720146	L5968	Device
+2720110	L5781	Device
+2720111	L5782	Device
+2720162	L5988	Device
+2719532	L0999	Device
+2720286	L6805	Device
+2720291	L6810	Device
+2719557	L1270	Device
+2719555	L1250	Device
+2719556	L1260	Device
+2719552	L1220	Device
+2719551	L1210	Device
+2719559	L1290	Device
+2719554	L1240	Device
+2719553	L1230	Device
+2719558	L1280	Device
+40658837	L3891	Device
+2719939	L3995	Device
+2720364	L7404	Device
+2720361	L7401	Device
+2720250	L6694	Device
+2720251	L6695	Device
+2720254	L6698	Device
+2720363	L7403	Device
+2720360	L7400	Device
+2720207	L6611	Device
+2720314	L6895	Device
+2720313	L6890	Device
+2720365	L7405	Device
+2720362	L7402	Device
+2720131	L5850	Device
+2720141	L5950	Device
+2720136	L5910	Device
+2720140	L5940	Device
+2720142	L5960	Device
+2720104	L5718	Device
+2720103	L5716	Device
+2720107	L5726	Device
+2720108	L5728	Device
+2720106	L5724	Device
+2720101	L5712	Device
+2720099	L5710	Device
+2720105	L5722	Device
+2720109	L5780	Device
+2720102	L5714	Device
+2720126	L5840	Device
+2720120	L5818	Device
+2720118	L5814	Device
+2720119	L5816	Device
+2720124	L5828	Device
+2720122	L5824	Device
+2720117	L5812	Device
+2720123	L5826	Device
+2720115	L5810	Device
+2720116	L5811	Device
+2720121	L5822	Device
+2720125	L5830	Device
+2720137	L5920	Device
+2720144	L5964	Device
+2720138	L5925	Device
+2720143	L5962	Device
+2720139	L5930	Device
+2720145	L5966	Device
+2720132	L5855	Device
+2720127	L5845	Device
+2720113	L5790	Device
+2720112	L5785	Device
+2720114	L5795	Device
+2720100	L5711	Device
+2720073	L5678	Device
+2720072	L5677	Device
+2720071	L5676	Device
+2720047	L5650	Device
+2615775	C1765	Device
+2615172	A6413	Device
+2615282	A7506	Device
+2615067	A5126	Device
+40661479	A4456	Device
+2614862	A4455	Device
+2614791	A4365	Device
+2614734	A4280	Device
+2614790	A4364	Device
+2718967	K0040	Device
+2616970	E1570	Device
+2615240	A7006	Device
+2615237	A7003	Device
+2615239	A7005	Device
+2721712	T4524	Device
+2721711	T4523	Device
+2721710	T4522	Device
+2721709	T4521	Device
+2721716	T4528	Device
+2721715	T4527	Device
+2721714	T4526	Device
+2721713	T4525	Device
+2616659	E0572	Device
+2616658	E0571	Device
+2615249	A7015	Device
+2719612	L1907	Device
+2616966	E1530	Device
+2616536	E0194	Device
+2616610	E0370	Device
+2616528	E0186	Device
+2616538	E0197	Device
+2614710	A4244	Device
+2614711	A4245	Device
+2615316	A9280	Device
+2615096	A6196	Device
+2615097	A6197	Device
+2615098	A6198	Device
+2615099	A6199	Device
+2720459	L8622	Device
+2720159	L5985	Device
+2720158	L5984	Device
+2720157	L5982	Device
+2720152	L5976	Device
+2720155	L5980	Device
+2720149	L5972	Device
+2720156	L5981	Device
+2720147	L5970	Device
+2720153	L5978	Device
+2720150	L5974	Device
+2720160	L5986	Device
+2720090	L5699	Device
+2720151	L5975	Device
+2720154	L5979	Device
+2720161	L5987	Device
+2720148	L5971	Device
+2720583	Q0112	Device
+2617843	G8443	Device
+2720808	Q4116	Device
+40664720	Q4123	Device
+2720807	Q4115	Device
+2614662	A0398	Device
+2614659	A0392	Device
+2614661	A0396	Device
+2614660	A0394	Device
+2614664	A0422	Device
+2616749	E0779	Device
+2616750	E0780	Device
+2616751	E0781	Device
+2616758	E0830	Device
+2615007	A4774	Device
+2721910	V2790	Device
+2616894	E1190	Device
+2616893	E1180	Device
+2616892	E1172	Device
+2616890	E1170	Device
+2616896	E1200	Device
+2616891	E1171	Device
+2720352	L7272	Device
+2615740	C1713	Device
+2721803	V2118	Device
+2721846	V2318	Device
+2721824	V2218	Device
+2719961	L4350	Device
+40664519	L4631	Device
+2719609	L1902	Device
+2719625	L1990	Device
+2719646	L2108	Device
+2719645	L2106	Device
+2719649	L2116	Device
+2719648	L2114	Device
+2719647	L2112	Device
+2719610	L1904	Device
+2719611	L1906	Device
+2719623	L1971	Device
+2719617	L1940	Device
+2719615	L1930	Device
+2719622	L1970	Device
+2719618	L1945	Device
+2719621	L1960	Device
+2719613	L1910	Device
+2719624	L1980	Device
+2719614	L1920	Device
+2719620	L1951	Device
+2719619	L1950	Device
+2719607	L1900	Device
+2719608	L1901	Device
+2719975	L5060	Device
+2719974	L5050	Device
+2720094	L5703	Device
+2721879	V2630	Device
+2721894	V2750	Device
+2720793	Q4101	Device
+2616680	E0619	Device
+2616679	E0618	Device
+2615068	A5131	Device
+40664456	G0441	Device
+2720449	L8612	Device
+2718946	K0019	Device
+2616826	E0994	Device
+40660709	V7	Device
+40661466	V6	Device
+2721117	S2117	Device
+40664829	Q4125	Device
+2720447	L8609	Device
+2720434	L8505	Device
+2720432	L8500	Device
+2721969	V5269	Device
+2721973	V5273	Device
+2721974	V5274	Device
+43533373	V5286	Device
+43533336	V5289	Device
+43533335	V5283	Device
+43533375	V5287	Device
+43533204	V5282	Device
+43533227	V5281	Device
+43533296	V5288	Device
+43533203	V5285	Device
+43533267	V5284	Device
+2721972	V5272	Device
+2721968	V5268	Device
+2721970	V5270	Device
+2721971	V5271	Device
+43533222	V5290	Device
+2721361	S8097	Device
+2721908	V2787	Device
+40664531	L8693	Device
+2720480	L8691	Device
+2720479	L8690	Device
+2720392	L8045	Device
+2617929	G8530	Device
+2718701	J7330	Device
+2614969	A4670	Device
+2719243	K0606	Device
+2720308	L6881	Device
+2616974	E1592	Device
+2719527	L0978	Device
+2617050	E2293	Device
+2617048	E2291	Device
+2721758	TW	Device
+2721882	V2700	Device
+2616968	E1550	Device
+2616561	E0242	Device
+2616560	E0241	Device
+2616559	E0240	Device
+40658872	Q0506	Device
+2614922	A4612	Device
+2720355	L7362	Device
+2720357	L7366	Device
+2614923	A4613	Device
+2720640	Q0497	Device
+2720646	Q0503	Device
+2721966	V5266	Device
+2614921	A4611	Device
+2720639	Q0496	Device
+2720638	Q0495	Device
+2616602	E0315	Device
+2616580	E0273	Device
+2616585	E0280	Device
+2616583	E0276	Device
+2616582	E0275	Device
+2616601	E0310	Device
+2616600	E0305	Device
+2614783	A4357	Device
+2615057	A5102	Device
+2720321	L6930	Device
+2720177	L6120	Device
+2720178	L6130	Device
+2720176	L6110	Device
+2720193	L6400	Device
+2720175	L6100	Device
+2719976	L5100	Device
+2719988	L5301	Device
+2719977	L5105	Device
+2720642	Q0499	Device
+2719766	L3213	Device
+2719765	L3212	Device
+2719767	L3214	Device
+2614713	A4247	Device
+2614712	A4246	Device
+2614979	A4707	Device
+2614978	A4706	Device
+2721826	V2220	Device
+2721825	V2219	Device
+2721048	S0506	Device
+2721930	V5140	Device
+2721928	V5120	Device
+2721931	V5150	Device
+2721929	V5130	Device
+2721527	S9442	Device
+2720516	P9010	Device
+2615003	A4770	Device
+2617016	E2101	Device
+2617015	E2100	Device
+2614717	A4253	Device
+2615005	A4772	Device
+2614716	A4252	Device
+2616969	E1560	Device
+2614968	A4663	Device
+2616979	E1620	Device
+2614999	A4755	Device
+2614998	A4750	Device
+2720517	P9011	Device
+2614656	A0382	Device
+2614657	A0384	Device
+2615971	C2636	Device
+2615742	C1715	Device
+2615978	C2643	Device
+2615743	C1716	Device
+2615969	C2634	Device
+2615970	C2635	Device
+2615744	C1717	Device
+2615974	C2639	Device
+2615746	C1719	Device
+2615981	C2699	Device
+2615976	C2641	Device
+2615972	C2637	Device
+2615953	C2616	Device
+2615977	C2642	Device
+2615973	C2638	Device
+2615980	C2698	Device
+2615975	C2640	Device
+2616504	E0159	Device
+40662114	L8031	Device
+2720378	L8000	Device
+2720380	L8002	Device
+2720379	L8001	Device
+2720383	L8020	Device
+2720381	L8010	Device
+2720386	L8039	Device
+2720384	L8030	Device
+2616668	E0603	Device
+2616669	E0604	Device
+2616667	E0602	Device
+2614738	A4284	Device
+2614928	A4618	Device
+2614961	A4651	Device
+2718978	K0051	Device
+2616476	E0100	Device
+2616477	E0105	Device
+2615234	A7000	Device
+2615235	A7001	Device
+2614925	A4615	Device
+2614737	A4283	Device
+2721542	S9472	Device
+2615748	C1721	Device
+2615861	C1882	Device
+2615749	C1722	Device
+2614910	A4580	Device
+2720713	Q4002	Device
+2720761	Q4050	Device
+2720725	Q4014	Device
+2720724	Q4013	Device
+2720727	Q4016	Device
+2720726	Q4015	Device
+2720737	Q4026	Device
+2720736	Q4025	Device
+2720739	Q4028	Device
+2720738	Q4027	Device
+2720717	Q4006	Device
+2720716	Q4005	Device
+2720719	Q4008	Device
+2720718	Q4007	Device
+2720729	Q4018	Device
+2720728	Q4017	Device
+2720731	Q4020	Device
+2720730	Q4019	Device
+2720741	Q4030	Device
+2720740	Q4029	Device
+2720743	Q4032	Device
+2720742	Q4031	Device
+2720745	Q4034	Device
+2720744	Q4033	Device
+2720747	Q4036	Device
+2720746	Q4035	Device
+2720753	Q4042	Device
+2720752	Q4041	Device
+2720755	Q4044	Device
+2720754	Q4043	Device
+2720721	Q4010	Device
+2720720	Q4009	Device
+2720723	Q4012	Device
+2720722	Q4011	Device
+2720733	Q4022	Device
+2720732	Q4021	Device
+2720735	Q4024	Device
+2720734	Q4023	Device
+2720749	Q4038	Device
+2720748	Q4037	Device
+2720751	Q4040	Device
+2720750	Q4039	Device
+2720757	Q4046	Device
+2720756	Q4045	Device
+2720759	Q4048	Device
+2720758	Q4047	Device
+2720715	Q4004	Device
+2720714	Q4003	Device
+2719000	K0073	Device
+2720712	Q4001	Device
+40664631	C1886	Device
+2615866	C1888	Device
+2615753	C1726	Device
+2615754	C1727	Device
+2615755	C1728	Device
+2615756	C1729	Device
+2615757	C1730	Device
+2615758	C1731	Device
+2615759	C1732	Device
+2615965	C2630	Device
+2615760	C1733	Device
+2615865	C1887	Device
+2615761	C1750	Device
+2615763	C1752	Device
+2615762	C1751	Device
+2615770	C1759	Device
+2615765	C1754	Device
+2615766	C1755	Device
+2615764	C1753	Device
+2615963	C2628	Device
+2615767	C1756	Device
+2615962	C2627	Device
+2615769	C1758	Device
+40664757	G8861	Device
+2616963	E1500	Device
+2720504	P2028	Device
+2614725	A4261	Device
+2616778	E0942	Device
+2616763	E0856	Device
+2616762	E0855	Device
+2719424	L0170	Device
+2719425	L0172	Device
+2719426	L0174	Device
+2719419	L0120	Device
+2719420	L0130	Device
+2719427	L0180	Device
+2719428	L0190	Device
+2719429	L0200	Device
+2719421	L0140	Device
+2719422	L0150	Device
+2719423	L0160	Device
+2719533	L1000	Device
+2719508	L0700	Device
+2614973	A4674	Device
+2616632	E0457	Device
+2616633	E0459	Device
+2615266	A7036	Device
+2615374	A9553	Device
+2720440	L8513	Device
+2615771	C1760	Device
+2719798	L3380	Device
+2615380	A9559	Device
+2615367	A9546	Device
+2720451	L8614	Device
+40659313	L8627	Device
+40662117	L8628	Device
+2720456	L8619	Device
+2615087	A6010	Device
+2615088	A6011	Device
+2615093	A6024	Device
+2615090	A6021	Device
+2615091	A6022	Device
+2615092	A6023	Device
+2616392	C9361	Device
+40664491	G0428	Device
+2616386	C9355	Device
+2721052	S0514	Device
+2615257	A7027	Device
+2616690	E0637	Device
+2616515	E0170	Device
+2616516	E0171	Device
+2616513	E0168	Device
+2616510	E0165	Device
+2616508	E0163	Device
+2616803	E0968	Device
+2617012	E1902	Device
+2616984	E1635	Device
+2721031	S0302	Device
+2615100	A6200	Device
+2615101	A6201	Device
+2615102	A6202	Device
+2615103	A6203	Device
+2615104	A6204	Device
+2615105	A6205	Device
+2721403	S8431	Device
+2615201	A6501	Device
+2615202	A6502	Device
+2615203	A6503	Device
+2615207	A6507	Device
+2615208	A6508	Device
+2615206	A6506	Device
+2615205	A6505	Device
+2615204	A6504	Device
+2615211	A6511	Device
+2615212	A6512	Device
+2615210	A6510	Device
+2615209	A6509	Device
+2615213	A6513	Device
+2616656	E0565	Device
+2614901	A4558	Device
+2615187	A6444	Device
+2615186	A6443	Device
+2615185	A6442	Device
+2615190	A6447	Device
+2615189	A6446	Device
+2615188	A6445	Device
+2721439	S9109	Device
+2720505	P2029	Device
+2615772	C1762	Device
+2615773	C1763	Device
+2615106	A6206	Device
+2615107	A6207	Device
+2615108	A6208	Device
+2721856	V2502	Device
+2721860	V2512	Device
+2721861	V2513	Device
+2721858	V2510	Device
+2721859	V2511	Device
+2721865	V2523	Device
+2721862	V2520	Device
+2721863	V2521	Device
+2721864	V2522	Device
+2721868	V2599	Device
+2721857	V2503	Device
+2721854	V2500	Device
+2721855	V2501	Device
+2721866	V2530	Device
+2721867	V2531	Device
+2615055	A5083	Device
+2615054	A5082	Device
+2615053	A5081	Device
+2616666	E0601	Device
+2721082	S1030	Device
+2721083	S1031	Device
+2616775	E0936	Device
+2721261	S4989	Device
+2614731	A4268	Device
+2614730	A4267	Device
+2614732	A4269	Device
+2616608	E0350	Device
+2719310	K0730	Device
+2615244	A7010	Device
+2615245	A7011	Device
+2616644	E0482	Device
+2614902	A4559	Device
+2719417	L0112	Device
+40664453	C9274	Device
+2616502	E0157	Device
+2616479	E0111	Device
+2616485	E0118	Device
+2616481	E0113	Device
+2616484	E0117	Device
+2616483	E0116	Device
+2616482	E0114	Device
+2616480	E0112	Device
+2616478	E0110	Device
+2720518	P9012	Device
+2721256	S4037	Device
+2719509	L0710	Device
+2720515	P7001	Device
+2617340	G0255	Device
+2615262	A7032	Device
+2617138	E2617	Device
+2617130	E2609	Device
+2720096	L5705	Device
+2720095	L5704	Device
+2720098	L5707	Device
+2720097	L5706	Device
+2721078	S1002	Device
+2616975	E1594	Device
+2720804	Q4112	Device
+2721096	S2070	Device
+2721051	S0512	Device
+2616978	E1615	Device
+2721784	V2025	Device
+2721077	S1001	Device
+2721883	V2702	Device
+40664683	Q4122	Device
+2720798	Q4106	Device
+2616389	C9358	Device
+2616391	C9360	Device
+2718944	K0017	Device
+2718945	K0018	Device
+2718942	K0015	Device
+40664634	G0451	Device
+2615001	A4765	Device
+2615002	A4766	Device
+2615000	A4760	Device
+2614987	A4722	Device
+2614985	A4720	Device
+2614988	A4723	Device
+2614989	A4724	Device
+2614990	A4725	Device
+2614991	A4726	Device
+2614986	A4721	Device
+2614992	A4728	Device
+2615860	C1881	Device
+2616990	E1699	Device
+2721007	S0194	Device
+2614975	A4690	Device
+2721726	T4538	Device
+2614729	A4266	Device
+2721160	S2351	Device
+2721940	V5240	Device
+2721927	V5110	Device
+2721932	V5160	Device
+2721936	V5200	Device
+2721941	V5241	Device
+2721924	V5090	Device
+2721060	S0595	Device
+2615015	A4860	Device
+2721046	S0500	Device
+2614970	A4671	Device
+2614744	A4305	Device
+2614745	A4306	Device
+2614733	A4270	Device
+2614786	A4360	Device
+2721731	T4543	Device
+2721723	T4535	Device
+2616609	E0352	Device
+2614898	A4554	Device
+2615250	A7016	Device
+2615023	A4911	Device
+2614971	A4672	Device
+2615294	A8	Device
+2615037	A5	Device
+2614685	A4	Device
+2615300	A9	Device
+2614682	A1	Device
+2615233	A7	Device
+2615085	A6	Device
+2614684	A3	Device
+2614683	A2	Device
+2719025	K0098	Device
+2720623	Q0480	Device
+2616526	E0184	Device
+2616540	E0199	Device
+2616955	E1399	Device
+2617002	E1815	Device
+2616994	E1800	Device
+2617007	E1825	Device
+2616996	E1802	Device
+2616999	E1810	Device
+2617009	E1840	Device
+2617008	E1830	Device
+2616997	E1805	Device
+2617001	E1812	Device
+2721162	S2361	Device
+2721975	V5275	Device
+2721965	V5265	Device
+2721964	V5264	Device
+2719845	L3740	Device
+2719844	L3730	Device
+2719843	L3720	Device
+2719842	L3710	Device
+2719839	L3700	Device
+2719840	L3701	Device
+2719847	L3762	Device
+2719846	L3760	Device
+2719841	L3702	Device
+2719851	L3766	Device
+2719850	L3765	Device
+2719849	L3764	Device
+2719848	L3763	Device
+2720331	L7007	Device
+2720332	L7008	Device
+2720307	L6880	Device
+2616546	E0215	Device
+2616545	E0210	Device
+2720333	L7009	Device
+2720341	L7045	Device
+2616746	E0769	Device
+2614912	A4595	Device
+2614899	A4556	Device
+2720347	L7190	Device
+2720345	L7185	Device
+2720348	L7191	Device
+2720346	L7186	Device
+2720342	L7170	Device
+2720343	L7180	Device
+2720344	L7181	Device
+40664520	T1505	Device
+2616736	E0755	Device
+2721375	S8190	Device
+2720350	L7261	Device
+2720349	L7260	Device
+2718980	K0053	Device
+2719077	K0195	Device
+2718973	K0046	Device
+2718974	K0047	Device
+2615863	C1884	Device
+2720637	Q0494	Device
+2720633	Q0490	Device
+2720634	Q0491	Device
+2720635	Q0492	Device
+2720636	Q0493	Device
+2617154	EM	Device
+2721311	S5162	Device
+2721310	S5161	Device
+2721179	S3601	Device
+40664510	C1749	Device
+40660167	L5973	Device
+2614863	A4458	Device
+2721874	V2625	Device
+2615432	B4035	Device
+2615433	B4036	Device
+2615431	B4034	Device
+2615443	B4102	Device
+2615454	B4157	Device
+2615481	B9002	Device
+2615480	B9000	Device
+2721382	S8270	Device
+40664905	C9366	Device
+43533200	Q4131	Device
+2617148	EA	Device
+2617149	EB	Device
+2617150	EC	Device
+2615774	C1764	Device
+2615321	A9300	Device
+2615275	A7045	Device
+2614765	A4331	Device
+2614972	A4673	Device
+2616754	E0784	Device
+2615310	A9274	Device
+2616678	E0617	Device
+2720481	L8695	Device
+2720478	L8689	Device
+2614782	A4356	Device
+2718934	K0007	Device
+2616781	E0945	Device
+2721896	V2756	Device
+2615170	A6411	Device
+2615169	A6410	Device
+2615171	A6412	Device
+43533310	Q4136	Device
+2720496	M0301	Device
+2615261	A7031	Device
+2614929	A4619	Device
+2616745	E0765	Device
+2720488	LS	Device
+2614761	A4327	Device
+2614762	A4328	Device
+2615280	A7504	Device
+2615285	A7509	Device
+2615283	A7507	Device
+2615279	A7503	Device
+2615247	A7013	Device
+2615268	A7038	Device
+2615269	A7039	Device
+2615248	A7014	Device
+2720643	Q0500	Device
+2720760	Q4049	Device
+2614676	A0435	Device
+2718947	K0020	Device
+40664903	Q4128	Device
+43533268	A9586	Device
+2721356	S8085	Device
+2615373	A9552	Device
+2721372	S8185	Device
+2615112	A6212	Device
+2615109	A6209	Device
+2615113	A6213	Device
+2615110	A6210	Device
+2615114	A6214	Device
+2615111	A6211	Device
+2615115	A6215	Device
+2615442	B4100	Device
+2719970	L4398	Device
+2615319	A9283	Device
+2616518	E0175	Device
+2719753	L3150	Device
+2719752	L3140	Device
+2719754	L3160	Device
+2719748	L3070	Device
+2719750	L3090	Device
+2719749	L3080	Device
+2719745	L3040	Device
+2719747	L3060	Device
+2719746	L3050	Device
+2719743	L3030	Device
+2719741	L3010	Device
+2719742	L3020	Device
+2719739	L3002	Device
+2719740	L3003	Device
+2719738	L3001	Device
+2719737	L3000	Device
+2719744	L3031	Device
+2719782	L3253	Device
+2719755	L3170	Device
+2719781	L3252	Device
+2719780	L3251	Device
+2718972	K0045	Device
+2718970	K0043	Device
+2718971	K0044	Device
+2617814	G8410	Device
+2616772	E0920	Device
+2616784	E0948	Device
+2616783	E0947	Device
+2616773	E0930	Device
+2616782	E0946	Device
+2721783	V2020	Device
+2720523	P9017	Device
+2720557	P9059	Device
+2720558	P9060	Device
+2718998	K0071	Device
+2718999	K0072	Device
+2719004	K0077	Device
+2618074	G9140	Device
+2615260	A7030	Device
+2719802	L3420	Device
+2616871	E1070	Device
+2616867	E1060	Device
+2616866	E1050	Device
+2616747	E0770	Device
+2616744	E0764	Device
+2617147	E8002	Device
+2617145	E8000	Device
+2617146	E8001	Device
+2615377	A9556	Device
+2720803	Q4111	Device
+40661480	A4466	Device
+2617014	E2000	Device
+2721192	S3708	Device
+2615441	B4088	Device
+2615440	B4087	Device
+2615122	A6222	Device
+2615123	A6223	Device
+2615124	A6224	Device
+2615128	A6231	Device
+2615129	A6232	Device
+2615130	A6233	Device
+2615162	A6266	Device
+2615125	A6228	Device
+2615126	A6229	Device
+2615127	A6230	Device
+2615116	A6216	Device
+2615117	A6217	Device
+2615118	A6218	Device
+2615119	A6219	Device
+2615163	A6402	Device
+2615120	A6220	Device
+2615164	A6403	Device
+2615121	A6221	Device
+2615165	A6404	Device
+2616527	E0185	Device
+2616537	E0196	Device
+2615094	A6025	Device
+2720442	L8515	Device
+2720439	L8512	Device
+2721222	S3854	Device
+2617133	E2612	Device
+2617132	E2611	Device
+2617123	E2602	Device
+2617122	E2601	Device
+2615777	C1767	Device
+2615827	C1820	Device
+2721922	V5070	Device
+2721923	V5080	Device
+2615031	A4927	Device
+2615034	A4930	Device
+2719407	KS	Device
+2615214	A6530	Device
+2615215	A6531	Device
+2615216	A6532	Device
+2615226	A6542	Device
+2615220	A6536	Device
+2615221	A6537	Device
+2615222	A6538	Device
+2615228	A6544	Device
+2615227	A6543	Device
+2615217	A6533	Device
+2615218	A6534	Device
+2615219	A6535	Device
+2615223	A6539	Device
+2615224	A6540	Device
+2615225	A6541	Device
+2615230	A6549	Device
+2615229	A6545	Device
+2721400	S8428	Device
+2721398	S8426	Device
+2721397	S8425	Device
+2721399	S8427	Device
+2721392	S8420	Device
+2721393	S8421	Device
+2721395	S8423	Device
+2721394	S8422	Device
+2721396	S8424	Device
+2721401	S8429	Device
+43533299	C9368	Device
+43533331	Q4132	Device
+43533374	C9369	Device
+43533237	Q4133	Device
+2615778	C1768	Device
+2720805	Q4113	Device
+2720799	Q4107	Device
+2720548	P9050	Device
+2616777	E0941	Device
+2614870	A4470	Device
+2615779	C1769	Device
+2721381	S8265	Device
+2719751	L3100	Device
+2720465	L8642	Device
+2719880	L3912	Device
+2719897	L3929	Device
+2719889	L3921	Device
+2719881	L3913	Device
+2719891	L3923	Device
+2721869	V2600	Device
+2719885	L3917	Device
+2719887	L3919	Device
+2615265	A7035	Device
+2720452	L8615	Device
+2721967	V5267	Device
+2721948	V5248	Device
+2721949	V5249	Device
+2721942	V5242	Device
+2721943	V5243	Device
+2721938	V5220	Device
+2721939	V5230	Device
+2721937	V5210	Device
+2721926	V5100	Device
+2721934	V5180	Device
+2721935	V5190	Device
+2721933	V5170	Device
+2721961	V5261	Device
+2721958	V5258	Device
+2721959	V5259	Device
+2721960	V5260	Device
+2721957	V5257	Device
+2721954	V5254	Device
+2721955	V5255	Device
+2721956	V5256	Device
+2721950	V5250	Device
+2721951	V5251	Device
+2721947	V5247	Device
+2721944	V5244	Device
+2721946	V5246	Device
+2721945	V5245	Device
+2721953	V5253	Device
+2721952	V5252	Device
+2721963	V5263	Device
+2721962	V5262	Device
+2721921	V5060	Device
+2721918	V5030	Device
+2721919	V5040	Device
+2721920	V5050	Device
+2721976	V5298	Device
+2616544	E0205	Device
+2616541	E0200	Device
+2616850	E1017	Device
+2616851	E1018	Device
+2718933	K0006	Device
+2616925	E1280	Device
+2616927	E1290	Device
+2616928	E1295	Device
+2616895	E1195	Device
+2616926	E1285	Device
+2616786	E0951	Device
+2616533	E0191	Device
+2719795	L3350	Device
+2719794	L3340	Device
+2719804	L3440	Device
+2719803	L3430	Device
+2719806	L3455	Device
+2719807	L3460	Device
+2719810	L3480	Device
+2719811	L3485	Device
+2719805	L3450	Device
+2719809	L3470	Device
+2719808	L3465	Device
+2615298	A8003	Device
+2615296	A8001	Device
+2615297	A8002	Device
+2615295	A8000	Device
+2720391	L8044	Device
+2616875	E1086	Device
+2616873	E1084	Device
+2616872	E1083	Device
+2616874	E1085	Device
+2616973	E1590	Device
+2616986	E1637	Device
+2616965	E1520	Device
+2615195	A6452	Device
+2616645	E0483	Device
+2615256	A7026	Device
+2615255	A7025	Device
+2718964	K0037	Device
+2616877	E1088	Device
+2616879	E1090	Device
+2616876	E1087	Device
+2616878	E1089	Device
+2718931	K0004	Device
+2719637	L2040	Device
+2719639	L2060	Device
+2719638	L2050	Device
+2719640	L2070	Device
+2719642	L2090	Device
+2719641	L2080	Device
+2719575	L1685	Device
+2719576	L1686	Device
+2719574	L1680	Device
+2719567	L1610	Device
+2719568	L1620	Device
+2719566	L1600	Device
+2719569	L1630	Device
+2719571	L1650	Device
+2719570	L1640	Device
+2719573	L1660	Device
+2719572	L1652	Device
+2721024	S0260	Device
+43533201	Q4134	Device
+2721363	S8101	Device
+2721362	S8100	Device
+2720641	Q0498	Device
+2616672	E0607	Device
+2721313	S5170	Device
+2615311	A9275	Device
+2721312	S5165	Device
+2616599	E0304	Device
+2616597	E0302	Device
+2616569	E0250	Device
+2616570	E0251	Device
+2616586	E0290	Device
+2616587	E0291	Device
+2616598	E0303	Device
+2616596	E0301	Device
+2616577	E0270	Device
+2616607	E0329	Device
+2616606	E0328	Device
+2616573	E0260	Device
+2616574	E0261	Device
+2616590	E0294	Device
+2616591	E0295	Device
+2616575	E0265	Device
+2616576	E0266	Device
+2616593	E0297	Device
+2616592	E0296	Device
+2616571	E0255	Device
+2616572	E0256	Device
+2616588	E0292	Device
+2616589	E0293	Device
+2721032	S0310	Device
+40664451	A9273	Device
+2616549	E0220	Device
+2615284	A7508	Device
+2615281	A7505	Device
+2616377	C9250	Device
+2616651	E0550	Device
+2616653	E0560	Device
+2616652	E0555	Device
+2616655	E0562	Device
+2616654	E0561	Device
+40664567	Q4117	Device
+2616551	E0225	Device
+2616558	E0239	Device
+2615134	A6237	Device
+2615131	A6234	Device
+2615135	A6238	Device
+2615132	A6235	Device
+2615136	A6239	Device
+2615133	A6236	Device
+2615138	A6241	Device
+2615137	A6240	Device
+2615142	A6245	Device
+2615139	A6242	Device
+2615143	A6246	Device
+2615140	A6243	Device
+2615144	A6247	Device
+2615141	A6244	Device
+2615145	A6248	Device
+2615663	C1300	Device
+2616552	E0230	Device
+2617361	G0278	Device
+40661386	Q4074	Device
+2720772	Q4080	Device
+2615780	C1770	Device
+2616941	E1372	Device
+2614742	A4300	Device
+2614743	A4301	Device
+2720443	L8600	Device
+2616677	E0616	Device
+2616755	E0785	Device
+2720469	L8680	Device
+2720477	L8688	Device
+2720476	L8687	Device
+2720475	L8686	Device
+2720474	L8685	Device
+2720471	L8682	Device
+2616756	E0786	Device
+2614960	A4650	Device
+2721142	S2230	Device
+2615272	A7042	Device
+2616467	C9899	Device
+2721044	S0395	Device
+2614878	A4520	Device
+2721727	T4539	Device
+2721729	T4541	Device
+2721730	T4542	Device
+2721725	T4537	Device
+2721728	T4540	Device
+2721724	T4536	Device
+40658963	A4336	Device
+2614769	A4335	Device
+2616725	E0740	Device
+2615328	A9507	Device
+2615363	A9542	Device
+2615392	A9571	Device
+2615391	A9570	Device
+2615368	A9547	Device
+2615369	A9548	Device
+2615393	A9572	Device
+2614952	A4642	Device
+2614772	A4344	Device
+2614773	A4346	Device
+2614770	A4338	Device
+2614771	A4340	Device
+2721384	S8301	Device
+40663275	G9142	Device
+40664557	Q2035	Device
+40664566	Q2037	Device
+40664584	Q2039	Device
+40664532	Q2038	Device
+40664421	Q2036	Device
+43533288	Q2034	Device
+2616550	E0221	Device
+2616753	E0783	Device
+2719135	K0455	Device
+2616752	E0782	Device
+2615867	C1891	Device
+2615961	C2626	Device
+2615782	C1772	Device
+2614704	A4231	Device
+2614703	A4230	Device
+2614701	A4222	Device
+2614702	A4223	Device
+2617330	G0245	Device
+2720004	L5505	Device
+2720003	L5500	Device
+2720438	L8511	Device
+2616464	C9727	Device
+2721337	S5565	Device
+2721338	S5566	Device
+2721339	S5570	Device
+2721340	S5571	Device
+2721335	S5560	Device
+2721336	S5561	Device
+2718459	J1817	Device
+2721452	S9145	Device
+2721411	S8490	Device
+2720796	Q4104	Device
+2720797	Q4105	Device
+2720806	Q4114	Device
+2720800	Q4108	Device
+2721058	S0590	Device
+2615825	C1818	Device
+2615254	A7020	Device
+40664840	S8131	Device
+40664722	S8130	Device
+2616712	E0676	Device
+2614778	A4352	Device
+2614777	A4351	Device
+2720466	L8658	Device
+2720330	L6975	Device
+2720197	L6570	Device
+2720185	L6350	Device
+2720186	L6360	Device
+2720187	L6370	Device
+2720329	L6970	Device
+2615828	C1821	Device
+2616643	E0481	Device
+2615869	C1893	Device
+2615868	C1892	Device
+2615776	C1766	Device
+2615964	C2629	Device
+2615870	C1894	Device
+2720570	Q0	Device
+2616374	C9247	Device
+2616650	E0500	Device
+2721880	V2631	Device
+2614823	A4397	Device
+2614756	A4322	Device
+2614754	A4320	Device
+2614781	A4355	Device
+2721109	S2102	Device
+2719394	KF	Device
+2615427	AV	Device
+2615428	AW	Device
+2615426	AU	Device
+2615429	AX	Device
+2615486	BA	Device
+2618099	GZ	Device
+2615430	AY	Device
+40664450	CS	Device
+2618098	GY	Device
+2721614	SQ	Device
+2617168	FB	Device
+2719032	K0105	Device
+2616748	E0776	Device
+2721079	S1015	Device
+2616991	E1700	Device
+2615786	C1776	Device
+2616964	E1510	Device
+2719627	L2005	Device
+2719629	L2020	Device
+2719630	L2030	Device
+2719653	L2128	Device
+2719652	L2126	Device
+2719633	L2036	Device
+2719631	L2034	Device
+2719634	L2037	Device
+2719635	L2038	Device
+2719628	L2010	Device
+2719626	L2000	Device
+2719591	L1832	Device
+2719594	L1840	Device
+2719599	L1847	Device
+2719598	L1846	Device
+2719597	L1845	Device
+2719588	L1825	Device
+2719586	L1815	Device
+2719587	L1820	Device
+2719585	L1810	Device
+2719584	L1800	Device
+2719589	L1830	Device
+2719590	L1831	Device
+2719603	L1860	Device
+2719593	L1836	Device
+2719596	L1844	Device
+2719595	L1843	Device
+2719600	L1850	Device
+2719592	L1834	Device
+2720487	LR	Device
+2616531	E0189	Device
+2614723	A4259	Device
+2615242	A7008	Device
+2615241	A7007	Device
+2614900	A4557	Device
+2615871	C1895	Device
+2615787	C1777	Device
+2615872	C1896	Device
+2615876	C1900	Device
+2615788	C1778	Device
+2615873	C1897	Device
+2615874	C1898	Device
+2615789	C1779	Device
+2615875	C1899	Device
+2720630	Q0487	Device
+2616503	E0158	Device
+2718965	K0038	Device
+2718966	K0039	Device
+2615061	A5114	Device
+2615060	A5113	Device
+2719579	L1710	Device
+2719583	L1755	Device
+2719581	L1730	Device
+2719578	L1700	Device
+2719580	L1720	Device
+40664812	C1840	Device
+2721903	V2782	Device
+2721904	V2783	Device
+2615790	C1780	Device
+2721905	V2784	Device
+2721821	V2215	Device
+2721827	V2221	Device
+2721804	V2121	Device
+2721849	V2321	Device
+2721800	V2115	Device
+2721843	V2315	Device
+2719790	L3320	Device
+2719789	L3310	Device
+2719793	L3334	Device
+2719788	L3300	Device
+2719792	L3332	Device
+2719791	L3330	Device
+2615193	A6450	Device
+2615192	A6449	Device
+2615191	A6448	Device
+2718939	K0012	Device
+2718930	K0003	Device
+2616923	E1260	Device
+2616921	E1240	Device
+2616924	E1270	Device
+2616922	E1250	Device
+2617261	G0173	Device
+2617336	G0251	Device
+2720359	L7368	Device
+2614914	A4601	Device
+2720461	L8624	Device
+2720460	L8623	Device
+2720358	L7367	Device
+2719495	L0628	Device
+2719492	L0625	Device
+2719493	L0626	Device
+2719494	L0627	Device
+2719736	L2999	Device
+2718927	K0	Device
+2719385	K1	Device
+2719386	K2	Device
+2720168	L5999	Device
+2719496	L0629	Device
+2719501	L0634	Device
+2719500	L0633	Device
+2719497	L0630	Device
+2719507	L0640	Device
+2719506	L0639	Device
+2719499	L0632	Device
+2719498	L0631	Device
+2719505	L0638	Device
+2719504	L0637	Device
+2719502	L0635	Device
+2719503	L0636	Device
+2719524	L0972	Device
+2719526	L0976	Device
+2614766	A4332	Device
+2614827	A4402	Device
+2614760	A4326	Device
+2614776	A4349	Device
+2720377	L7900	Device
+2721380	S8262	Device
+2616889	E1161	Device
+40664814	E0988	Device
+2616794	E0959	Device
+2616809	E0974	Device
+2616806	E0971	Device
+2617043	E2226	Device
+2617042	E2225	Device
+2617036	E2219	Device
+2617034	E2217	Device
+2617033	E2216	Device
+2617035	E2218	Device
+2617052	E2295	Device
+2617044	E2227	Device
+2616802	E0967	Device
+2617022	E2205	Device
+2616801	E0966	Device
+2617030	E2213	Device
+2617046	E2230	Device
+2617020	E2203	Device
+2617021	E2204	Device
+2617019	E2202	Device
+2617018	E2201	Device
+2616793	E0958	Device
+2617031	E2214	Device
+2617028	E2211	Device
+2616818	E0983	Device
+2616819	E0984	Device
+2617041	E2224	Device
+2616821	E0986	Device
+2617038	E2221	Device
+2617039	E2222	Device
+2617037	E2220	Device
+2616824	E0992	Device
+2617047	E2231	Device
+2617032	E2215	Device
+2617029	E2212	Device
+2617040	E2223	Device
+2617045	E2228	Device
+2617023	E2206	Device
+2616796	E0961	Device
+2615857	C1878	Device
+2721183	S3626	Device
+2721182	S3625	Device
+40664449	Q4120	Device
+40664473	Q4118	Device
+40664525	Q4119	Device
+2616579	E0272	Device
+2616578	E0271	Device
+2721599	S9996	Device
+2721632	T1010	Device
+2721589	S9977	Device
+40664630	A9272	Device
+2721521	S9435	Device
+2721751	TP	Device
+2721603	SC	Device
+43533221	Q4135	Device
+40664684	Q4126	Device
+2615791	C1781	Device
+2720462	L8630	Device
+2719801	L3410	Device
+2719800	L3400	Device
+2720464	L8641	Device
+2614962	A4652	Device
+2720453	L8616	Device
+2616384	C9353	Device
+2616383	C9352	Device
+2720309	L6882	Device
+2720624	Q0481	Device
+2720625	Q0482	Device
+2720388	L8041	Device
+2721898	V2761	Device
+2615025	A4913	Device
+2615407	A9999	Device
+2615405	A9900	Device
+2720648	Q0505	Device
+2721658	T1999	Device
+2720645	Q0502	Device
+2721520	S9434	Device
+2614873	A4483	Device
+2720629	Q0486	Device
+2720627	Q0484	Device
+2720626	Q0483	Device
+2615315	A9279	Device
+2615792	C1782	Device
+2614927	A4617	Device
+2721378	S8210	Device
+2615084	A5513	Device
+2615083	A5512	Device
+2616689	E0636	Device
+40659758	E1036	Device
+2616862	E1035	Device
+2616804	E0969	Device
+2615264	A7034	Device
+2615259	A7029	Device
+2720387	L8040	Device
+2720394	L8047	Device
+40664534	NB	Device
+2616662	E0580	Device
+2615251	A7017	Device
+2616661	E0575	Device
+2616657	E0570	Device
+2616663	E0585	Device
+2614695	A4215	Device
+2614690	A4210	Device
+2616634	E0460	Device
+2617112	E2402	Device
+2617909	G8510	Device
+2616726	E0744	Device
+2616727	E0745	Device
+2720658	Q1003	Device
+2720659	Q1004	Device
+2720660	Q1005	Device
+2720500	NR	Device
+2721262	S4990	Device
+2721263	S4991	Device
+40660185	L8032	Device
+2615347	A9526	Device
+2616805	E0970	Device
+2615484	B9998	Device
+2615485	B9999	Device
+2615417	AK	Device
+2616553	E0231	Device
+2615086	A6000	Device
+2614692	A4212	Device
+2614679	A0888	Device
+2615309	A9270	Device
+2614869	A4465	Device
+2616557	E0238	Device
+2721663	T2004	Device
+2721234	S3905	Device
+2616613	E0373	Device
+2616611	E0371	Device
+2721050	S0510	Device
+2721080	S1016	Device
+2616703	E0665	Device
+2616702	E0660	Device
+2616699	E0655	Device
+2616704	E0666	Device
+2721057	S0581	Device
+2616742	E0761	Device
+2614720	A4256	Device
+2721805	V2199	Device
+2720795	Q4103	Device
+40664878	C9365	Device
+40664629	Q4124	Device
+2720794	Q4102	Device
+2721900	V2770	Device
+2615006	A4773	Device
+2615794	C1784	Device
+2720448	L8610	Device
+2615793	C1783	Device
+2615270	A7040	Device
+2615258	A7028	Device
+2615274	A7044	Device
+2615035	A4931	Device
+2720389	L8042	Device
+2614938	A4628	Device
+2719785	L3257	Device
+2719779	L3250	Device
+2719778	L3230	Device
+2719769	L3216	Device
+2719770	L3217	Device
+2719768	L3215	Device
+2719777	L3225	Device
+2719773	L3221	Device
+2719774	L3222	Device
+2719772	L3219	Device
+2719776	L3224	Device
+2719821	L3590	Device
+2719820	L3580	Device
+2719814	L3520	Device
+2719812	L3500	Device
+2719813	L3510	Device
+2719822	L3595	Device
+2719816	L3540	Device
+2719815	L3530	Device
+2719819	L3570	Device
+2719817	L3550	Device
+2719818	L3560	Device
+2719760	L3206	Device
+2719759	L3204	Device
+2719761	L3207	Device
+2719828	L3649	Device
+2719757	L3202	Device
+2719756	L3201	Device
+2719758	L3203	Device
+2720483	L9900	Device
+2719724	L2768	Device
+2616646	E0484	Device
+2720450	L8613	Device
+2616729	E0747	Device
+2616730	E0748	Device
+2616731	E0749	Device
+2616741	E0760	Device
+2614846	A4422	Device
+2615056	A5093	Device
+2614822	A4396	Device
+2614793	A4367	Device
+2614789	A4363	Device
+2614821	A4395	Device
+2614820	A4394	Device
+2614810	A4384	Device
+2614787	A4361	Device
+2614794	A4368	Device
+2614826	A4400	Device
+2614824	A4398	Device
+2614825	A4399	Device
+40664604	A5057	Device
+40664703	A5056	Device
+2614813	A4387	Device
+2614841	A4417	Device
+2614840	A4416	Device
+2615041	A5054	Device
+2614844	A4420	Device
+2614847	A4423	Device
+2614843	A4419	Device
+2615040	A5053	Device
+2615038	A5051	Device
+2615039	A5052	Device
+2614842	A4418	Device
+2614803	A4377	Device
+2614804	A4378	Device
+2614837	A4413	Device
+2614836	A4412	Device
+43533292	A4435	Device
+2614815	A4389	Device
+2614848	A4424	Device
+2614814	A4388	Device
+2614816	A4390	Device
+2614801	A4375	Device
+2614802	A4376	Device
+2615045	A5063	Device
+2614850	A4426	Device
+2614851	A4427	Device
+2614849	A4425	Device
+2615043	A5061	Device
+2615044	A5062	Device
+2614808	A4382	Device
+2614807	A4381	Device
+2614809	A4383	Device
+2614853	A4429	Device
+2614817	A4391	Device
+2614819	A4393	Device
+2614854	A4430	Device
+2614852	A4428	Device
+2614805	A4379	Device
+2614806	A4380	Device
+2614818	A4392	Device
+2615050	A5073	Device
+2614857	A4433	Device
+2614858	A4434	Device
+2614856	A4432	Device
+2615048	A5071	Device
+2614855	A4431	Device
+2615049	A5072	Device
+2614828	A4404	Device
+2614795	A4369	Device
+2614829	A4405	Device
+2614830	A4406	Device
+2614797	A4371	Device
+2614798	A4372	Device
+2614835	A4411	Device
+2614811	A4385	Device
+2614799	A4373	Device
+2614833	A4409	Device
+2614834	A4410	Device
+2614838	A4414	Device
+2614839	A4415	Device
+2614831	A4407	Device
+2614832	A4408	Device
+2614845	A4421	Device
+2614792	A4366	Device
+2718936	K0009	Device
+2718941	K0014	Device
+2719799	L3390	Device
+2616581	E0274	Device
+2721901	V2780	Device
+2616626	E0445	Device
+2616939	E1357	Device
+2616938	E1356	Device
+2616940	E1358	Device
+2616936	E1354	Device
+2616961	E1405	Device
+2616962	E1406	Device
+2616953	E1391	Device
+2616952	E1390	Device
+2720878	QH	Device
+2721366	S8120	Device
+2721367	S8121	Device
+2616631	E0455	Device
+2616676	E0615	Device
+2616675	E0610	Device
+2615956	C2619	Device
+2615795	C1785	Device
+2615958	C2621	Device
+2615957	C2620	Device
+2615796	C1786	Device
+2615168	A6407	Device
+2616568	E0249	Device
+2615184	A6441	Device
+2721402	S8430	Device
+2616512	E0167	Device
+2616555	E0235	Device
+2614728	A4265	Device
+2616757	E0791	Device
+2615476	B4224	Device
+2615482	B9004	Device
+2615483	B9006	Device
+2615475	B4222	Device
+2615474	B4220	Device
+2615473	B4216	Device
+2720393	L8046	Device
+2719972	L5010	Device
+2719973	L5020	Device
+2719971	L5000	Device
+2720170	L6010	Device
+2720171	L6020	Device
+2720169	L6000	Device
+2617932	G8533	Device
+2617925	G8526	Device
+2617923	G8524	Device
+2616683	E0625	Device
+2616688	E0635	Device
+2616693	E0640	Device
+2616687	E0630	Device
+2616692	E0639	Device
+2720470	L8681	Device
+2615797	C1787	Device
+2614924	A4614	Device
+2616595	E0300	Device
+2721718	T4530	Device
+2721717	T4529	Device
+2721719	T4531	Device
+2721720	T4532	Device
+2616780	E0944	Device
+2616642	E0480	Device
+2615070	A5200	Device
+2617417	G0341	Device
+2614764	A4330	Device
+2614963	A4653	Device
+2616983	E1634	Device
+40658177	A4264	Device
+2614727	A4263	Device
+2719528	L0980	Device
+2721319	S5199	Device
+2614905	A4562	Device
+2614904	A4561	Device
+43533239	S0596	Device
+2615263	A7033	Device
+2720543	P9044	Device
+2720529	P9023	Device
+2719787	L3265	Device
+2614719	A4255	Device
+2616711	E0675	Device
+2616696	E0650	Device
+2616698	E0652	Device
+2616697	E0651	Device
+2719963	L4370	Device
+2719964	L4380	Device
+2721008	S0195	Device
+2721899	V2762	Device
+2721873	V2624	Device
+2614739	A4285	Device
+2721056	S0580	Device
+2616395	C9364	Device
+2616390	C9359	Device
+2616393	C9362	Device
+2615798	C1788	Device
+40664860	K0741	Device
+2616616	E0430	Device
+2719318	K0738	Device
+2616617	E0431	Device
+40660809	E0433	Device
+2616619	E0435	Device
+2616618	E0434	Device
+2616954	E1392	Device
+40664828	K0742	Device
+2616624	E0443	Device
+2616625	E0444	Device
+2721360	S8096	Device
+2616532	E0190	Device
+2721733	T5001	Device
+2617142	E2621	Device
+2617141	E2620	Device
+2617135	E2614	Device
+2617134	E2613	Device
+2617137	E2616	Device
+2617136	E2615	Device
+2617127	E2606	Device
+2617126	E2605	Device
+2721881	V2632	Device
+2616671	E0606	Device
+2720647	Q0504	Device
+40664601	Q0478	Device
+2719384	K0899	Device
+40664556	Q0479	Device
+2616911	E1230	Device
+2719322	K0801	Device
+2719321	K0800	Device
+2719323	K0802	Device
+2719325	K0807	Device
+2719324	K0806	Device
+2719326	K0808	Device
+2719327	K0812	Device
+2720631	Q0488	Device
+2720632	Q0489	Device
+40664880	E2358	Device
+40664704	E2359	Device
+2719313	K0733	Device
+2617076	E2360	Device
+2617077	E2361	Device
+2617070	E2331	Device
+2617083	E2367	Device
+2617082	E2366	Device
+2617065	E2326	Device
+2617109	E2396	Device
+2617108	E2395	Device
+2617063	E2324	Device
+2617107	E2394	Device
+2617055	E2310	Device
+2617056	E2311	Device
+2617075	E2351	Device
+2617092	E2376	Device
+2617093	E2377	Device
+2617102	E2389	Device
+2617101	E2388	Device
+2617100	E2387	Device
+2617099	E2386	Device
+2617078	E2362	Device
+2617079	E2363	Device
+2617088	E2372	Device
+2617087	E2371	Device
+2617061	E2322	Device
+2617060	E2321	Device
+2617089	E2373	Device
+2617057	E2312	Device
+2617090	E2374	Device
+2617058	E2313	Device
+2617068	E2329	Device
+2617066	E2327	Device
+2617069	E2330	Device
+2617067	E2328	Device
+2617096	E2383	Device
+2617110	E2397	Device
+2617091	E2375	Device
+2617073	E2342	Device
+2617074	E2343	Device
+2617071	E2340	Device
+2617072	E2341	Device
+2617111	E2399	Device
+2617097	E2384	Device
+2617094	E2381	Device
+2617053	E2300	Device
+2617054	E2301	Device
+2617064	E2325	Device
+2617104	E2391	Device
+2617105	E2392	Device
+2617103	E2390	Device
+2617062	E2323	Device
+2617098	E2385	Device
+2617095	E2382	Device
+2617080	E2364	Device
+2617081	E2365	Device
+2617106	E2393	Device
+43533244	E2378	Device
+2617085	E2369	Device
+2617086	E2370	Device
+2617084	E2368	Device
+2719331	K0816	Device
+2719329	K0814	Device
+2719328	K0813	Device
+2719330	K0815	Device
+2719341	K0829	Device
+2719349	K0840	Device
+2719340	K0828	Device
+2719337	K0825	Device
+2719352	K0843	Device
+2719347	K0838	Device
+2719346	K0837	Device
+2719336	K0824	Device
+2719335	K0823	Device
+2719351	K0842	Device
+2719350	K0841	Device
+2719333	K0821	Device
+2719332	K0820	Device
+2719343	K0831	Device
+2719342	K0830	Device
+2719345	K0836	Device
+2719344	K0835	Device
+2719334	K0822	Device
+2719339	K0827	Device
+2719348	K0839	Device
+2719338	K0826	Device
+2719360	K0855	Device
+2719369	K0864	Device
+2719359	K0854	Device
+2719356	K0851	Device
+2719367	K0862	Device
+2719364	K0859	Device
+2719363	K0858	Device
+2719355	K0850	Device
+2719354	K0849	Device
+2719366	K0861	Device
+2719362	K0857	Device
+2719361	K0856	Device
+2719353	K0848	Device
+2719358	K0853	Device
+2719368	K0863	Device
+2719365	K0860	Device
+2719357	K0852	Device
+2719380	K0886	Device
+2719376	K0879	Device
+2719372	K0870	Device
+2719371	K0869	Device
+2719379	K0885	Device
+2719378	K0884	Device
+2719375	K0878	Device
+2719374	K0877	Device
+2719370	K0868	Device
+2719377	K0880	Device
+2719373	K0871	Device
+2719382	K0891	Device
+2719381	K0890	Device
+2719383	K0898	Device
+2616920	E1239	Device
+2616535	E0193	Device
+2616612	E0372	Device
+40664774	C1830	Device
+2616524	E0181	Device
+2616584	E0277	Device
+2720340	L7040	Device
+2720014	L5590	Device
+2720012	L5580	Device
+2720013	L5585	Device
+2720011	L5570	Device
+2720010	L5560	Device
+2720005	L5510	Device
+2720008	L5535	Device
+2720009	L5540	Device
+2720006	L5520	Device
+2720007	L5530	Device
+2720200	L6584	Device
+2720201	L6586	Device
+2720202	L6588	Device
+2720203	L6590	Device
+2720198	L6580	Device
+2720199	L6582	Device
+2721886	V2718	Device
+2616967	E1540	Device
+2616637	E0463	Device
+2616638	E0464	Device
+2720802	Q4110	Device
+2721885	V2715	Device
+2720568	PL	Device
+2721902	V2781	Device
+2615799	C1789	Device
+2615820	C1813	Device
+2615959	C2622	Device
+2615822	C1815	Device
+2720370	L7600	Device
+2721878	V2629	Device
+2721872	V2623	Device
+2720482	L8699	Device
+2720418	L8410	Device
+2720417	L8400	Device
+2720419	L8415	Device
+2720420	L8417	Device
+2720425	L8460	Device
+2720424	L8440	Device
+2720426	L8465	Device
+2720423	L8435	Device
+2720422	L8430	Device
+2720421	L8420	Device
+2720428	L8480	Device
+2720427	L8470	Device
+2720429	L8485	Device
+2719530	L0984	Device
+2617017	E2120	Device
+2616525	E0182	Device
+2616556	E0236	Device
+2720687	Q3001	Device
+2720472	L8683	Device
+2720473	L8684	Device
+2616466	C9898	Device
+2614951	A4641	Device
+2615403	A9699	Device
+2616563	E0244	Device
+2718977	K0050	Device
+2615317	A9281	Device
+2718997	K0070	Device
+2718996	K0069	Device
+2615314	A9278	Device
+2615823	C1816	Device
+2616981	E1630	Device
+2616847	E1014	Device
+2615036	A4932	Device
+2614699	A4220	Device
+2616935	E1353	Device
+2615966	C2631	Device
+2719941	L4000	Device
+2719950	L4060	Device
+2719954	L4100	Device
+2719955	L4110	Device
+2719952	L4080	Device
+2719953	L4090	Device
+2719948	L4050	Device
+2719946	L4040	Device
+2719949	L4055	Device
+2719947	L4045	Device
+2719956	L4130	Device
+2719951	L4070	Device
+2719945	L4030	Device
+2719944	L4020	Device
+2719968	L4394	Device
+2719943	L4010	Device
+2614940	A4630	Device
+2719244	K0607	Device
+2719240	K0603	Device
+2719241	K0604	Device
+2719242	K0605	Device
+2719239	K0602	Device
+2614948	A4638	Device
+2614706	A4233	Device
+2614707	A4234	Device
+2614708	A4235	Device
+2614709	A4236	Device
+2614944	A4634	Device
+2617140	E2619	Device
+2616992	E1701	Device
+2615278	A7502	Device
+2719246	K0609	Device
+2719245	K0608	Device
+2614721	A4257	Device
+2616993	E1702	Device
+2719402	KN	Device
+2719391	KC	Device
+2614950	A4640	Device
+2614949	A4639	Device
+2720311	L6884	Device
+2720310	L6883	Device
+2720312	L6885	Device
+2617005	E1820	Device
+2617006	E1821	Device
+2719942	L4002	Device
+2719412	KX	Device
+2615243	A7009	Device
+2616853	E1020	Device
+2616641	E0472	Device
+2616640	E0471	Device
+2616639	E0470	Device
+2616665	E0600	Device
+2616721	E0710	Device
+2721417	S8999	Device
+2615821	C1814	Device
+2615783	C1773	Device
+2616977	E1610	Device
+2616636	E0462	Device
+2616861	E1031	Device
+2615376	A9555	Device
+2614741	A4290	Device
+2719489	L0622	Device
+2719488	L0621	Device
+2719491	L0624	Device
+2616603	E0316	Device
+2616718	E0700	Device
+2721054	S0516	Device
+2616815	E0980	Device
+2616988	E1639	Device
+2721876	V2627	Device
+2721053	S0515	Device
+2721897	V2760	Device
+2615952	C2615	Device
+2616501	E0156	Device
+2718983	K0056	Device
+2616684	E0627	Device
+2616517	E0172	Device
+2617051	E2294	Device
+2617049	E2292	Device
+2616709	E0672	Device
+2616708	E0671	Device
+2616710	E0673	Device
+2616701	E0657	Device
+2616706	E0668	Device
+2616705	E0667	Device
+2616707	E0669	Device
+43533243	E0670	Device
+2616700	E0656	Device
+2615198	A6455	Device
+2615197	A6454	Device
+2615196	A6453	Device
+2721925	V5095	Device
+2616884	E1110	Device
+2616883	E1100	Device
+2615312	A9276	Device
+2719925	L3970	Device
+2719927	L3972	Device
+2719929	L3974	Device
+2616685	E0628	Device
+2616686	E0629	Device
+2615824	C1817	Device
+2615004	A4771	Device
+2720351	L7266	Device
+2720581	Q0092	Device
+2719933	L3978	Device
+2719928	L3973	Device
+2616848	E1015	Device
+2616849	E1016	Device
+2719920	L3965	Device
+2719919	L3964	Device
+2719923	L3968	Device
+2719921	L3966	Device
+2719924	L3969	Device
+2719931	L3976	Device
+2719932	L3977	Device
+2719930	L3975	Device
+2719922	L3967	Device
+2719915	L3960	Device
+2719917	L3962	Device
+2719926	L3971	Device
+2719916	L3961	Device
+40664555	L3674	Device
+2719836	L3673	Device
+2719835	L3672	Device
+2719833	L3670	Device
+2719831	L3652	Device
+2719832	L3660	Device
+2719829	L3650	Device
+2719834	L3671	Device
+2719838	L3677	Device
+2719830	L3651	Device
+2719837	L3675	Device
+40664459	A4566	Device
+2720644	Q0501	Device
+2614997	A4740	Device
+2721870	V2610	Device
+2719490	L0623	Device
+2616507	E0162	Device
+2616505	E0160	Device
+2616506	E0161	Device
+2720354	L7360	Device
+2615063	A5120	Device
+2614788	A4362	Device
+2615064	A5121	Device
+2615065	A5122	Device
+2616681	E0620	Device
+40664438	E2625	Device
+40664559	E2624	Device
+2719317	K0737	Device
+2719316	K0736	Device
+2617129	E2608	Device
+2617128	E2607	Device
+40664490	E2622	Device
+40664575	E2623	Device
+2719315	K0735	Device
+2719314	K0734	Device
+2617125	E2604	Device
+2617124	E2603	Device
+2615146	A6250	Device
+40664574	C9367	Device
+2718925	JD	Device
+2718924	JC	Device
+2616394	C9363	Device
+2720792	Q4100	Device
+2720801	Q4109	Device
+2721884	V2710	Device
+2614913	A4600	Device
+2616682	E0621	Device
+2614906	A4565	Device
+2615238	A7004	Device
+2617959	G9016	Device
+2721265	S4995	Device
+2615398	A9580	Device
+2615384	A9563	Device
+2615299	A8004	Device
+2719797	L3370	Device
+2719796	L3360	Device
+2617845	G8446	Device
+2616985	E1636	Device
+2614937	A4627	Device
+2616909	E1228	Device
+2721887	V2730	Device
+2614911	A4590	Device
+2616908	E1227	Device
+2616931	E1298	Device
+2616930	E1297	Device
+2616929	E1296	Device
+2721686	T2029	Device
+2721685	T2028	Device
+2615150	A6254	Device
+2615147	A6251	Device
+2615151	A6255	Device
+2615148	A6252	Device
+2615152	A6256	Device
+2615149	A6253	Device
+2721828	V2299	Device
+2614675	A0434	Device
+2721907	V2786	Device
+2721850	V2399	Device
+2617115	E2504	Device
+2617116	E2506	Device
+2617114	E2502	Device
+2617113	E2500	Device
+2617118	E2510	Device
+2617117	E2508	Device
+2617119	E2511	Device
+2721806	V2200	Device
+2721807	V2201	Device
+2721808	V2202	Device
+2721785	V2100	Device
+2721787	V2102	Device
+2721786	V2101	Device
+2721829	V2300	Device
+2721830	V2301	Device
+2721831	V2302	Device
+40660676	V2313	Device
+2721809	V2203	Device
+2721810	V2204	Device
+2721811	V2205	Device
+2721812	V2206	Device
+2721814	V2208	Device
+2721815	V2209	Device
+2721816	V2210	Device
+2721813	V2207	Device
+2721817	V2211	Device
+2721818	V2212	Device
+2721819	V2213	Device
+2721820	V2214	Device
+2721788	V2103	Device
+2721789	V2104	Device
+2721790	V2105	Device
+2721791	V2106	Device
+2721795	V2110	Device
+2721792	V2107	Device
+2721794	V2109	Device
+2721793	V2108	Device
+2721796	V2111	Device
+2721797	V2112	Device
+2721798	V2113	Device
+2721799	V2114	Device
+2721832	V2303	Device
+2721833	V2304	Device
+2721834	V2305	Device
+2721835	V2306	Device
+2721836	V2307	Device
+2721837	V2308	Device
+2721838	V2309	Device
+2721839	V2310	Device
+2721840	V2311	Device
+2721841	V2312	Device
+2721842	V2314	Device
+2614967	A4660	Device
+2719450	L0430	Device
+2719562	L1499	Device
+2616649	E0487	Device
+2615320	A9284	Device
+2614907	A4570	Device
+2720762	Q4051	Device
+2721406	S8450	Device
+2721408	S8452	Device
+2721407	S8451	Device
+2718992	K0065	Device
+2614722	A4258	Device
+2616937	E1355	Device
+2718937	K0010	Device
+2718929	K0002	Device
+2718969	K0042	Device
+2718928	K0001	Device
+2616885	E1130	Device
+2616695	E0642	Device
+2616694	E0641	Device
+2616691	E0638	Device
+2721611	SL	Device
+2617003	E1816	Device
+2616995	E1801	Device
+2617004	E1818	Device
+2617000	E1811	Device
+2617010	E1841	Device
+40664475	E1831	Device
+2616998	E1806	Device
+2616615	E0425	Device
+2616614	E0424	Device
+2616621	E0440	Device
+2616620	E0439	Device
+2616622	E0441	Device
+2616623	E0442	Device
+2615853	C1874	Device
+2615854	C1875	Device
+2615855	C1876	Device
+2615856	C1877	Device
+2615960	C2625	Device
+2615954	C2617	Device
+2719529	L0982	Device
+2615042	A5055	Device
+2615436	B4083	Device
+2721250	S4027	Device
+40664811	Q4130	Device
+40664902	K0743	Device
+2721055	S0518	Device
+2719191	K0552	Device
+2721391	S8415	Device
+2614700	A4221	Device
+2614691	A4211	Device
+2721734	T5999	Device
+2719763	L3209	Device
+2719762	L3208	Device
+2719764	L3211	Device
+2719786	L3260	Device
+2614865	A4461	Device
+2614867	A4463	Device
+2615032	A4928	Device
+2614874	A4490	Device
+2614876	A4500	Device
+2614877	A4510	Device
+2614875	A4495	Device
+2614959	A4649	Device
+2721175	S2900	Device
+2615826	C1819	Device
+2614897	A4550	Device
+2718979	K0052	Device
+2721373	S8186	Device
+2616530	E0188	Device
+2614705	A4232	Device
+2614687	A4207	Device
+2614688	A4208	Device
+2614689	A4209	Device
+2614686	A4206	Device
+2614693	A4213	Device
+2614966	A4657	Device
+40664721	Q4127	Device
+2614859	A4450	Device
+2614860	A4452	Device
+2721740	TC	Device
+2721871	V2615	Device
+2614726	A4262	Device
+2616387	C9356	Device
+43533220	L7902	Device
+2720262	L6709	Device
+2720267	L6714	Device
+2720261	L6708	Device
+2720266	L6713	Device
+2720271	L6722	Device
+2720270	L6721	Device
+2720260	L6707	Device
+2720265	L6712	Device
+2720259	L6706	Device
+2720264	L6711	Device
+2720268	L6715	Device
+2720256	L6703	Device
+2720257	L6704	Device
+2614755	A4321	Device
+2616543	E0203	Device
+40664568	Q4121	Device
+2719564	L1510	Device
+2719565	L1520	Device
+2719430	L0210	Device
+2719431	L0220	Device
+2719563	L1500	Device
+2719550	L1200	Device
+2720507	P2033	Device
+2721892	V2744	Device
+2615858	C1879	Device
+2614958	A4648	Device
+2719473	L0491	Device
+2719456	L0458	Device
+2719474	L0492	Device
+2719458	L0462	Device
+2719459	L0464	Device
+2719455	L0456	Device
+2719454	L0454	Device
+2719463	L0472	Device
+2719460	L0466	Device
+2719462	L0470	Device
+2719461	L0468	Device
+2719468	L0482	Device
+2719471	L0488	Device
+2719469	L0484	Device
+2719467	L0480	Device
+2719472	L0490	Device
+2719470	L0486	Device
+2719523	L0970	Device
+2719525	L0974	Device
+2719457	L0460	Device
+2616787	E0952	Device
+2616562	E0243	Device
+2614909	A4575	Device
+40664526	E0446	Device
+2615033	A4929	Device
+2614934	A4624	Device
+2614916	A4605	Device
+2720441	L8514	Device
+2720436	L8509	Device
+2720435	L8507	Device
+2614872	A4481	Device
+2615290	A7524	Device
+2615277	A7501	Device
+2614939	A4629	Device
+2614935	A4625	Device
+2614936	A4626	Device
+2615291	A7525	Device
+2615289	A7523	Device
+2720433	L8501	Device
+2721374	S8189	Device
+2615292	A7526	Device
+2614933	A4623	Device
+2615293	A7527	Device
+2615287	A7521	Device
+2615286	A7520	Device
+2615288	A7522	Device
+2616760	E0849	Device
+2616764	E0860	Device
+2616765	E0870	Device
+2616767	E0890	Device
+2616759	E0840	Device
+2616761	E0850	Device
+2616766	E0880	Device
+2616768	E0900	Device
+2720172	L6025	Device
+2616743	E0762	Device
+2616723	E0730	Device
+2616722	E0720	Device
+2616971	E1575	Device
+43533197	G9157	Device
+2616566	E0247	Device
+2616567	E0248	Device
+2616720	E0705	Device
+2720455	L8618	Device
+2615313	A9277	Device
+40660592	L8629	Device
+2720454	L8617	Device
+2615153	A6257	Device
+2615154	A6258	Device
+2615155	A6259	Device
+2616865	E1039	Device
+2616864	E1038	Device
+2616863	E1037	Device
+2614918	A4608	Device
+2616776	E0940	Device
+2616770	E0911	Device
+2616771	E0912	Device
+2616769	E0910	Device
+2721848	V2320	Device
+2721847	V2319	Device
+2721049	S0508	Device
+2617229	G0127	Device
+2720416	L8330	Device
+2720415	L8320	Device
+2720414	L8310	Device
+2720413	L8300	Device
+2616564	E0245	Device
+2614926	A4616	Device
+2614735	A4281	Device
+2615267	A7037	Device
+2614915	A4604	Device
+2615236	A7002	Device
+2615200	A6457	Device
+2720356	L7364	Device
+2721419	S9007	Device
+2718932	K0005	Device
+2616660	E0574	Device
+2616715	E0692	Device
+2616716	E0693	Device
+2616714	E0691	Device
+2616717	E0694	Device
+2614945	A4635	Device
+2616972	E1580	Device
+40664861	Q4129	Device
+2720395	L8048	Device
+2720221	L6638	Device
+2720208	L6615	Device
+2720225	L6642	Device
+2720224	L6641	Device
+2720210	L6620	Device
+2720246	L6690	Device
+2720245	L6689	Device
+2720235	L6672	Device
+2720232	L6660	Device
+2720234	L6670	Device
+2720218	L6632	Device
+2720219	L6635	Device
+2720220	L6637	Device
+2720215	L6628	Device
+2720216	L6629	Device
+2720247	L6691	Device
+2720214	L6625	Device
+2720226	L6645	Device
+2720230	L6650	Device
+2720212	L6623	Device
+2720217	L6630	Device
+2720231	L6655	Device
+2720242	L6686	Device
+2720233	L6665	Device
+2720240	L6682	Device
+2720241	L6684	Device
+2720239	L6680	Device
+2720209	L6616	Device
+2720213	L6624	Device
+2720244	L6688	Device
+2720243	L6687	Device
+2720237	L6676	Device
+2720236	L6675	Device
+2720238	L6677	Device
+2720222	L6639	Device
+2720249	L6693	Device
+2720227	L6646	Device
+2720228	L6647	Device
+2720229	L6648	Device
+2720248	L6692	Device
+2720206	L6610	Device
+2720204	L6600	Device
+2720223	L6640	Device
+2720205	L6605	Device
+2720211	L6621	Device
+2720366	L7499	Device
+2720390	L8043	Device
+2719940	L3999	Device
+2616605	E0326	Device
+2616604	E0325	Device
+2614767	A4333	Device
+2614768	A4334	Device
+2615059	A5112	Device
+2614784	A4358	Device
+2615058	A5105	Device
+2721772	UE	Device
+2721895	V2755	Device
+2614871	A4480	Device
+2615273	A7043	Device
+2616670	E0605	Device
+2721852	V2430	Device
+2721851	V2410	Device
+2614930	A4620	Device
+2721853	V2499	Device
+40661851	V5	Device
+2720468	L8670	Device
+2721525	S9439	Device
+2615859	C1880	Device
+2615027	A4918	Device
+2618090	GQ	Device
+2618093	GT	Device
+2721912	V2799	Device
+2721911	V2797	Device
+2720437	L8510	Device
+2616635	E0461	Device
+2616627	E0450	Device
+2616492	E0144	Device
+2616487	E0135	Device
+2616491	E0143	Device
+2616495	E0147	Device
+2616497	E0149	Device
+2616496	E0148	Device
+2616486	E0130	Device
+2616489	E0141	Device
+2616488	E0140	Device
+2719965	L4386	Device
+2719962	L4360	Device
+2616554	E0232	Device
+2615276	A7046	Device
+2616548	E0218	Device
+2616547	E0217	Device
+2615246	A7012	Device
+2616529	E0187	Device
+2616539	E0198	Device
+2615271	A7041	Device
+2616980	E1625	Device
+2616982	E1632	Device
+2720582	Q0111	Device
+2616500	E0155	Device
+40664609	E2633	Device
+40664724	E2631	Device
+40664841	E2630	Device
+40664651	E2632	Device
+40664650	E2627	Device
+40664663	E2628	Device
+40664688	E2626	Device
+40664608	E2629	Device
+2616813	E0978	Device
+2616842	E1009	Device
+2616843	E1010	Device
+2616808	E0973	Device
+2616817	E0982	Device
+2617027	E2210	Device
+2616827	E0995	Device
+2617024	E2207	Device
+2617025	E2208	Device
+2616822	E0990	Device
+2616790	E0955	Device
+2616791	E0956	Device
+2616907	E1226	Device
+2616906	E1225	Device
+2616858	E1028	Device
+2616792	E0957	Device
+2616840	E1007	Device
+2616841	E1008	Device
+2616839	E1006	Device
+2616837	E1004	Device
+2616836	E1003	Device
+2616835	E1002	Device
+2616838	E1005	Device
+2616820	E0985	Device
+2616816	E0981	Device
+2616795	E0960	Device
+2616785	E0950	Device
+2616859	E1029	Device
+2616860	E1030	Device
+2719306	K0669	Device
+2719035	K0108	Device
+2617131	E2610	Device
+2721017	S0209	Device
+2616905	E1224	Device
+2616904	E1223	Device
+2616903	E1222	Device
+2616902	E1221	Device
+2616887	E1150	Device
+2616886	E1140	Device
+2616888	E1160	Device
+2616917	E1236	Device
+2616919	E1238	Device
+2616910	E1229	Device
+2616916	E1235	Device
+2616918	E1237	Device
+2616913	E1232	Device
+2616915	E1234	Device
+2616912	E1231	Device
+2616914	E1233	Device
+2616901	E1220	Device
+2616933	E1310	Device
+2616932	E1300	Device
+2720549	P9051	Device
+2720552	P9054	Device
+2720554	P9056	Device
+2616881	E1092	Device
+2616882	E1093	Device
+2615318	A9282	Device
+2615231	A6550	Device
+2615156	A6260	Device
+2615157	A6261	Device
+2615158	A6262	Device
+2615095	A6154	Device
+2719870	L3901	Device
+2719869	L3900	Device
+2719879	L3911	Device
+2719872	L3904	Device
+2719854	L3806	Device
+2719899	L3931	Device
+2719856	L3808	Device
+2719855	L3807	Device
+2719883	L3915	Device
+2719873	L3905	Device
+2719874	L3906	Device
+2719876	L3908	Device
+2719877	L3909	Device
+2615379	A9558	Device
+2614984	A4719	Device
+2721721	T4533	Device
+2721722	T4534	Device
+2615364	A9543	Device
+2720458	L8621	Device
+2615199	A6456	Device
+2720076	L5681	Device
+2719387	K3	Device
+2719388	K4	Device
+2615194	A6451	Device
+2721047	S0504	Device
+44786357	A4555	Device
+44786358	A7047	Device
+44786359	A9520	Procedure drug
+44786360	A9575	Procedure drug
+44786361	A9599	Device
+44786362	AO	Observation
+44786363	C1204	Procedure drug
+44786364	C1841	Device
+44786365	C5271	Procedure
+44786366	C5272	Procedure
+44786367	C5273	Procedure
+44786368	C5274	Procedure
+44786369	C5275	Procedure
+44786370	C5276	Procedure
+44786371	C5277	Procedure
+44786372	C5278	Procedure
+44786373	C9130	Procedure drug
+44786374	C9131	Procedure drug
+44786375	C9132	Procedure drug
+44786376	C9133	Procedure drug
+44786377	C9297	Procedure drug
+44786378	C9298	Procedure drug
+44786379	C9441	Procedure drug
+44786380	C9497	Procedure drug
+44786381	C9734	Procedure
+44786382	C9735	Procedure drug
+44786383	C9736	Procedure
+44786384	C9737	Procedure
+40664509	DA	Procedure
+44786385	E0766	Device
+44786386	E1352	Device
+44786387	G0459	Medical service
+44786388	G0460	Device
+44786389	G0461	Measurement
+44786390	G0462	Measurement
+44786391	G0463	Medical service
+44786392	G9187	Observation
+44786393	G9188	Quality metric
+44786394	G9189	Procedure drug
+44786395	G9190	Quality metric
+44786396	G9191	Quality metric
+44786397	G9192	Quality metric
+44786398	G9193	Quality metric
+44786399	G9194	Quality metric
+44786400	G9195	Quality metric
+44786401	G9196	Procedure drug
+44786402	G9197	Procedure drug
+44786403	G9198	Quality metric
+44786404	G9199	Quality metric
+44786405	G9200	Quality metric
+44786406	G9201	Quality metric
+44786407	G9202	Measurement
+44786408	G9203	Measurement
+44786409	G9204	Quality metric
+44786410	G9205	Procedure drug
+44786411	G9206	Procedure drug
+44786412	G9207	Quality metric
+44786413	G9208	Quality metric
+44786414	G9209	Quality metric
+44786415	G9210	Quality metric
+44786416	G9211	Quality metric
+44786417	G9212	Quality metric
+44786418	G9213	Quality metric
+44786419	G9214	Measurement
+44786420	G9215	Quality metric
+44786421	G9216	Quality metric
+44786422	G9217	Quality metric
+44786423	G9218	Quality metric
+44786424	G9219	Quality metric
+44786425	G9220	Quality metric
+44786426	G9221	Procedure drug
+44786427	G9222	Quality metric
+44786428	G9223	Quality metric
+44786429	G9224	Quality metric
+44786430	G9225	Quality metric
+44786431	G9226	Procedure
+44786432	G9227	Quality metric
+44786433	G9228	Measurement
+44786434	G9229	Quality metric
+44786435	G9230	Quality metric
+44786436	G9231	Quality metric
+44786437	G9232	Quality metric
+44786438	G9233	Quality metric
+44786439	G9234	Quality metric
+44786440	G9235	Quality metric
+44786441	G9236	Quality metric
+44786442	G9237	Quality metric
+44786443	G9238	Quality metric
+44786444	G9239	Quality metric
+44786445	G9240	Quality metric
+44786446	G9241	Quality metric
+44786447	G9242	Measurement
+44786448	G9243	Measurement
+44786449	G9244	Quality metric
+44786450	G9245	Procedure drug
+44786451	G9246	Quality metric
+44786452	G9247	Quality metric
+44786453	G9248	Quality metric
+44786454	G9249	Quality metric
+44786455	G9250	Quality metric
+44786456	G9251	Quality metric
+44786457	G9252	Procedure
+44786458	G9253	Procedure
+44786459	G9254	Quality metric
+44786460	G9255	Quality metric
+44786461	G9256	Quality metric
+44786462	G9257	Quality metric
+44786463	G9258	Quality metric
+44786464	G9259	Quality metric
+44786465	G9260	Quality metric
+44786466	G9261	Quality metric
+44786467	G9262	Quality metric
+44786468	G9263	Quality metric
+44786469	G9264	Quality metric
+44786470	G9265	Quality metric
+44786471	G9266	Quality metric
+44786472	G9267	Quality metric
+44786473	G9268	Quality metric
+44786474	G9269	Quality metric
+44786475	G9270	Quality metric
+44786476	G9271	Measurement
+44786477	G9272	Measurement
+44786478	G9273	Measurement
+44786479	G9274	Measurement
+44786480	G9275	Quality metric
+44786481	G9276	Quality metric
+44786482	G9277	Quality metric
+44786483	G9278	Quality metric
+44786484	G9279	Quality metric
+44786485	G9280	Quality metric
+44786486	G9281	Quality metric
+44786487	G9282	Quality metric
+44786488	G9283	Procedure
+44786489	G9284	Procedure
+44786490	G9285	Quality metric
+44786491	G9286	Quality metric
+44786492	G9287	Quality metric
+44786493	G9288	Quality metric
+44786494	G9289	Procedure
+44786495	G9290	Procedure
+44786496	G9291	Quality metric
+44786497	G9292	Quality metric
+44786498	G9293	Quality metric
+44786499	G9294	Quality metric
+44786500	G9295	Quality metric
+44786501	G9296	Quality metric
+44786502	G9297	Quality metric
+44786503	G9298	Quality metric
+44786504	G9299	Quality metric
+44786505	G9300	Quality metric
+44786506	G9301	Quality metric
+44786507	G9302	Quality metric
+44786508	G9303	Quality metric
+44786509	G9304	Quality metric
+44786510	G9305	Procedure
+44786511	G9306	Procedure
+44786512	G9307	Quality metric
+44786513	G9308	Quality metric
+44786514	G9309	Quality metric
+44786515	G9310	Quality metric
+44786516	G9311	Quality metric
+44786517	G9312	Quality metric
+44786518	G9313	Procedure drug
+44786519	G9314	Procedure drug
+44786520	G9315	Procedure drug
+44786521	G9316	Quality metric
+44786522	G9317	Quality metric
+44786523	G9318	Quality metric
+44786524	G9319	Quality metric
+44786525	G9320	Quality metric
+44786526	G9321	Quality metric
+44786527	G9322	Quality metric
+44786528	G9323	Quality metric
+44786529	G9324	Quality metric
+44786530	G9325	Procedure
+44786531	G9326	Procedure
+44786532	G9327	Procedure
+44786533	G9328	Quality metric
+44786534	G9329	Quality metric
+44786535	G9340	Quality metric
+44786536	G9341	Quality metric
+44786537	G9342	Quality metric
+44786538	G9343	Quality metric
+44786539	G9344	Quality metric
+44786540	G9345	Quality metric
+44786541	G9346	Quality metric
+44786542	G9347	Quality metric
+44786543	G9348	Procedure
+44786544	G9349	Quality metric
+44786545	G9350	Procedure
+44786546	G9351	Quality metric
+44786547	G9352	Quality metric
+44786548	G9353	Quality metric
+44786549	G9354	Quality metric
+44786550	G9355	Quality metric
+44786551	G9356	Quality metric
+44786552	G9357	Quality metric
+44786553	G9358	Quality metric
+44786554	G9359	Quality metric
+44786555	G9360	Quality metric
+44786556	J0151	Procedure drug
+44786557	J0401	Procedure drug
+44786558	J0717	Procedure drug
+44786559	J1442	Procedure drug
+44786560	J1446	Procedure drug
+44786561	J1556	Procedure drug
+44786562	J1602	Procedure drug
+44786563	J3060	Procedure drug
+44786564	J3489	Procedure drug
+44786565	J7301	Procedure drug
+44786566	J7316	Procedure drug
+44786567	J7508	Procedure drug
+44786568	J9047	Procedure drug
+44786569	J9262	Procedure drug
+44786570	J9306	Procedure drug
+44786571	J9354	Procedure drug
+44786572	J9371	Procedure drug
+44786573	J9400	Procedure drug
+44786574	JE	Procedure drug
+44786575	K0008	Device
+44786576	K0013	Device
+44786577	K0900	Device
+44786578	L0455	Device
+44786579	L0457	Device
+44786580	L0467	Device
+44786581	L0469	Device
+44786582	L0641	Device
+44786583	L0642	Device
+44786584	L0643	Device
+44786585	L0648	Device
+44786586	L0649	Device
+44786587	L0650	Device
+44786588	L0651	Device
+44786589	L1812	Device
+44786590	L1833	Device
+44786591	L1848	Device
+44786592	L3678	Device
+44786593	L3809	Device
+2719884	L3916	Device
+2719886	L3918	Device
+2719892	L3924	Device
+2719898	L3930	Device
+44786594	L4361	Device
+44786595	L4387	Device
+44786596	L4397	Device
+44786597	L5969	Device
+44786598	L8679	Device
+44786599	PM	Medical service
+44786600	Q0090	Procedure drug
+44786601	Q0161	Procedure drug
+44786602	Q0507	Device
+44786603	Q0508	Device
+44786604	Q0509	Device
+44786605	Q2028	Procedure drug
+44786606	Q2033	Procedure drug
+44786607	Q2050	Procedure drug
+44786608	Q2051	Procedure drug
+44786609	Q2052	Medical service
+44786610	Q3027	Procedure drug
+44786611	Q3028	Procedure drug
+44786612	Q4137	Device
+44786613	Q4138	Device
+44786614	Q4139	Device
+44786615	Q4140	Device
+44786616	Q4141	Device
+44786617	Q4142	Device
+44786618	Q4143	Device
+44786619	Q4145	Procedure drug
+44786620	Q4146	Device
+44786621	Q4147	Device
+44786622	Q4148	Device
+44786623	Q4149	Procedure drug
+44786624	S9960	Medical service
+44786625	S9961	Medical service
+44786626	T4544	Device
