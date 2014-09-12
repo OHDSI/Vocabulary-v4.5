@@ -67,7 +67,7 @@ $zip->addFile(csv_dump($dbh, $_), sprintf('%s.csv', $_->{name})) for
     },
     {
 	name => 'CONCEPT_SYNONYM',
-	query => sprintf('WHERE EXISTS (SELECT * FROM CONCEPT c WHERE t.CONCEPT_ID = t.CONCEPT_ID AND VOCABULARY_ID IN (%s))', $placeholder),
+	query => sprintf('WHERE EXISTS (SELECT * FROM CONCEPT c WHERE t.CONCEPT_ID = c.CONCEPT_ID AND VOCABULARY_ID IN (%s))', $placeholder),
 	params => [ @vocabularies ],	
     },
     {
