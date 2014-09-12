@@ -1,14 +1,6 @@
 /* Script to update all mapping_type (and later concepts) to records in CPT4
 */
 
--- Load table
--- drop table concept_domain; -- unless already exists from snomed;
-create table concept_domain as
-select 
-  concept_id,
-  concept_name as domain_name 
-from concept where 1=0;
-
 -- load Dima's cpt4 domain assignment file
 -- drop table cpt4_domain;
 create table cpt4_domain as

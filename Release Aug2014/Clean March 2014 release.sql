@@ -25,4 +25,14 @@ update vocabulary set vocabulary_name='OMOP Procedure Occurrence Type' where voc
 update vocabulary set vocabulary_name='OMOP Observation Type' where vocabulary_id=39;
 update vocabulary set vocabulary_name='OMOP Death Type' where vocabulary_id=45;
 
+-- undo ICD-9-Proc to SNOMED mapping deprecation
+update concept_relationship r set
+  r.valid_end_date='31-Dec-2099',
+  r.invalid_reason=null 
+where r.relationship_id in (92, 226)
+and exists (
+  select 1 from concept c where c.concept_id=r.concept_id_1 and c.concept_class='Procedure' and vocabulary_id=1
+  union
+  select 1 from concept c where c.concept_id=r.concept_id_2 and c.concept_class='Procedure' and vocabulary_id=1
+);
 exit;

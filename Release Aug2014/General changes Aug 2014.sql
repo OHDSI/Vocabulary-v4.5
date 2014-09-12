@@ -715,4 +715,17 @@ values (seq_concept.nextval, 'Patient reported device', 1, 'Device Type', 63, 'O
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
 values (seq_concept.nextval, 'EHR Detail', 1, 'Device Type', 63, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 
+-- add Condition Occurrence types (from Amy)
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Inpatient detail – 16th position', 1, 'Condition Occurrence Type', 37, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Inpatient detail – 17th position', 1, 'Condition Occurrence Type', 37, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Inpatient detail – 18th position', 1, 'Condition Occurrence Type', 37, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Inpatient detail – 19th position', 1, 'Condition Occurrence Type', 37, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Inpatient detail – 20th position', 1, 'Condition Occurrence Type', 37, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+
+
 exit;

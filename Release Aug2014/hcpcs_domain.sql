@@ -1,14 +1,6 @@
 /* Script to update all mapping_type (and later concepts) to records in CPT4
 */
 
--- Load table
--- drop table concept_domain; -- unless already exists from snomed;
-create table concept_domain as
-select 
-  concept_id,
-  concept_name as domain_name 
-from concept where 1=0;
-
 -- load Dima's hcpcs domain assignment file
 -- drop table hcpcs_domain;
 create table hcpcs_domain as
@@ -54,3 +46,11 @@ select
 from hcpcs_domain d, concept c where c.concept_code=d.concept_code and c.vocabulary_id=5
 ;
 
+-- HCPCS conditions
+update concept_domain d set
+  d.domain_name='Observation' 
+where d.domain_name='Condition' and exists (
+  select 1 from concept c where d.concept_id=c.concept_id and c.vocabulary_id=5
+);
+
+drop table hcpcs_domain;

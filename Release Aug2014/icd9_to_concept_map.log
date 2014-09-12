@@ -1,0 +1,59 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Tue Sep 9 14:57:38 2014
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   icd9_to_concept_map.ctl
+Data File:      icd9_to_concept_map.txt
+  Bad File:     icd9_to_concept_map.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table ICD9_TO_CONCEPT_MAP, loaded from every logical record.
+Insert option in effect for this table: REPLACE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+SOURCE_CODE                         FIRST     *  WHT      CHARACTER            
+SOURCE_VOCABULARY_ID                 NEXT     *  WHT      CHARACTER            
+SOURCE_CODE_DESCRIPTION              NEXT     *  WHT      CHARACTER            
+TARGET_CONCEPT_ID                    NEXT     *  WHT      CHARACTER            
+TARGET_VOCABULARY_ID                 NEXT     *  WHT      CHARACTER            
+MAPPING_TYPE                         NEXT     *  WHT      CHARACTER            
+PRIMARY_MAP                          NEXT     *  WHT      CHARACTER            
+    NULL if PRIMARY_MAP = 0X4e554c4c(character 'NULL')
+VALID_START_DATE                     NEXT     *  WHT      DATE YYYY-MM-DD      
+VALID_END_DATE                       NEXT     *  WHT      DATE YYYY-MM-DD      
+INVALID_REASON                       NEXT     *  WHT      CHARACTER            
+    NULL if INVALID_REASON = 0X4e554c4c(character 'NULL')
+
+
+Table ICD9_TO_CONCEPT_MAP:
+  21162 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 165120 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:         21162
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Tue Sep 09 14:57:38 2014
+Run ended on Tue Sep 09 15:00:00 2014
+
+Elapsed time was:     00:02:22.08
+CPU time was:         00:00:00.63

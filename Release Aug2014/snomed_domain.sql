@@ -2,8 +2,8 @@
 */
 
 -- Load table (later build)
--- drop table concept_domain;
-create table concept_domain as
+-- drop table snomed_domain;
+create table snomed_domain as
 select 
   concept_id,
   concept_name as domain_name 
@@ -14,9 +14,9 @@ from concept where 1=0;
 options (skip=0)
 load data
 infile snomed_domain.txt
-into table concept_domain
+into table snomed_domain
 replace
-fields terminated by '\t'
+fields terminated by ','
 optionally enclosed by '"'
 trailing nullcols
 (
@@ -24,6 +24,10 @@ concept_id,
 domain_name
 )
 */
+
+-- Write into concept_domain
+insert into concept_domain
+select * from snomed_domain;
 
 -- Create domain for those SNOMED concepts that have no domain assigned
 insert into concept_domain
@@ -40,21 +44,31 @@ select
 from concept c where not exists (
   select 1 from concept_domain d where d.concept_id=c.concept_id
 )
-and vocabulary_id=1
+and vocabulary_id=1 and invalid_reason is null
 ;
 
-select * from concept_domain
+select c.concept_class, c.valid_start_date, count(8) from concept c, snomed_domain d where d.concept_id=c.concept_id and d.domain_name='Not assigned'
+group by c.concept_class, c.valid_start_date;
 
--- Rename domain names 
-update concept_domain set domain_name='Race' where domain_name='race';
-update concept_domain set domain_name='Procedure' where domain_name='procedure_occurrence';
-update concept_domain set domain_name='Observation' where domain_name='observation';
-update concept_domain set domain_name='Provider specialty' where domain_name='provider';
-update concept_domain set domain_name='Drug' where domain_name='drug_exposure';
-update concept_domain set domain_name='Device' where domain_name='device_exposure';
-update concept_domain set domain_name='Measurement' where domain_name='measurement';
-update concept_domain set domain_name='Condition' where domain_name='condition_occurrence';
+select d.domain_name, c.* from concept c, snomed_domain d where d.concept_id=c.concept_id and c.concept_class='Context-dependent category'
+;
 
--- Now assign to all concept classes 
+-- Manually fix 'Not assigned' 
+update concept_domain d set
+  d.domain_name=(select decode(c.concept_class,
+    'Clinical finding', 'Condition',
+    'Procedure', 'Procedure',
+    'Pharmaceutical / biological product', 'Drug',
+    'Physical object', 'Device',
+    'Substance', 'Device',
+    'Model component', 'Metadata',
+    'Namespace concept', 'Metadata',
+    'Observation'
+  )
+  from concept c
+  where c.concept_id=d.concept_id 
+)
+where d.domain_name='Not assigned'
+;
 
-select distinct domain_name from concept_domain;
+select * from concept_domain where domain_name='Not assigned';

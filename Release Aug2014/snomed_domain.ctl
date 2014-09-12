@@ -1,9 +1,9 @@
 options (skip=0)
 load data
 infile snomed_domain.txt
-into table concept_domain
+into table snomed_domain
 replace
-fields terminated by '\t'
+fields terminated by ','
 optionally enclosed by '"'
 trailing nullcols
 (

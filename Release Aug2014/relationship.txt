@@ -1,0 +1,315 @@
+relationship_id,relationship_name,is_hierarchical,defines_ancestry,reverse_relationship
+1,Concept replaced by (LOINC),0,0,135
+2,Has precise ingredient (RxNorm),0,0,136
+3,Has tradename (RxNorm),0,1,137
+4,Has dose form (RxNorm),1,0,138
+5,Has form (RxNorm),0,0,139
+6,Has ingredient (RxNorm),1,0,140
+7,Constitutes (RxNorm),1,1,141
+8,Contains (RxNorm),1,0,142
+9,Reformulation of (RxNorm),0,0,143
+10,Subsumes,1,1,144
+11,Has dose form (NDF-RT),1,0,145
+12,Induces (NDF-RT),1,0,146
+13,May diagnose (NDF-RT),1,0,147
+14,Has physiological effect (NDF-RT),1,0,148
+15,Has contraindicating physiological effect (NDF-RT),1,0,149
+16,Has ingredient (NDF-RT),1,0,150
+17,Has contraindicating chemical class (NDF-RT),1,0,151
+18,Has mechanism of action (NDF-RT),1,0,152
+19,Has contraindicating mechanism of action (NDF-RT),1,0,153
+20,Has pharmacokinetics (NDF-RT),1,0,154
+21,May treat (NDF-RT),1,0,155
+22,Contraindication to (NDF-RT),1,0,156
+23,May prevent (NDF-RT),1,0,157
+24,Has active metabolites (NDF-RT),1,0,158
+25,Has site of metabolism (NDF-RT),1,0,159
+26,Effect may be inhibited by (NDF-RT),1,0,160
+27,Has chemical structure (NDF-RT),1,0,161
+28,NDF-RT to RxNorm equivalent (RxNorm),0,1,162
+29,Has recipient category (SNOMED),0,0,163
+30,Has procedure site (SNOMED),0,0,164
+31,Has priority (SNOMED),0,0,165
+32,Has pathological process (SNOMED),0,0,166
+33,Has part of (SNOMED),0,0,167
+34,Has severity (SNOMED),0,0,168
+35,Has revision status (SNOMED),0,0,169
+36,Has access (SNOMED),0,0,170
+37,Has occurrence (SNOMED),0,0,171
+38,Has method (SNOMED),0,0,172
+39,Has laterality (SNOMED),0,0,173
+40,Has interprets (SNOMED),0,0,174
+41,Has indirect morphology (SNOMED),0,0,175
+42,Has indirect device (SNOMED),0,0,176
+43,Has specimen (SNOMED),0,0,177
+44,Has interpretation (SNOMED),0,0,178
+45,Has intent (SNOMED),0,0,179
+46,Has focus (SNOMED),0,0,180
+47,Has definitional manifestation (SNOMED),0,0,181
+48,Has active ingredient (SNOMED),0,0,182
+49,Has finding site (SNOMED),0,0,183
+50,Has episodicity (SNOMED),0,0,184
+51,Has direct substance (SNOMED),0,0,185
+52,Has direct morphology (SNOMED),0,0,186
+53,Has direct device (SNOMED),0,0,187
+54,Has component (SNOMED),0,0,188
+55,Has causative agent (SNOMED),0,0,189
+56,Has associated morphology (SNOMED),0,0,190
+57,Has associated finding (SNOMED),0,0,191
+58,Has measurement method (SNOMED),0,0,192
+59,Has property (SNOMED),0,0,193
+60,Has scale type (SNOMED),0,0,194
+61,Has time aspect (SNOMED),0,0,195
+62,Has specimen procedure (SNOMED),0,0,196
+63,Has specimen source identity (SNOMED),0,0,197
+64,Has specimen source morphology (SNOMED),0,0,198
+65,Has specimen source topography (SNOMED),0,0,199
+66,Has specimen substance (SNOMED),0,0,200
+67,Has due to (SNOMED),0,0,201
+68,Has subject relationship context (SNOMED),0,0,202
+69,Has dose form (SNOMED),0,0,203
+70,Occurs after (SNOMED),0,0,204
+71,Has associated procedure (SNOMED),0,0,205
+72,Has direct procedure site (SNOMED),0,0,206
+73,Has indirect procedure site (SNOMED),0,0,207
+74,Has procedure device (SNOMED),0,0,208
+75,Has procedure morphology (SNOMED),0,0,209
+76,Has finding context (SNOMED),0,0,210
+77,Has procedure context (SNOMED),0,0,211
+78,Has temporal context (SNOMED),0,0,212
+79,Associated with (SNOMED),0,0,213
+80,Has surgical approach (SNOMED),0,0,214
+81,Using device (SNOMED),0,0,215
+82,Using energy (SNOMED),0,0,216
+83,Using substance (SNOMED),0,0,217
+84,Using access device (SNOMED),0,0,218
+85,Has clinical course (SNOMED),0,0,219
+86,Has route of administration (SNOMED),0,0,220
+87,Using finding method (SNOMED),0,0,221
+88,Using finding informer (SNOMED),0,0,222
+89,Obsolete,0,1,223
+90,Obsolete,0,1,224
+91,Obsolete,1,1,225
+92,ICD9 procedure to SNOMED equivalent (OMOP),1,0,226
+93,CPT-4 to SNOMED category (OMOP),1,0,227
+94,CPT-4 to SNOMED equivalent (OMOP),0,0,228
+101,Obsolete,0,0,229
+102,Obsolete,0,0,230
+103,Obsolete,0,0,231
+104,Obsolete,0,0,232
+105,Obsolete,0,0,233
+106,Obsolete,0,0,234
+121,Obsolete,0,0,235
+122,Obsolete,0,0,236
+123,Obsolete,0,0,237
+124,Obsolete,0,0,238
+125,MedDRA to SNOMED equivalent (OMOP),0,1,239
+126,Has FDA-approved drug indication (FDB),0,0,240
+127,Has off-label drug indication (FDB),0,0,241
+128,Obsolete,0,0,242
+129,Has drug contra-indication (FDB),0,0,243
+130,ETC to RxNorm (FDB),0,1,244
+131,ATC to RxNorm (FDB),0,1,245
+132,SMQ consists of MedDRA (MedDRA),0,0,246
+133,Obsolete,0,0,134
+134,Obsolete,0,0,133
+135,Concept replaces (LOINC),0,0,1
+136,Precise ingredient of (RxNorm),0,0,2
+137,Tradename of (RxNorm),0,0,3
+138,Dose form of (RxNorm),1,0,4
+139,Form of (RxNorm),0,0,5
+140,Ingredient of (RxNorm),1,1,6
+141,Consists of (RxNorm),1,0,7
+142,Is contained in (RxNorm),1,1,8
+143,Reformulated in (RxNorm),0,1,9
+144,Is a,1,0,10
+145,Dose form of (NDF-RT),1,0,11
+146,Induced by (NDF-RT),1,0,12
+147,Diagnosed through (NDF-RT),1,0,13
+148,Physiological effect induced by (NDF-RT),1,1,14
+149,Contraindicating physiological effect induced by (NDF-RT),1,0,15
+150,Ingredient of (NDF-RT),1,1,16
+151,Contraindicating chemical class of (NDF-RT),1,0,17
+152,Mechanism of action of (NDF-RT),1,1,18
+153,Contraindicating mechanism of action of (NDF-RT),1,0,19
+154,Pharmacokinetics of (NDF-RT),1,0,20
+155,May be treated by (NDF-RT),1,1,21
+156,Contraindicated by (NDF-RT),1,0,22
+157,May be prevented by (NDF-RT),1,1,23
+158,Active metabolite of (NDF-RT),1,0,24
+159,Site of metabolism of (NDF-RT),1,0,25
+160,Inhibits effect (NDF-RT),1,0,26
+161,Chemical structure of (NDF-RT),1,1,27
+162,RxNorm to NDF-RT equivalent (RxNorm),0,0,28
+163,Recipient category of (SNOMED),0,0,29
+164,Procedure site of (SNOMED),0,0,30
+165,Priority of (SNOMED),0,0,31
+166,Pathological process of (SNOMED),0,0,32
+167,Part of (SNOMED),0,0,33
+168,Severity of (SNOMED),0,0,34
+169,Revision status of (SNOMED),0,0,35
+170,Access of (SNOMED),0,0,36
+171,Occurrence of (SNOMED),0,0,37
+172,Method of (SNOMED),0,0,38
+173,Laterality of (SNOMED),0,0,39
+174,Interprets of (SNOMED),0,0,40
+175,Indirect morphology of (SNOMED),0,0,41
+176,Indirect device of (SNOMED),0,0,42
+177,Specimen of (SNOMED),0,0,43
+178,Interpretation of (SNOMED),0,0,44
+179,Intent of (SNOMED),0,0,45
+180,Focus of (SNOMED),0,0,46
+181,Definitional manifestation of (SNOMED),0,0,47
+182,Active ingredient of (SNOMED),0,0,48
+183,Finding site of (SNOMED),0,0,49
+184,Episodicity of (SNOMED),0,0,50
+185,Direct substance of (SNOMED),0,0,51
+186,Direct morphology of (SNOMED),0,0,52
+187,Direct device of (SNOMED),0,0,53
+188,Component of (SNOMED),0,0,54
+189,Causative agent of (SNOMED),0,0,55
+190,Associated morphology of (SNOMED),0,0,56
+191,Associated finding of (SNOMED),0,0,57
+192,Measurement method of (SNOMED),0,0,58
+193,Property of (SNOMED),0,0,59
+194,Scale type of (SNOMED),0,0,60
+195,Time aspect of (SNOMED),0,0,61
+196,Specimen procedure of (SNOMED),0,0,62
+197,Specimen source identity of (SNOMED),0,0,63
+198,Specimen source morphology of (SNOMED),0,0,64
+199,Specimen source topography of (SNOMED),0,0,65
+200,Specimen substance of (SNOMED),0,0,66
+201,Due to of (SNOMED),0,0,67
+202,Subject relationship context of (SNOMED),0,0,68
+203,Dose form of (SNOMED),0,0,69
+204,Occurs before (SNOMED),0,0,70
+205,Associated procedure of (SNOMED),0,0,71
+206,Direct procedure site of (SNOMED),0,0,72
+207,Indirect procedure site of (SNOMED),0,0,73
+208,Procedure device of (SNOMED),0,0,74
+209,Procedure morphology of (SNOMED),0,0,75
+210,Finding context of (SNOMED),0,0,76
+211,Procedure context of (SNOMED),0,0,77
+212,Temporal context of (SNOMED),0,0,78
+213,Associated with (SNOMED),0,0,79
+214,Surgical approach of (SNOMED),0,0,80
+215,Device used by (SNOMED),0,0,81
+216,Energy used by (SNOMED),0,0,82
+217,Substance used by (SNOMED),0,0,83
+218,Access device used by (SNOMED),0,0,84
+219,Has clinical course of (SNOMED),0,0,85
+220,Route of administration of (SNOMED),0,0,86
+221,Finding method of (SNOMED),0,0,87
+222,Finding informer of (SNOMED),0,0,88
+223,Obsolete,0,0,89
+224,Obsolete,0,0,90
+225,Obsolete,1,0,91
+226,SNOMED to ICD9 procedure equivalent (OMOP),0,1,92
+227,SNOMED category to CPT-4 (OMOP),1,1,93
+228,SNOMED to CPT-4 equivalent (OMOP),0,1,94
+229,Obsolete,0,0,101
+230,Obsolete,0,0,102
+231,Obsolete,0,0,103
+232,Obsolete,0,0,104
+233,Obsolete,0,0,105
+234,Obsolete,0,0,106
+235,Obsolete,0,0,121
+236,Obsolete,0,0,122
+237,Obsolete,0,0,123
+238,Obsolete,0,0,124
+239,SNOMED to MedDRA equivalent (OMOP),0,0,125
+240,Is FDA-approved indication of (FDB),0,1,126
+241,Is off-label indication of (FDB),0,1,127
+242,Obsolete,0,0,128
+243,Is contra-indication of (FDB),0,0,129
+244,RxNorm to ETC (FDB),0,0,130
+245,RxNorm to ATC (FDB),0,0,131
+246,MedDRA contained in SMQ (MedDRA),0,0,132
+247,Indication/Contra-indication to SNOMED,0,0,248
+248,SNOMED to Indication/Contra-indication,0,0,247
+269,Obsolete,0,0,270
+270,Obsolete,0,0,269
+275,Has therapeutic class (NDF),0,0,276
+276,Therapeutic class of (NDF),0,1,275
+277,Drug-drug interaction for (NDF),0,0,278
+278,Is involved in drug-drug interaction (NDF),0,0,277
+279,Has pharmaceutical preparation (NDF),0,0,280
+280,Pharmaceutical preparation contained in (NDF),0,1,279
+281,Inferred drug class of (OMOP),0,1,282
+282,Has inferred drug class (OMOP),0,0,281
+283,SNOMED procedure subsumes HCPCS (OMOP),1,1,284
+284,HCPCS is a SNOMED procedure (OMOP),1,0,283
+285,RxNorm to NDF-RT equivalent by concept_name (OMOP),0,0,286
+286,NDF-RT to RxNorm equivalent by concept_name (OMOP),0,1,285
+287,ETC to RxNorm equivalent by concept_name (OMOP),0,1,288
+288,RxNorm to ETC equivalent by concept_name (OMOP),0,0,287
+289,ATC to RxNorm equivalent by concept_name (OMOP),0,1,290
+290,RxNorm to ATC equivalent by concept_name (OMOP),0,0,289
+291,HOI contains SNOMED (OMOP),1,1,292
+292,SNOMED contained in HOI (OMOP),1,0,291
+293,DOI contains RxNorm (OMOP),1,1,294
+294,RxNorm contained in DOI (OMOP),1,0,293
+295,HOI contains MedDRA (OMOP),1,0,296
+296,MedDRA contained in HOI (OMOP),1,0,295
+297,NUCC to CMS Specialty (CMS),1,1,298
+298,CMS Specialty to NUCC (CMS),1,0,297
+299,DRG to MS-DRG equivalent (CMS),0,0,300
+300,MS-DRG to DRG equivalent (CMS),0,0,299
+301,DRG to MDC category (CMS),1,0,302
+302,MDC category to DRG (CMS),1,1,301
+303,Visit category to Place of Service (OMOP),1,1,304
+304,Place of Service to Visit category (OMOP),1,0,303
+305,VA Product to NDF-RT (NDF-RT),0,0,306
+306,NDF-RT to VA Product (NDF-RT),0,0,305
+307,VA Product to RxNorm equivalent (NDF-RT),0,0,308
+308,RxNorm to VA Product equivalent (NDF-RT),0,0,307
+309,Concept replaced by (RxNorm),0,0,310
+310,Concept replaces (RxNorm),0,0,309
+311,Concept replaced by (SNOMED),0,0,312
+312,Concept replaces (SNOMED),0,0,311
+313,Concept replaced by (ICD-9-Procedure),0,0,314
+314,Concept replaces (ICD-9-Procedure),0,0,313
+315,Has ingredient (Multilex),0,0,316
+316,Ingredient of (Multilex),0,1,315
+317,RxNorm to Multilex equivalent (OMOP),0,0,318
+318,Multilex to RxNorm equivalent (OMOP),0,1,317
+319,Multilex ingredient to drug class (OMOP),0,0,320
+320,Drug class to Multilex ingredient (OMOP),0,1,319
+321,Non-standard to Standard (OMOP),0,0,322
+322,Standard to Non-standard (OMOP),0,0,321
+323,ICD-9-CM to SNOMED-CT (UMLS),0,0,324
+324,SNOMED-CT to ICD-9-CM (UMLS),0,0,323
+325,ICD-9-CM to SNOMED-CT include child (OMOP),0,0,326
+326,SNOMED-CT to ICD-9-CM include child (OMOP),0,0,325
+327,ICD-9-CM to SNOMED-CT exclude child (OMOP),0,0,328
+328,SNOMED-CT to ICD-9-CM exclude child (OMOP),0,0,327
+329,ICD-9-CM to FDB Indication/Contraindication,0,0,330
+330,FDB Indication/Contraindication to ICD-9-CM,0,0,329
+331,OXMIS to SNOMED-CT,0,0,332
+332,SNOMED-CT to OXMIS,0,0,331
+333,CPT-4 to RxNorm,0,0,334
+334,RxNorm to CPT-4,0,0,333
+335,GPI to RxNorm,0,0,336
+336,RxNorm to GPI,0,0,335
+337,Multilex to RxNorm,0,0,338
+338,RxNorm to Multilex,0,0,337
+339,FDB Genseqno to RxNorm,0,0,340
+340,RxNorm to FDB Genseqno,0,0,339
+341,Non-standard to Standard exclude child (OMOP),0,0,342
+342,Standard to Non-standard exclude child (OMOP),0,0,341
+343,Non-standard to Standard draft (OMOP),0,0,344
+344,Standard to Non-standard draft (OMOP),0,0,343
+345,Concept replaced by (UCUM),0,0,346
+346,Concept replaces (UCUM),0,0,345
+347,Concept replaced by,0,0,348
+348,Concept replaces,0,0,347
+349,Inactive same_as active (SNOMED),0,0,350
+350,Active same_as inactive (SNOMED),0,0,349
+351,Inactive alternative_to active (SNOMED),0,0,352
+352,Active alternative_to inactive (SNOMED),0,0,351
+353,Inactive possibly_equivalent_to active (SNOMED),0,0,354
+354,Active possibly_equivalent_to inactive (SNOMED),0,0,353
+355,Inactive was_a active (SNOMED),0,0,356
+356,Active was_a inactive (SNOMED),0,0,355
+357,SNOMED measurement subsumes HCPCS (OMOP),1,1,358
+358,HCPCS is a SNOMED measurement (OMOP),1,0,357
