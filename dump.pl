@@ -17,7 +17,7 @@ sub all_vocabularies { map { $_->[0] } @{ shift->selectall_arrayref('SELECT * FR
 sub csv_dump {
     my ($dbh, $table) = @_;
     my $cols = table_cols $dbh, $dbh->{Username}, $table->{name};
-    my $sth = $dbh->prepare($table->{query});
+    my $sth = $dbh->prepare(join(' ', sprintf('SELECT %s FROM %s t', join(',', @$cols), $table->{name}), $table->{query}));
     $sth->execute(@{$table->{params}});
     my $dump = tmpnam;
     open my $fh, '>', $dump;
@@ -44,24 +44,41 @@ my @vocabularies = split /,/, (shift or join ',', all_vocabularies $dbh);
 my $placeholder = join ', ', split //, '?' x @vocabularies;
 
 my $zip = new Archive::Zip;
-do {
-    my $dump = csv_dump $dbh, $_;
-    $zip->addFile($dump, sprintf('%s.csv', $_->{name}));
-} for
+$zip->addFile(csv_dump($dbh, $_), sprintf('%s.csv', $_->{name})) for
     {
 	name => 'CONCEPT',
-    	query => sprintf('SELECT * FROM CONCEPT WHERE VOCABULARY_ID IN (%s)', $placeholder),
+    	query => sprintf('WHERE VOCABULARY_ID IN (%s)', $placeholder),
 	params => [ @vocabularies ],
     },
     {
 	name => 'CONCEPT_RELATIONSHIP',
-	query => sprintf('SELECT * FROM CONCEPT_RELATIONSHIP WHERE EXISTS (SELECT * FROM CONCEPT WHERE CONCEPT_ID_1 = CONCEPT_ID AND VOCABULARY_ID IN (%s)) AND EXISTS (SELECT * FROM CONCEPT WHERE CONCEPT_ID_2 = CONCEPT_ID AND VOCABULARY_ID IN (%s))', $placeholder, $placeholder),
+	query => sprintf('WHERE EXISTS (SELECT * FROM CONCEPT WHERE CONCEPT_ID_1 = CONCEPT_ID AND VOCABULARY_ID IN (%s)) AND EXISTS (SELECT * FROM CONCEPT WHERE CONCEPT_ID_2 = CONCEPT_ID AND VOCABULARY_ID IN (%s))', $placeholder, $placeholder),
 	params => [ @vocabularies, @vocabularies ],
     },
     {
 	name => 'SOURCE_TO_CONCEPT_MAP',
-	query => sprintf('SELECT * FROM SOURCE_TO_CONCEPT_MAP WHERE SOURCE_VOCABULARY_ID IN (%s) AND TARGET_VOCABULARY_ID IN (%s)', $placeholder, $placeholder),
+	query => sprintf('WHERE SOURCE_VOCABULARY_ID IN (%s) AND TARGET_VOCABULARY_ID IN (%s)', $placeholder, $placeholder),
 	params => [ @vocabularies, @vocabularies ],
+    },
+    {
+	name => 'CONCEPT_ANCESTOR',
+	query => sprintf('WHERE EXISTS (SELECT * FROM CONCEPT WHERE ANCESTOR_CONCEPT_ID = CONCEPT_ID AND VOCABULARY_ID IN (%s)) AND EXISTS (SELECT * FROM CONCEPT WHERE DESCENDANT_CONCEPT_ID = CONCEPT_ID AND VOCABULARY_ID IN (%s))', $placeholder, $placeholder),
+	params => [ @vocabularies, @vocabularies ],	
+    },
+    {
+	name => 'CONCEPT_SYNONYM',
+	query => sprintf('WHERE EXISTS (SELECT * FROM CONCEPT c WHERE t.CONCEPT_ID = t.CONCEPT_ID AND VOCABULARY_ID IN (%s))', $placeholder),
+	params => [ @vocabularies ],	
+    },
+    {
+	name => 'VOCABULARY',
+	query => sprintf('WHERE VOCABULARY_ID IN (%s)', $placeholder),
+	params => [ @vocabularies ],
+    },
+    {
+	name => 'RELATIONSHIP',
+	query => '',
+	params => [],
     };
 die unless $zip->writeToFileNamed($output) == Archive::Zip::AZ_OK;
 unlink $_->{externalFileName} for $zip->members;
