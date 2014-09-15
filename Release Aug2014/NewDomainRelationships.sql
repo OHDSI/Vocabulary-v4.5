@@ -1,22 +1,6 @@
---The only allowable concepts for the GENDER_CONCEPT_ID field are defined as any descendants of the domain 'GENDER' (CONCEPT_ID = 1)
---There is no enforcement of allowable concepts in the GENDER_SOURCE_CONCEPT_ID field, but it must be a valid value in the CONCEPT table.
+-- Create relationships to domains, create ancestors to them
 
--- load relationship table
--- truncate table relationship;
-/* SQLLDR using following script
- options (skip=1)
-load data
-infile relationship.txt
-into table relationship
-replace
-fields terminated by ','
-trailing nullcols
-(
-relationship_id,relationship_name,is_hierarchical,defines_ancestry,reverse_relationship
-) 
-*/
-
--- Define new relationships
+-- Define new relationships. Defines ancestry is set to 0, because ancestry constructor was not used. That might change.
 insert into relationship (relationship_id, relationship_name, reverse_relationship, is_hierarchical, defines_ancestry)
 values (359, 'Domain subsumes (OMOP)', 360, 1, 0);
 insert into relationship (relationship_id, relationship_name, reverse_relationship, is_hierarchical, defines_ancestry)
@@ -54,6 +38,14 @@ update concept c set
 where c.vocabulary_id=1 
 and c.concept_class in ('Substance', 'Pharmaceutical / biologic product')
 ;
+
+
+/*********** Create domain relationships **************/
+-- Switch off constraints
+alter table concept_relationship drop constraint xpkconcept_relationship;
+alter table concept_relationship drop constraint concept_rel_child_fk;
+alter table concept_relationship drop constraint concept_rel_parent_fk;
+alter table concept_relationship drop constraint concept_rel_rel_type_fk;
 
 -- Clean up first
 delete from concept_relationship where relationship_id in (359, 360);
@@ -133,6 +125,24 @@ select
 from concept where vocabulary_id=3 and invalid_reason is null
 ;
 
+-- Add Meddra (only those whose children are uniquely pointing to a single domain)
+insert into concept_relationship
+select 
+  10 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept
+where invalid_reason is null -- Conditions in HCPCS and CPT are obserations (usually quality metrics)
+and concept_id in (
+  select concept_id from (
+    select distinct meddra.concept_id, 
+      count(distinct d.domain_name) over (partition by meddra.concept_id) as num_domains,
+      case when first_value(d.domain_name) over (partition by meddra.concept_id order by decode(d.domain_name,
+        'Procedure', 1, 2))='Procedure' then 1 else 0 end as there
+    from concept meddra, concept_ancestor a, concept_domain d
+    where meddra.concept_id=a.ancestor_concept_id and d.concept_id=a.descendant_concept_id and meddra.vocabulary_id=15
+  ) where num_domains=1 and there=1
+)
+;
+
 -- Define Procedure Type
 insert into concept_relationship
 select 
@@ -147,7 +157,7 @@ insert into concept_relationship
 select 
   13 as concept_id_1, c.concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
 from concept c 
-where c.vocabulary_id in (8, 19, 20, 21, 22, 32) and c.invalid_reason is null
+where c.vocabulary_id in (7, 8, 19, 20, 21, 22, 32) and c.invalid_reason is null
 ;
 
 -- SNOMED Drugs (non-Standard)
@@ -158,7 +168,6 @@ from concept c
 join concept_domain d on c.concept_id=d.concept_id and d.domain_name='Drug'
 where c.vocabulary_id=1 and c.invalid_reason is null
 ;
-
 
 -- Define Drug Type
 insert into concept_relationship
@@ -185,6 +194,25 @@ join concept_domain d on c.concept_id=d.concept_id and d.domain_name='Device'
 where c.vocabulary_id in (1, 4, 5) and c.invalid_reason is null
 ;
 
+-- Add Meddra (only those whose children are uniquely pointing to a single domain)
+insert into concept_relationship
+select 
+  17 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept
+where invalid_reason is null -- Conditions in HCPCS and CPT are obserations (usually quality metrics)
+and concept_id in (
+  select concept_id from (
+    select distinct meddra.concept_id, 
+      count(distinct d.domain_name) over (partition by meddra.concept_id) as num_domains,
+      case when first_value(d.domain_name) over (partition by meddra.concept_id order by decode(d.domain_name,
+        'Device', 1, 2))='Device' then 1 else 0 end as there
+    from concept meddra, concept_ancestor a, concept_domain d
+    where meddra.concept_id=a.ancestor_concept_id and d.concept_id=a.descendant_concept_id and meddra.vocabulary_id=15
+  ) where num_domains=1 and there=1
+)
+;
+
+
 -- Define Device Type
 insert into concept_relationship
 select 
@@ -192,13 +220,31 @@ select
 from concept where vocabulary_id=63 and invalid_reason is null
 ;
 
--- Define Condition
+-- Define Condition - vocabulary
 insert into concept_relationship
 select 
   19 as concept_id_1, c.concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
 from concept c 
 join concept_domain d on c.concept_id=d.concept_id and d.domain_name='Condition'
-where c.vocabulary_id=1 and c.invalid_reason is null -- Conditions in HCPCS and CPT are obserations (usually quality metrics)
+where c.vocabulary_id=1 and c.invalid_reason is null -- Conditions in HCPCS and CPT are observations (usually quality metrics)
+;
+
+-- Add Meddra (only those whose children are uniquely pointing to a single domain)
+insert into concept_relationship
+select 
+  19 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept
+where invalid_reason is null -- Conditions in HCPCS and CPT are obserations (usually quality metrics)
+and concept_id in (
+  select concept_id from (
+    select distinct meddra.concept_id, 
+      count(distinct d.domain_name) over (partition by meddra.concept_id) as num_domains,
+      case when first_value(d.domain_name) over (partition by meddra.concept_id order by decode(d.domain_name,
+        'Condition', 1, 2))='Condition' then 1 else 0 end as there
+    from concept meddra, concept_ancestor a, concept_domain d
+    where meddra.concept_id=a.ancestor_concept_id and d.concept_id=a.descendant_concept_id and meddra.vocabulary_id=15
+  ) where num_domains=1 and there=1
+)
 ;
 
 -- Define Condition Type
@@ -215,6 +261,24 @@ select distinct
 from concept c 
 join concept_domain d on c.concept_id=d.concept_id and d.domain_name='Measurement'
 where c.vocabulary_id in (1, 4, 5) and c.invalid_reason is null
+;
+
+-- Add Meddra (only those whose children are uniquely pointing to a single domain)
+insert into concept_relationship
+select 
+  21 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept
+where invalid_reason is null -- Conditions in HCPCS and CPT are obserations (usually quality metrics)
+and concept_id in (
+  select concept_id from (
+    select distinct meddra.concept_id, 
+      count(distinct d.domain_name) over (partition by meddra.concept_id) as num_domains,
+      case when first_value(d.domain_name) over (partition by meddra.concept_id order by decode(d.domain_name,
+        'Measurement', 1, 2))='Measurement' then 1 else 0 end as there
+    from concept meddra, concept_ancestor a, concept_domain d
+    where meddra.concept_id=a.ancestor_concept_id and d.concept_id=a.descendant_concept_id and meddra.vocabulary_id=15
+  ) where num_domains=1 and there=1
+)
 ;
 
 -- Define Measurement type
@@ -238,6 +302,24 @@ select distinct
 from concept c 
 join concept_domain d on c.concept_id=d.concept_id and d.domain_name='Observation'
 where c.vocabulary_id in (1, 4, 5) and c.invalid_reason is null
+;
+
+-- Add Meddra (only those whose children are uniquely pointing to a single domain)
+insert into concept_relationship
+select 
+  27 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept
+where invalid_reason is null -- Conditions in HCPCS and CPT are obserations (usually quality metrics)
+and concept_id in (
+  select concept_id from (
+    select distinct meddra.concept_id, 
+      count(distinct d.domain_name) over (partition by meddra.concept_id) as num_domains,
+      case when first_value(d.domain_name) over (partition by meddra.concept_id order by decode(d.domain_name,
+        'Observation', 1, 2))='Observation' then 1 else 0 end as there
+    from concept meddra, concept_ancestor a, concept_domain d
+    where meddra.concept_id=a.ancestor_concept_id and d.concept_id=a.descendant_concept_id and meddra.vocabulary_id=15
+  ) where num_domains=1 and there=1
+)
 ;
 
 -- Define Observation Period Type
@@ -299,9 +381,11 @@ select
 from concept where vocabulary_id=1 and concept_class='Body structure' and invalid_reason is null
 ;
 
--- Define Generic 40
-
--- Define Specimen disease status
+-- Define Generic 40 (only null)
+insert into concept_relationship (concept_id_1, concept_id_2, relationship_id, valid_start_date, valid_end_date, invalid_reason)
+values (40, 0, 359, '1-Jan-1970', '31-Dec-2099', null)
+;
+-- 39: Define Specimen disease status
 /* 
 select *
 from concept
@@ -342,9 +426,8 @@ and exists (
 )
 ;
  
-insert into concept_relationship;
-select c.*
---   24 as concept_id_1, c.concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+insert into concept_relationship
+select 24 as concept_id_1, c.concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
 from concept c, concept_ancestor a
 where c.concept_id=a.descendant_concept_id and a.ancestor_concept_id=4126535 
 ;
@@ -363,6 +446,23 @@ from concept c, concept_ancestor a
 where c.concept_id=a.descendant_concept_id and a.ancestor_concept_id=4054070 
 ;
 
+-- check completeness
+select domain.domain_num, domain.domain_name, domain.cnt, c.concept_name as example_name from (
+  select r.concept_id_1 as domain_num, c.concept_name as domain_name, count(8) as cnt 
+  from concept_relationship r, concept c, concept c2
+  where r.relationship_id=359 and c.concept_id=r.concept_id_1 and c2.concept_id=r.concept_id_2
+  group by r.concept_id_1, c.concept_name
+) domain
+join (
+  select distinct concept_id_1 as domain_num, first_value(concept_id_2) over (partition by concept_id_1) as example_id
+  from concept_relationship 
+  where relationship_id=359
+) example on domain.domain_num=example.domain_num
+join concept c on c.concept_id=example.example_id
+order by 1;
+
+select count(8) from concept_relationship where relationship_id=359;
+
 -------------------------------
 -- Reverse relationships
 -- delete from concept_relationship where relationship_id=360;
@@ -375,3 +475,43 @@ select
   valid_end_date,
   invalid_reason
 from concept_relationship where relationship_id=359;
+
+alter table concept_relationship add constraint xpkconcept_relationship primary key (concept_id_1,concept_id_2,relationship_id)
+using index logging;
+alter table concept_relationship add check ( invalid_reason in ('d', 'u'));
+alter table concept_relationship add constraint concept_rel_child_fk foreign key (concept_id_2) references concept (concept_id);
+alter table concept_relationship add constraint concept_rel_parent_fk foreign key (concept_id_1) references concept (concept_id);
+alter table concept_relationship add constraint concept_rel_rel_type_fk foreign key (relationship_id) references relationship (relationship_id);
+
+/*
+-- add to concept_ancestor
+insert into concept_ancestor;
+select 
+  r.concept_id_1 as ancestor_concept_id
+  r.concept_id_2 as descendant_concept_id
+  1 as min_levels_of_separation
+  1 as max_levels_of_separation
+from concept_relationship r
+where relationship_id=359;
+
+-- write max_levels_of_separation (only possible after we have all links to the domains
+update table concept_ancestor a
+  set max_levels_of_separation=(
+    select max(b.max_levels_of_separation)+1 from concept_ancestor b, concept_relationship r 
+    where a.descendant_concept_id=b.descendant_concept_id and a.ancestor_concept_id=r.concept_id_1 and b.ancestor_concept_id=r.concept_id_2
+    and r.relationship_id=359
+  )
+  where exists (-- only those connecting to domain
+    select 1 from concept domain where domain.concept_id=a.ancestor_concept_id and domain.vocabulary_id=59
+  )
+;
+select * from vocabulary order by 1;
+-- ancestry to self
+insert into concept_ancestor 
+  concept_id as ancestor_concept_id
+  concept_id as descendant_concept_id
+  0 as min_levels_of_separation
+  09 as max_levels_of_separation
+from concept_relationship 
+where relationship_id=359;
+*/

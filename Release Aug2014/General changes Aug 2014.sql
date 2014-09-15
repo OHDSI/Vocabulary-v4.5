@@ -37,7 +37,8 @@ insert into vocabulary (vocabulary_id, vocabulary_name) values (62, 'OMOP Visit 
 insert into vocabulary (vocabulary_id, vocabulary_name) values (63, 'OMOP Device Type');
 insert into vocabulary (vocabulary_id, vocabulary_name) values (64, 'OMOP Measurement Type');
 insert into vocabulary (vocabulary_id, vocabulary_name) values (65, 'Currency');
-
+insert into vocabulary (vocabulary_id, vocabulary_name) values (66, 'Concept Relationship');
+insert into vocabulary (vocabulary_id, vocabulary_name) values (67, 'Vocabulary');
 
 -- add Note types
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
@@ -727,5 +728,539 @@ values (seq_concept.nextval, 'Inpatient detail – 19th position', 1, 'Condition O
 insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
 values (seq_concept.nextval, 'Inpatient detail – 20th position', 1, 'Condition Occurrence Type', 37, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 
+-- Add Concept Relationships
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Concept replaced by (LOINC)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has precise ingredient (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has tradename (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has dose form (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has form (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has ingredient (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Constitutes (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Contains (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Reformulation of (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Subsumes', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has dose form (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Induces (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'May diagnose (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has physiological effect (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has contraindicating physiological effect (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has ingredient (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has contraindicating chemical class (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has mechanism of action (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has contraindicating mechanism of action (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has pharmacokinetics (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'May treat (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Contraindication to (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'May prevent (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has active metabolites (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has site of metabolism (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Effect may be inhibited by (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has chemical structure (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'NDF-RT to RxNorm equivalent (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has recipient category (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has procedure site (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has priority (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has pathological process (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has part of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has severity (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has revision status (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has access (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has occurrence (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has method (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has laterality (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has interprets (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has indirect morphology (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has indirect device (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has specimen (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has interpretation (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has intent (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has focus (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has definitional manifestation (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has active ingredient (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has finding site (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has episodicity (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has direct substance (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has direct morphology (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has direct device (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has component (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has causative agent (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has associated morphology (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has associated finding (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has measurement method (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has property (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has scale type (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has time aspect (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has specimen procedure (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has specimen source identity (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has specimen source morphology (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has specimen source topography (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has specimen substance (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has due to (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has subject relationship context (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has dose form (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Occurs after (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has associated procedure (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has direct procedure site (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has indirect procedure site (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has procedure device (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has procedure morphology (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has finding context (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has procedure context (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has temporal context (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Associated with (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has surgical approach (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Using device (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Using energy (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Using substance (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Using access device (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has clinical course (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has route of administration (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Using finding method (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Using finding informer (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'ICD9 procedure to SNOMED equivalent (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'CPT-4 to SNOMED category (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'CPT-4 to SNOMED equivalent (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'MedDRA to SNOMED equivalent (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has FDA-approved drug indication (FDB)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has off-label drug indication (FDB)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has drug contra-indication (FDB)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'ETC to RxNorm (FDB)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'ATC to RxNorm (FDB)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'SMQ consists of MedDRA (MedDRA)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Concept replaces (LOINC)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Precise ingredient of (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Tradename of (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Dose form of (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Form of (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Ingredient of (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Consists of (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Is contained in (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Reformulated in (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Is a', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Dose form of (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Induced by (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Diagnosed through (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Physiological effect induced by (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Contraindicating physiological effect induced by (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Ingredient of (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Contraindicating chemical class of (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Mechanism of action of (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Contraindicating mechanism of action of (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Pharmacokinetics of (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'May be treated by (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Contraindicated by (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'May be prevented by (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Active metabolite of (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Site of metabolism of (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Inhibits effect (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Chemical structure of (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'RxNorm to NDF-RT equivalent (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Recipient category of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Procedure site of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Priority of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Pathological process of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Part of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Severity of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Revision status of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Access of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Occurrence of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Method of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Laterality of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Interprets of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Indirect morphology of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Indirect device of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Specimen of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Interpretation of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Intent of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Focus of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Definitional manifestation of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Active ingredient of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Finding site of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Episodicity of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Direct substance of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Direct morphology of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Direct device of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Component of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Causative agent of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Associated morphology of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Associated finding of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Measurement method of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Property of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Scale type of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Time aspect of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Specimen procedure of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Specimen source identity of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Specimen source morphology of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Specimen source topography of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Specimen substance of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Due to of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Subject relationship context of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Dose form of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Occurs before (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Associated procedure of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Direct procedure site of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Indirect procedure site of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Procedure device of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Procedure morphology of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Finding context of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Procedure context of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Temporal context of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Associated with (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Surgical approach of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Device used by (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Energy used by (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Substance used by (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Access device used by (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has clinical course of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Route of administration of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Finding method of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Finding informer of (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'SNOMED to ICD9 procedure equivalent (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'SNOMED category to CPT-4 (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'SNOMED to CPT-4 equivalent (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'SNOMED to MedDRA equivalent (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Is FDA-approved indication of (FDB)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Is off-label indication of (FDB)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Is contra-indication of (FDB)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'RxNorm to ETC (FDB)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'RxNorm to ATC (FDB)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'MedDRA contained in SMQ (MedDRA)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Indication/Contra-indication to SNOMED', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'SNOMED to Indication/Contra-indication', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has therapeutic class (NDF)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Therapeutic class of (NDF)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Drug-drug interaction for (NDF)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Is involved in drug-drug interaction (NDF)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has pharmaceutical preparation (NDF)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Pharmaceutical preparation contained in (NDF)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Inferred drug class of (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has inferred drug class (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'SNOMED procedure subsumes HCPCS (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'HCPCS is a SNOMED procedure (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'RxNorm to NDF-RT equivalent by concept_name (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'NDF-RT to RxNorm equivalent by concept_name (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'ETC to RxNorm equivalent by concept_name (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'RxNorm to ETC equivalent by concept_name (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'ATC to RxNorm equivalent by concept_name (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'RxNorm to ATC equivalent by concept_name (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'HOI contains SNOMED (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'SNOMED contained in HOI (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'DOI contains RxNorm (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'RxNorm contained in DOI (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'HOI contains MedDRA (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'MedDRA contained in HOI (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'NUCC to CMS Specialty (CMS)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'CMS Specialty to NUCC (CMS)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'DRG to MS-DRG equivalent (CMS)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'MS-DRG to DRG equivalent (CMS)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'DRG to MDC category (CMS)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'MDC category to DRG (CMS)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Visit category to Place of Service (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Place of Service to Visit category (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'VA Product to NDF-RT (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'NDF-RT to VA Product (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'VA Product to RxNorm equivalent (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'RxNorm to VA Product equivalent (NDF-RT)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Concept replaced by (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Concept replaces (RxNorm)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Concept replaced by (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Concept replaces (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Has ingredient (Multilex)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Ingredient of (Multilex)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'RxNorm to Multilex equivalent (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Multilex to RxNorm equivalent (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Multilex ingredient to drug class (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Drug class to Multilex ingredient (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Concept replaced by', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Concept replaces', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Inactive same_as active (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Active same_as inactive (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Inactive alternative_to active (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Active alternative_to inactive (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Inactive possibly_equivalent_to active (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Active possibly_equivalent_to inactive (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Inactive was_a active (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Active was_a inactive (SNOMED)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'SNOMED measurement subsumes HCPCS (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'HCPCS is a SNOMED measurement (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Domain subsumes (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Is a domain (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Standard to Non-standard exclude child (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Concept replaced by (ICD-9-Procedure)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Concept replaces (ICD-9-Procedure)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Standard to Non-standard include child (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Non-standard to Standard exclude child (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Non-standard to Standard include child (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Standard to Non-standard map (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Non-standard to Standard map (OMOP)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Concept replaced by (UCUM)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Concept replaces (UCUM)', 1, 'Concept Relationship', 66, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 
+commit;
 exit;

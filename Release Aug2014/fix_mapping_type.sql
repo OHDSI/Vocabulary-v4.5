@@ -30,13 +30,28 @@ select distinct
 from source_to_concept_map m
 left outer join concept_domain d on d.concept_id=m.target_concept_id;
 
+-- switch off indexes and constraints
+
 -- replace source_to_concept_map
-truncate table source_to_concept_map;
-insert into source_to_concept_map
+drop table source_to_concept_map;
+
+
+create table source_to_concept_map as
 select * from stcm;
-drop table stcm;
+-- drop table stcm;
+
+select count(*) from source_to_concept_map;
+
+create index source_to_concept_source_idx on source_to_concept_map (source_code asc) logging;
+alter table source_to_concept_map add constraint xpksource_to_concept_map primary key (source_vocabulary_id,target_concept_id,source_code,valid_end_date)
+using index logging;
+alter table source_to_concept_map add check (primary_map in ('Y'));
+alter table source_to_concept_map add check (invalid_reason in ('D', 'U'));
+alter table source_to_concept_map add constraint source_to_concept_concept foreign key (target_concept_id) references concept (concept_id);
+alter table source_to_concept_map add constraint source_to_concept_source_vocab foreign key (source_vocabulary_id) references vocabulary (vocabulary_id);
 
 --Check out the resulting maps
-select source_vocabulary_id, mapping_type, count(8) 
-from stcm group by source_vocabulary_id, mapping_type order by 1, 2;
+select m.source_vocabulary_id, v.vocabulary_name, m.mapping_type, count(8) as cnt
+from source_to_concept_map m, vocabulary v where m.source_vocabulary_id=v.vocabulary_id
+group by m.source_vocabulary_id, v.vocabulary_name, m.mapping_type order by 1, 3;
 
