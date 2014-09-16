@@ -10,21 +10,21 @@ sub table_cols_query { 'SELECT COLUMN_NAME FROM ALL_TAB_COLUMNS WHERE OWNER = ? 
 
 sub table_cols { [ map { $_->[0] } @{ shift->selectall_arrayref(table_cols_query, undef, uc shift, uc shift) } ] }
 
-sub csv_line { map { "$_\n" } join ',', map { $_ ||= ''; s/[\",]/\\$&/g; $_ } map { @$_ } @_ }
+sub csv_line { map { "$_\n" } join ',', map { $_ //= ''; s/[\",]/\\$&/g; $_ } map { @$_ } @_ }
 
 sub all_vocabularies { map { $_->[0] } @{ shift->selectall_arrayref('SELECT * FROM VOCABULARY') } }
 
-sub csv_dump {
+sub csv_dump { # (dabatase handler, name of table)
     my ($dbh, $table) = @_;
     my $cols = table_cols $dbh, $dbh->{Username}, $table->{name};
-    my $sth = $dbh->prepare(join(' ', sprintf('SELECT %s FROM %s t', join(',', @$cols), $table->{name}), $table->{query}));
+    my $sth = $dbh->prepare($table->{query});
     $sth->execute(@{$table->{params}});
     my $dump = tmpnam;
     open my $fh, '>', $dump;
-    print $fh csv_line $cols;
+    print $fh csv_line($cols);
     while (my $line = $sth->fetch) {
-	print $fh csv_line $line;
-    }
+		print $fh csv_line($line);
+	}
     close $fh;
     return $dump;
 }
@@ -37,48 +37,30 @@ END
 } and exit unless @ARGV;
 
 die unless shift =~ /^(.+)\/(.+)\@(.+)\/(.+)$/;
-my $dbh = DBI->connect(sprintf('dbi:Oracle:host=%s;sid=%s', $3, $4), $1, $2) or die;
-$dbh->do('ALTER SESSION SET NLS_DATE_FORMAT="YYYYMMDD"');
-my $output = shift or die;
+my $dbh = DBI->connect(sprintf('dbi:Oracle:host=%s;sid=%s', $3, $4), $1, $2) or die("Valid database access information required");
+my $output = shift or die("Output file name required");
 my @vocabularies = split /,/, (shift or join ',', all_vocabularies $dbh);
 my $placeholder = join ', ', split //, '?' x @vocabularies;
 
 my $zip = new Archive::Zip;
-$zip->addFile(csv_dump($dbh, $_), sprintf('%s.csv', $_->{name})) for
+do {
+    my $dump = csv_dump $dbh, $_;
+    $zip->addFile($dump, sprintf('%s.csv', $_->{name}));
+} for
     {
 	name => 'CONCEPT',
-    	query => sprintf('WHERE VOCABULARY_ID IN (%s)', $placeholder),
+    	query => sprintf('SELECT * FROM CONCEPT WHERE VOCABULARY_ID IN (%s)', $placeholder),
 	params => [ @vocabularies ],
     },
     {
 	name => 'CONCEPT_RELATIONSHIP',
-	query => sprintf('WHERE EXISTS (SELECT * FROM CONCEPT WHERE CONCEPT_ID_1 = CONCEPT_ID AND VOCABULARY_ID IN (%s)) AND EXISTS (SELECT * FROM CONCEPT WHERE CONCEPT_ID_2 = CONCEPT_ID AND VOCABULARY_ID IN (%s))', $placeholder, $placeholder),
+	query => sprintf('SELECT * FROM CONCEPT_RELATIONSHIP WHERE EXISTS (SELECT * FROM CONCEPT WHERE CONCEPT_ID_1 = CONCEPT_ID AND VOCABULARY_ID IN (%s)) AND EXISTS (SELECT * FROM CONCEPT WHERE CONCEPT_ID_2 = CONCEPT_ID AND VOCABULARY_ID IN (%s))', $placeholder, $placeholder),
 	params => [ @vocabularies, @vocabularies ],
     },
     {
 	name => 'SOURCE_TO_CONCEPT_MAP',
-	query => sprintf('WHERE SOURCE_VOCABULARY_ID IN (%s) AND TARGET_VOCABULARY_ID IN (%s)', $placeholder, $placeholder),
+	query => sprintf('SELECT * FROM SOURCE_TO_CONCEPT_MAP WHERE SOURCE_VOCABULARY_ID IN (%s) AND TARGET_VOCABULARY_ID IN (%s)', $placeholder, $placeholder),
 	params => [ @vocabularies, @vocabularies ],
-    },
-    {
-	name => 'CONCEPT_ANCESTOR',
-	query => sprintf('WHERE EXISTS (SELECT * FROM CONCEPT WHERE ANCESTOR_CONCEPT_ID = CONCEPT_ID AND VOCABULARY_ID IN (%s)) AND EXISTS (SELECT * FROM CONCEPT WHERE DESCENDANT_CONCEPT_ID = CONCEPT_ID AND VOCABULARY_ID IN (%s))', $placeholder, $placeholder),
-	params => [ @vocabularies, @vocabularies ],	
-    },
-    {
-	name => 'CONCEPT_SYNONYM',
-	query => sprintf('WHERE EXISTS (SELECT * FROM CONCEPT c WHERE t.CONCEPT_ID = c.CONCEPT_ID AND VOCABULARY_ID IN (%s))', $placeholder),
-	params => [ @vocabularies ],	
-    },
-    {
-	name => 'VOCABULARY',
-	query => sprintf('WHERE VOCABULARY_ID IN (%s)', $placeholder),
-	params => [ @vocabularies ],
-    },
-    {
-	name => 'RELATIONSHIP',
-	query => '',
-	params => [],
     };
 die unless $zip->writeToFileNamed($output) == Archive::Zip::AZ_OK;
 unlink $_->{externalFileName} for $zip->members;
