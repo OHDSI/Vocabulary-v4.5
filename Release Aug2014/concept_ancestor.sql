@@ -14,13 +14,13 @@ join concept c2 on c2.concept_id=r.concept_id_2 and c1.invalid_reason is null
 where r.invalid_reason is null
 ;
 
--- Create second table to switch back and forth
-create table new_concept_ancestor as select * from concept_ancestor where 1=0;
+-- copy full_concept_ancestor into concept_ancestor
+create table concept_ancestor as select * from full_concept_ancestor;
 
 /********** Repeat till no new records are written *********/
 
 -- create all new combinations
-insert into concept_ancestor
+create table new_concept_ancestor as
 select 
 	uppr.ancestor_concept_id,
 	lowr.descendant_concept_id,
@@ -28,39 +28,40 @@ select
 	uppr.min_levels_of_separation+lowr.min_levels_of_separation as max_levels_of_separation	
 from concept_ancestor uppr 
 join concept_ancestor lowr on uppr.descendant_concept_id=lowr.ancestor_concept_id
+union all select * from concept_ancestor
 ;
 
+drop table concept_ancestor purge;
+
 -- Shrink and pick the shortest path for min_levels_of_separation, and the longest for max
-insert into new_concept_ancestor
+create table concept_ancestor as
 select 
 	ancestor_concept_id,
 	descendant_concept_id,
 	min(min_levels_of_separation) as min_levels_of_separation,
 	max(max_levels_of_separation) as max_levels_of_separation
-from concept_ancestor
+from new_concept_ancestor
 group by ancestor_concept_id, descendant_concept_id
 ;
 
--- Swap tables
-truncate table concept_ancestor;
-insert into concept_ancestor select * from new_concept_ancestor;
-truncate table new_concept_ancestor;
-
+drop table new_concept_ancestor purge;
 
 /*********cycle till here *****************/
 
 -- Remove all non-Standard concepts (concept_level=0) 
---drop table concept_ancestor;
+
+rename table concept_ancestor to new_concept_ancestor;
+
 create table concept_ancestor as 
-select distinct a.* from full_concept_ancestor a
-join concept_stage c1 on a.ancestor_concept_id=c1.concept_id
-join concept_stage c2 on a.descendant_concept_id=c2.concept_id
-where c1.concept_level>0 and c2.concept_level>0 -- both are standard concepts
+  select * from new_concept_ancestor a
+    join concept_stage c1 on a.ancestor_concept_id=c1.concept_id
+    join concept_stage c2 on a.descendant_concept_id=c2.concept_id
+       where c1.concept_level>0 and c2.concept_level>0 -- both are standard concepts
 ;
 
 -- Clean up
 drop table new_concept_ancestor;
-drop  table full_concept_ancestor;
+drop table full_concept_ancestor;
 
 -- Add connections to self for those vocabs having at least one concept in the concept_relationship table
 insert into concept_ancestor
