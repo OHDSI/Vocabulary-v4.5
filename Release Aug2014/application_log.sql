@@ -3,7 +3,7 @@ create sequence seq_application_log;
 -- Create table
 create table APPLICATION_LOG
 (
-  application_log_id NUMBER(15) default "ABOYKOV"."SEQ_APPLICATION_LOG"."NEXTVAL" not null,
+  application_log_id NUMBER(15) default SEQ_APPLICATION_LOG.NEXTVAL not null,
   audsid             INTEGER default sys_context ('userenv', 'sessionid') not null,
   sid                INTEGER default sys_context ('userenv', 'sid') not null,
   al_timestamp       TIMESTAMP(3) default systimestamp not null,
