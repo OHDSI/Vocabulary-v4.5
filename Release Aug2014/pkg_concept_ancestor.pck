@@ -33,7 +33,7 @@ create or replace package body pkg_concept_ancestor is
   procedure calc
   is
     vApplication_name constant varchar2(20) := 'CONCEPT_ANSESTOR';
-    vProcedure_name constant varchar2(50) := user || ' CALC';
+    vProcedure_name constant varchar2(50) := 'CALC';
     
     vCnt integer;
     vSum integer;
@@ -67,7 +67,8 @@ where r.invalid_reason is null ';
       -- create all new combinations
       add_application_log ( pApplication_name => vApplication_name
                            ,pProcedure_name => vProcedure_name
-                           ,pDetail => 'Begin new_concept_ancestor i=' || i );
+                           ,pDetail => 'Begin new_concept_ancestor_calc i=' || i );
+                           
       execute immediate ' create table new_concept_ancestor_calc as
 select 
 	uppr.ancestor_concept_id,
@@ -82,14 +83,15 @@ union all select * from concept_ancestor_calc ';
 
       add_application_log ( pApplication_name => vApplication_name
                            ,pProcedure_name => vProcedure_name
-                           ,pDetail => 'End new_concept_ancestor i=' || i || ' cnt=' || vCnt );
+                           ,pDetail => 'End new_concept_ancestor_calc i=' || i || ' cnt=' || vCnt );
 
       execute immediate 'drop table concept_ancestor_calc purge';
       
       -- Shrink and pick the shortest path for min_levels_of_separation, and the longest for max     
       add_application_log ( pApplication_name => vApplication_name
                      ,pProcedure_name => vProcedure_name
-                     ,pDetail => 'Begin concept_ancestor i=' || i );
+                     ,pDetail => 'Begin concept_ancestor_calc i=' || i );
+                     
       execute immediate 'create table concept_ancestor_calc as
 select 
 	ancestor_concept_id,
@@ -102,7 +104,7 @@ group by ancestor_concept_id, descendant_concept_id ';
       execute immediate 'select count(*), sum(max_levels_of_separation) from concept_ancestor_calc' into vCnt, vSum;
       add_application_log ( pApplication_name => vApplication_name
                      ,pProcedure_name => vProcedure_name
-                     ,pDetail => 'End concept_ancestor i=' || i  || ' cnt=' || vCnt || ' sum=' || vSum );
+                     ,pDetail => 'End concept_ancestor_calc i=' || i  || ' cnt=' || vCnt || ' sum=' || vSum );
                      
       execute immediate 'drop table new_concept_ancestor_calc purge';
                      
@@ -115,11 +117,14 @@ group by ancestor_concept_id, descendant_concept_id ';
       end if;
     end loop; /********** Repeat till no new records are written *********/
     
-         add_application_log ( pApplication_name => vApplication_name
+    add_application_log ( pApplication_name => vApplication_name
                      ,pProcedure_name => vProcedure_name
                      ,pDetail => 'Remove all non-Standard concepts (concept_level=0)' );
 
     execute immediate 'truncate table concept_ancestor';
+    
+    -- drop concept_ancestor indexes before mass insert.
+    execute immediate 'alter table concept_ancestor disable constraint XPKCONCEPT_ANCESTOR';
 
     execute immediate 'insert into concept_ancestor
   select a.* from concept_ancestor_calc a
@@ -127,11 +132,11 @@ group by ancestor_concept_id, descendant_concept_id ';
     join concept_stage c2 on a.descendant_concept_id=c2.concept_id
        where c1.concept_level>0 and c2.concept_level>0
 ';
-    commit;    
-    -- Clean up       
-    add_application_log ( pApplication_name => vApplication_name, pProcedure_name => vProcedure_name, pDetail => 'Clean up' );
---    execute immediate 'drop table full_concept_ancestor purge';                    
-    execute immediate 'drop table concept_ancestor_calc purge';
+    commit;
+    
+    -- Create concept_ancestor indexes after mass insert.
+    add_application_log ( pApplication_name => vApplication_name, pProcedure_name => vProcedure_name, pDetail => 'Enable XPKCONCEPT_ANCESTOR' );
+    execute immediate 'alter table concept_ancestor enable constraint XPKCONCEPT_ANCESTOR';
 
     add_application_log ( pApplication_name => vApplication_name, pProcedure_name => vProcedure_name
       ,pDetail => 'Add connections to self for those vocabs having at least one concept.' );
@@ -152,6 +157,9 @@ group by ancestor_concept_id, descendant_concept_id ';
     and invalid_reason is null and concept_level!=0;
     
     commit;
+    -- Clean up       
+    add_application_log ( pApplication_name => vApplication_name, pProcedure_name => vProcedure_name, pDetail => 'Clean up' );
+    execute immediate 'drop table concept_ancestor_calc purge';
 
     add_application_log ( pApplication_name => vApplication_name, pProcedure_name => vProcedure_name, pDetail => 'End' );
   exception when others then
