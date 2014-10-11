@@ -55,7 +55,7 @@ values (seq_concept.nextval, 'Radiology report', 1, 'Note Type', 58, 'OMOP gener
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
 values (seq_concept.nextval, 'Pathology report', 1, 'Note Type', 58, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Ancillary report', 1, 'Note Type', 58, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Ancillary/consultation report', 1, 'Note Type', 58, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
 values (seq_concept.nextval, 'Nursing report', 1, 'Note Type', 58, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
@@ -145,153 +145,240 @@ values (40, 'Generic', 6, 'Domain', 59, 'OMOP generated', '1-Jan-1970', '31-Dec-
 
 -- Add PCORNet concepts for Rimma
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Avaible in biobank', 1, 'Biobank Flag', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Avaible in biobank', 0, 'Biobank Flag', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Unavailable in biobank', 1, 'Biobank Flag', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Unavailable in biobank', 0, 'Biobank Flag', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Hispanic - other', 1, 'Hispanic', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Hispanic - other', 0, 'Hispanic', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Hispanic - no information', 1, 'Hispanic', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Hispanic - no information', 0, 'Hispanic', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Hispanic', 1, 'Hispanic', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Hispanic', 0, 'Hispanic', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Not Hispanic', 1, 'Hispanic', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Not Hispanic', 0, 'Hispanic', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Hispanic - unknown', 1, 'Hispanic', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Hispanic - unknown', 0, 'Hispanic', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'American Indian or Alaska Native', 1, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'American Indian or Alaska Native', 0, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Asian', 1, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Asian', 0, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Black or African American', 1, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Black or African American', 0, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Native Hawaiian or Other Pacific Islander', 1, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Native Hawaiian or Other Pacific Islander', 0, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'White', 1, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'White', 0, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Multiple race', 1, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Multiple race', 0, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Refuse to answer', 1, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Refuse to answer', 0, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'No information', 1, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'No information', 0, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Unknown', 1, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Unknown', 0, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Other', 1, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Other', 0, 'Race', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Ambiguous', 1, 'Sex', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Ambiguous', 0, 'Sex', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Female', 1, 'Sex', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Female', 0, 'Sex', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Male', 1, 'Sex', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Male', 0, 'Sex', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'No information', 1, 'Sex', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'No information', 0, 'Sex', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Unknown', 1, 'Sex', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Unknown', 0, 'Sex', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Other', 1, 'Sex', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Other', 0, 'Sex', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Adult foster home', 1, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Adult foster home', 0, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Assisted living facility', 1, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Assisted living facility', 0, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Ambulatory visit', 1, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Ambulatory visit', 0, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Emergency department', 1, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Emergency department', 0, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Home health', 1, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Home health', 0, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Home / self care', 1, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Home / self care', 0, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Hospice', 1, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Hospice', 0, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Other acute inpatient hospital', 1, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Other acute inpatient hospital', 0, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Nursing home (includes ICF)', 1, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Nursing home (includes ICF)', 0, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Rehabilitation facility', 1, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Rehabilitation facility', 0, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
 values (seq_concept.nextval, 'Residential facility', 1, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Skilled nursing facility', 1, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Skilled nursing facility', 0, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'No information', 1, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'No information', 0, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Unknown', 1, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Unknown', 0, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Other', 1, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Other', 0, 'Admitting Source', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Discharged alive', 1, 'Discharge Disposition', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Discharged alive', 0, 'Discharge Disposition', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Expired', 1, 'Discharge Disposition', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Expired', 0, 'Discharge Disposition', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'No information', 1, 'Discharge Disposition', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'No information', 0, 'Discharge Disposition', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Unknown', 1, 'Discharge Disposition', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Unknown', 0, 'Discharge Disposition', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Other', 1, 'Discharge Disposition', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Other', 0, 'Discharge Disposition', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Adult foster home', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Adult foster home', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Assisted living facility', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Assisted living facility', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Against medical advice', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Against medical advice', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Absent without leave', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Absent without leave', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Expired', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Expired', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Home health', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Home health', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Home / self care', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Home / self care', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Hospice', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Hospice', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Other acute inpatient hospital', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Other acute inpatient hospital', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Nursing home (includes ICF)', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Nursing home (includes ICF)', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Rehabilitation facility', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Rehabilitation facility', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
 values (seq_concept.nextval, 'Residential facility', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Still in hospital', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Still in hospital', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Skilled nursing facility', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Skilled nursing facility', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'No information', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'No information', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Unknown', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Unknown', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Other', 1, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Other', 0, 'Discharge Status', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Inpatient hospital stay', 1, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Inpatient hospital stay', 0, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Ambulatory visit', 1, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Ambulatory visit', 0, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Emergency department', 1, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Emergency department', 0, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Non-acute institutional stay', 1, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Non-acute institutional stay', 0, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Other ambulatory visit', 1, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Other ambulatory visit', 0, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'No information', 1, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'No information', 0, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Unknown', 1, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Unknown', 0, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Other', 1, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Other', 0, 'Encounter Type', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Chart available', 1, 'Chart Availability', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Chart available', 0, 'Chart Availability', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Chart unavailable', 1, 'Chart Availability', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Chart unavailable', 0, 'Chart Availability', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Enrollment by insurance', 1, 'Enrollment Basis', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Enrollment by insurance', 0, 'Enrollment Basis', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Enrollment by geography', 1, 'Enrollment Basis', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Enrollment by geography', 0, 'Enrollment Basis', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Enrollment inferred by algorithm', 1, 'Enrollment Basis', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Enrollment inferred by algorithm', 0, 'Enrollment Basis', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
-values (seq_concept.nextval, 'Enrollment encounter-based', 1, 'Enrollment Basis', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+values (seq_concept.nextval, 'Enrollment encounter-based', 0, 'Enrollment Basis', 60, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'CMS-DRG', 0, 'DRG Type', 60, '01', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'MS-DRG', 0, 'DRG Type', 60, '02', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'No information', 0, 'DRG Type', 60, 'NI', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Unknown', 0, 'DRG Type', 60, 'UN', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Other', 0, 'DRG Type', 60, 'OT', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'ICD-9-CM', 0, 'Diagnosis Code Type', 60, '09', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'ICD-10-CM', 0, 'Diagnosis Code Type', 60, '10', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'ICD-11-CM', 0, 'Diagnosis Code Type', 60, '11', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'SNOMED CT', 0, 'Diagnosis Code Type', 60, 'SM', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'No information', 0, 'Diagnosis Code Type', 60, 'NI', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Unknown', 0, 'Diagnosis Code Type', 60, 'UN', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Other', 0, 'Diagnosis Code Type', 60, 'OT', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Principal', 0, 'Diagnosis Type', 60, 'P', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Secondary', 0, 'Diagnosis Type', 60, 'S', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Unable to Classify', 0, 'Diagnosis Type', 60, 'X', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'No information', 0, 'Diagnosis Type', 60, 'NI', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Unknown', 0, 'Diagnosis Type', 60, 'UN', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Other', 0, 'Diagnosis Type', 60, 'OT', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'ICD-9-CM', 0, 'Procedure Code Type', 60, '09', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'ICD-10-PCS', 0, 'Procedure Code Type', 60, '10', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'ICD-11-PCS', 0, 'Procedure Code Type', 60, '11', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'CPT Category II', 0, 'Procedure Code Type', 60, 'C2', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'CPT Category III', 0, 'Procedure Code Type', 60, 'C3', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'CPT-4', 0, 'Procedure Code Type', 60, 'C4', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'HCPCS Level III', 0, 'Procedure Code Type', 60, 'H3', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'HCPCS', 0, 'Procedure Code Type', 60, 'HC', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'LOINC', 0, 'Procedure Code Type', 60, 'LC', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'NDC', 0, 'Procedure Code Type', 60, 'ND', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Revenue', 0, 'Procedure Code Type', 60, 'RE', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'No information', 0, 'Procedure Code Type', 60, 'NI', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Unknown', 0, 'Procedure Code Type', 60, 'UN', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Other', 0, 'Procedure Code Type', 60, 'OT', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Patient-reported', 0, 'Vital Source', 60, 'PR', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Healthcare delivery setting', 0, 'Vital Source', 60, 'HC', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'No information', 0, 'Vital Source', 60, 'NI', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Unknown', 0, 'Vital Source', 60, 'UN', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Other', 0, 'Vital Source', 60, 'OT', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Sitting', 0, 'Blood Pressure Position', 60, '01', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Standing', 0, 'Blood Pressure Position', 60, '02', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Supine', 0, 'Blood Pressure Position', 60, '03', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'No information', 0, 'Blood Pressure Position', 60, 'NI', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Unknown', 0, 'Blood Pressure Position', 60, 'UN', '01-Jan-70', '31-Dec-99', null);
+insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Other', 0, 'Blood Pressure Position', 60, 'OT', '01-Jan-70', '31-Dec-99', null);
+
 
 -- add observation type (also for Rimma's patient reported vital signs
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
@@ -319,7 +406,6 @@ values (seq_concept.nextval, 'Visit derived from EHR record', 1, 'Visit Type', 6
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
 values (seq_concept.nextval, 'Clinical Study visit', 1, 'Visit Type', 62, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 
-
 -- Rename new relationships introduced for SNOMED updating obsolete concepts
 update relationship set relationship_name='Inactive same_as active (SNOMED)', reverse_relationship=350 where relationship_id=349;
 update relationship set relationship_name='Active same_as inactive (SNOMED)', reverse_relationship=null where relationship_id=350;
@@ -333,7 +419,6 @@ update relationship set relationship_name='Active was_a inactive (SNOMED)', reve
 -- Rename manual ATC to RxNorm relationships, now all (not just equivalent by name)
 update relationship set relationship_name='ATC to RxNorm (OMOP)' where relationship_id=289;
 update relationship set relationship_name='RxNorm to ATC (OMOP)' where relationship_id=290;
-
 
 -- Add currency concepts
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
@@ -699,7 +784,7 @@ values(seq_concept.nextval, 'Zambian kwacha', 1, 'Currency', 65, 'ZMW', '1-Jan-1
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
 values(seq_concept.nextval, 'Zimbabwe dollar', 1, 'Currency', 65, 'ZWD', '1-Jan-1970', '31-Dec-2099', null);
 
--- add Measurment types
+-- add Measurement types
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
 values (seq_concept.nextval, 'Vital sign', 1, 'Measurement Type', 64, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id,  concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
@@ -1470,6 +1555,49 @@ insert into concept (concept_id, concept_name, concept_level, concept_class, voc
 values (seq_concept.nextval, 'Device', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
 values (seq_concept.nextval, 'Procedure Drug', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Certain infectious and parasitic diseases', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+select * from concept where concept_name='Certain infectious and parasitic diseases';
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Neoplasms', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Endocrine, nutritional and metabolic diseases', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Mental, Behavioral and Neurodevelopmental disorders', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Diseases of the nervous system', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Diseases of the eye and adnexa', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Diseases of the ear and mastoid process', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Diseases of the circulatory system', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Diseases of the respiratory system', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Diseases of the digestive system', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Diseases of the skin and subcutaneous tissue', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Diseases of the musculoskeletal system and connective tissue', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Diseases of the genitourinary system', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Pregnancy, childbirth and the puerperium', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Certain conditions originating in the perinatal period', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Congenital malformations, deformations and chromosomal abnormalities', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Injury, poisoning and certain other consequences of external causes', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'External causes of morbidity', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'Factors influencing health status and contact with health services', 1, 'Concept Class', 68, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 
 -- Add Vocabulary concepts 
 insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
@@ -1589,6 +1717,9 @@ values (seq_concept.nextval, 'OMOP Measurement Type', 1, 'OMOP Vocabulary', 67, 
 insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
 values (seq_concept.nextval, 'International Currency Symbol (ISO 4217)', 1, 'OMOP Vocabulary', 67, 'OMOP generated', '1-Jan-1970', '31-Dec-2099', null);
 
+-- Add units for procedure drugs
+insert into concept (concept_id, concept_name, concept_level, concept_class, vocabulary_id, concept_code, valid_start_date, valid_end_date, invalid_reason)
+values (seq_concept.nextval, 'millicurie', 1, 'UCUM', 11, 'mCi', '1-Jan-1970', '31-Dec-2099', null);
 
 commit;
 exit;

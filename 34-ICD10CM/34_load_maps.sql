@@ -39,7 +39,7 @@ where not exists (
 ;
 
 -- insert new records 
-insert into dev.source_to_concept_map;
+insert into dev.source_to_concept_map
 select distinct 
   source_code,
   source_vocabulary_id,

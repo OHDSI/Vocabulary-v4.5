@@ -51,11 +51,11 @@ select
     atc_code,
     -- the class depends on the code length
     case 
-      when length(atc_code)=1 then '1st level, Anatomical Main Group'
-      when length(atc_code)=3 then '2nd level, Therapeutic Subgroup'
-      when length(atc_code)=4 then '3rd level, Pharmacological Subgroup'
-      when length(atc_code)=5 then '4th level, Chemical Subgroup'
-      when length(atc_code)=7 then '5th level, Chemical Substance'
+      when length(atc_code)=1 then '1st level - Anatomical Main Group'
+      when length(atc_code)=3 then '2nd level - Therapeutic Subgroup'
+      when length(atc_code)=4 then '3rd level - Pharmacological Subgroup'
+      when length(atc_code)=5 then '4th level - Chemical Subgroup'
+      when length(atc_code)=7 then '5th level - Chemical Substance'
       end as concept_class
 from atc_code
 ;
