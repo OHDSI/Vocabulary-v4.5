@@ -34,7 +34,7 @@ END
 die "Valid database access information required." unless shift =~ /^(.+)\/(.+)\@(.+)\/(.+)$/;
 my $dbh = DBI->connect(sprintf('dbi:Oracle:host=%s;sid=%s', $3, $4), $1, $2) or die "Valid database access information required.";
 $dbh->do('ALTER SESSION SET NLS_DATE_FORMAT="YYYYMMDD"');
-$dbh->do('ALTER SESSION SET CURRENT_SCHEMA = dev');
+$dbh->do('ALTER SESSION SET CURRENT_SCHEMA = ProdV4');
 my $output = shift or die "File name for output file required.";
 my @vocabularies = split /,/, (shift or join ',', all_vocabularies $dbh);
 my $placeholder = join ', ', split //, '?' x @vocabularies;
