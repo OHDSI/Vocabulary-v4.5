@@ -313,3 +313,11 @@ relationship_id,relationship_name,is_hierarchical,defines_ancestry,reverse_relat
 356,Active was_a inactive (SNOMED),0,0,355
 357,SNOMED measurement subsumes HCPCS (OMOP),1,1,358
 358,HCPCS is a SNOMED measurement (OMOP),1,0,357
+359,Domain subsumes (OMOP),1,0,360
+360,Is a domain (OMOP),0,0,359
+361,Non-standard to value_as_concept map (OMOP),0,0,362
+362,Value_as_concept to non-standard map (OMOP),0,0,361
+363,Non-standard to unit concept map (OMOP),0,0,364
+364,Unit concept to non-standard map (OMOP),0,0,363
+365,Non-standard to type concept map (OMOP),0,0,366
+366,Type concept to non-standard map (OMOP),0,0,365

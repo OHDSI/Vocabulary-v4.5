@@ -6,7 +6,8 @@ where isnull.target_concept_id=0 -- delete the null of the pair
 and exists (
   select 1 from source_to_concept_map notnull 
   join concept cnotnull on cnotnull.concept_id=notnull.target_concept_id -- to make sure the target_concept_id exists
-  where isnull.source_code=notnull.source_code and isnull.source_vocabulary_id=notnull.source_vocabulary_id and isnull.target_concept_id!=notnull.target_concept_id
+  where isnull.source_code=notnull.source_code and isnull.source_vocabulary_id=notnull.source_vocabulary_id 
+  and isnull.target_concept_id!=notnull.target_concept_id and notnull.invalid_reason is null
 )
 and isnull.invalid_reason is null
 ;

@@ -1,5 +1,3 @@
--- Create relationships to domains, create ancestors to them
-
 -- Define new relationships. Defines ancestry is set to 0, because ancestry constructor was not used. That might change.
 insert into relationship (relationship_id, relationship_name, reverse_relationship, is_hierarchical, defines_ancestry)
 values (359, 'Domain subsumes (OMOP)', 360, 1, 0);
@@ -39,6 +37,20 @@ where c.vocabulary_id=1
 and c.concept_class in ('Substance', 'Pharmaceutical / biologic product')
 ;
 
+-- make race and provider inactive
+update concept c set 
+  c.concept_level=0
+where c.vocabulary_id=1 
+and exists (
+  select 1 from concept_domain d where d.concept_id=c.concept_id and d.domain_name in ('Race', 'Provider')
+)
+;
+
+-- make OCPS-4 all level 1
+update concept c set 
+  c.concept_level=1
+where c.vocabulary_id=55
+;
 
 /*********** Create domain relationships **************/
 -- Switch off constraints
@@ -71,7 +83,7 @@ select
 from concept where vocabulary_id=44 and invalid_reason is null
 ;
 
--- Define observation_period_type
+-- Define Observation period type
 insert into concept_relationship
 select 
   5 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
@@ -92,6 +104,34 @@ select
 from concept c 
 join concept_domain d on c.concept_id=d.concept_id and d.domain_name='Metadata'
 where c.vocabulary_id in (1, 4, 5) and c.invalid_reason is null
+;
+
+-- Add OMOP Domain
+insert into concept_relationship
+select 
+  7 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept where vocabulary_id=59 and invalid_reason is null
+;
+
+-- Add OMOP Relationship
+insert into concept_relationship
+select 
+  7 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept where vocabulary_id=66 and invalid_reason is null
+;
+
+-- Add OMOP vocabulary
+insert into concept_relationship
+select 
+  7 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept where vocabulary_id=67 and invalid_reason is null
+;
+
+-- Add OMOP Concept Class
+insert into concept_relationship
+select 
+  7 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept where vocabulary_id=68 and invalid_reason is null
 ;
 
 -- Define Visit
@@ -123,6 +163,13 @@ insert into concept_relationship
 select 
   10 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
 from concept where vocabulary_id=3 and invalid_reason is null
+;
+
+-- Add all of OCPS-4
+insert into concept_relationship
+select 
+  10 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept where vocabulary_id=55 and invalid_reason is null
 ;
 
 -- Add Meddra (only those whose children are uniquely pointing to a single domain)
@@ -247,6 +294,13 @@ and concept_id in (
 )
 ;
 
+-- add SMQ
+insert into concept_relationship
+select 
+  19 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept where vocabulary_id=31 and invalid_reason is null
+;
+
 -- Define Condition Type
 insert into concept_relationship 
 select 
@@ -279,6 +333,22 @@ and concept_id in (
     where meddra.concept_id=a.ancestor_concept_id and d.concept_id=a.descendant_concept_id and meddra.vocabulary_id=15
   ) where num_domains=1 and there=1
 )
+;
+
+-- Add LOINC 
+insert into concept_relationship
+select 
+  21 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept
+where vocabulary_id=6 and invalid_reason is null
+;
+
+-- Add LOINC hierarchy
+insert into concept_relationship
+select 
+  21 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept
+where vocabulary_id=49 and invalid_reason is null
 ;
 
 -- Define Measurement type
@@ -322,11 +392,18 @@ and concept_id in (
 )
 ;
 
--- Define Observation Period Type
+-- Add DRG, MDC, APC
+insert into concept_relationship
+select 
+  27 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept where vocabulary_id in (40, 41, 42) and invalid_reason is null
+;
+
+-- Define Observation Type
 insert into concept_relationship
 select 
   28 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
-from concept where vocabulary_id=61 and invalid_reason is null
+from concept where vocabulary_id=39 and invalid_reason is null
 ;
 
 -- Define 'Place of service'
@@ -341,6 +418,20 @@ insert into concept_relationship
 select 
   33 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
 from concept where vocabulary_id=48 and invalid_reason is null
+;
+
+-- Add NUCC
+insert into concept_relationship
+select 
+  33 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept where vocabulary_id=47 and invalid_reason is null
+;
+
+-- Add HES Specialty
+insert into concept_relationship
+select 
+  33 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept where vocabulary_id=57 and invalid_reason is null
 ;
 
 -- Define Currency
@@ -385,20 +476,11 @@ from concept where vocabulary_id=1 and concept_class='Body structure' and invali
 insert into concept_relationship (concept_id_1, concept_id_2, relationship_id, valid_start_date, valid_end_date, invalid_reason)
 values (40, 0, 359, '1-Jan-1970', '31-Dec-2099', null)
 ;
--- 39: Define Specimen disease status
-/* 
-select *
-from concept
-where vocabulary_id = 1
-and concept_class = 'Qualifier value'
-and concept_name in ('malignant', 'normal','abnormal')
-and invalid_reason is null;
-*/
 
 -- Define Route (after Procedure, Drug, Condition, Measurement, Device)
 delete from concept_relationship where relationship_id=359 
 and concept_id_2 in (4128792, 4128794, 4139962, 4136280, 4112421, 4231622, 4217202, 4115462, 4120036, 4157760, 4233974)
--- ('Intravenous','Oral','Rectal','Intramuscular use', 'Topical','Intravaginal', 'Inhalation', 'Intrathecal route', 'Nasal','Intraocular use', 'Subcutaneous', 'Urethral use')
+-- ('Intravenous','Oral','Rectal','Intramuscular use','Topical','Intravaginal','Inhalation','Intrathecal route','Nasal','Intraocular use','Subcutaneous','Urethral use')
 ;
  
 insert into concept_relationship
@@ -446,6 +528,18 @@ from concept c, concept_ancestor a
 where c.concept_id=a.descendant_concept_id and a.ancestor_concept_id=4054070 
 ;
 
+-- 39: Define Specimen disease status
+delete from concept_relationship where relationship_id=359 
+and concept_id_2 in (4069590, 4066212, 4135493) -- ('malignant', 'normal', 'abnormal')
+;
+
+insert into concept_relationship
+select 
+  39 as concept_id_1, concept_id as concept_id_2, 359 as relationship_id, '1-Jan-1970' as valid_start_date, '31-Dec-2099' as valid_end_date, null as invalid_reason
+from concept
+where concept_id in (4069590, 4066212, 4135493)
+;
+
 -- check completeness
 select domain.domain_num, domain.domain_name, domain.cnt, c.concept_name as example_name from (
   select r.concept_id_1 as domain_num, c.concept_name as domain_name, count(8) as cnt 
@@ -465,6 +559,12 @@ select count(8) from concept_relationship where relationship_id=359;
 
 -------------------------------
 -- Reverse relationships
+-- drop constraints first
+alter table concept_relationship drop constraint xpkconcept_relationship;
+alter table concept_relationship drop constraint concept_rel_child_fk;
+alter table concept_relationship drop constraint concept_rel_parent_fk;
+alter table concept_relationship drop constraint concept_rel_rel_type_fk;
+
 -- delete from concept_relationship where relationship_id=360;
 insert into concept_relationship
 select 
@@ -478,7 +578,7 @@ from concept_relationship where relationship_id=359;
 
 alter table concept_relationship add constraint xpkconcept_relationship primary key (concept_id_1,concept_id_2,relationship_id)
 using index logging;
-alter table concept_relationship add check ( invalid_reason in ('d', 'u'));
+alter table concept_relationship add check (invalid_reason in ('D', 'U'));
 alter table concept_relationship add constraint concept_rel_child_fk foreign key (concept_id_2) references concept (concept_id);
 alter table concept_relationship add constraint concept_rel_parent_fk foreign key (concept_id_1) references concept (concept_id);
 alter table concept_relationship add constraint concept_rel_rel_type_fk foreign key (relationship_id) references relationship (relationship_id);
@@ -515,3 +615,5 @@ insert into concept_ancestor
 from concept_relationship 
 where relationship_id=359;
 */
+
+-- Change domain for types to metadata

@@ -2,7 +2,7 @@ options (skip=1)
 load data
 infile relationship.txt
 into table relationship
-replace
+append
 fields terminated by ','
 trailing nullcols
 (
