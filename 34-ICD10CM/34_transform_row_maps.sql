@@ -1,23 +1,31 @@
 spool 34_transform_row_maps.log;
 
+-- drop table icd10_sn_14_oct_14;
+create table icd10_sn_14_oct_14 (
+  source_code varchar(40),
+  source_code_description varchar(255),
+  target_concept_code varchar(40)
+);
+
 -- Create temporary table for uploading concept. 
 truncate table source_to_concept_map_stage;
 
 -- create new stage
 insert into source_to_concept_map_stage
-select 
+select distinct
   null as source_to_concept_map_id,
   case 
     when length(m.source_code)>3 then substr(m.source_code, 1, 3)||'.'||substr(m.source_code, 4) 
     else source_code 
   end as source_code,
-  m.source_code_description,
-  'XXX' as mapping_type, -- mapping type gets overwritten by the domain of the target SNOMED concept
+  first_value(m.source_code_description) over (partition by source_code order by length(m.source_code_description) desc),
+  coalesce(d.domain_id, 'Unmapped') as mapping_type, -- mapping type gets overwritten by the domain of the target SNOMED concept
   coalesce(c.concept_id, 0) as target_concept_id, -- if not mapping map to 0
   case when c.concept_id is null then 0 when c.concept_id=0 then 0 else 1 end as target_vocabulary_id,
   34 as source_vocabulary_id
-from v10_marked m
+from icd10_sn_14_oct_14 m -- v10_marked m
 left outer join dev.concept c on trim(m.target_concept_code)=c.concept_code and c.vocabulary_id=1
+left outer join v5dev.concept d on trim(m.target_concept_code)=d.concept_code and d.vocabulary_id='SNOMED'
 ;
 
 -- Remap when target_concept_id is obsolete
