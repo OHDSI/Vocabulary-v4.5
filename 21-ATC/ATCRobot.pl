@@ -69,7 +69,7 @@ return;
 #############################################################
 
 # recursive crawling
-sub read_and_dive { # ($url) 
+sub read_and_dive { # ($atctop) 
     my $current=shift; # code to investigate
 	my $url="http://www.whocc.no/atc_ddd_index/?code=$current&showdescription=yes"; # create url
 	warn "Working on code $current";
