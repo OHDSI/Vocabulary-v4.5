@@ -76,6 +76,11 @@ $zip->addFile(csv_dump($dbh, $_), sprintf('%s.csv', $_->{name})) for
 	name => 'RELATIONSHIP',
 	query => '',
 	params => [],
+},
+{
+	name => 'DRUG_STRENGTH',
+	query => sprintf('WHERE EXISTS (SELECT 1 FROM CONCEPT WHERE DRUG_CONCEPT_ID=CONCEPT_ID AND VOCABULARY_ID IN (%s))', $placeholder),
+	params => [ @vocabularies ],
 };
 die "Cannot write zip file: $!" unless $zip->writeToFileNamed($output) == Archive::Zip::AZ_OK;
 unlink $_->{externalFileName} for $zip->members;
